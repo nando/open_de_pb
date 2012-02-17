@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
-<title type="text" xml:lang="es"></title>
-<link type="application/atom+xml" href="http://paulstamatiou.com/feed/" rel="self"/>
-<link type="text" href="http://paulstamatiou.com" rel="alternate"/>
-<updated>2012-02-17T01:38:32+01:00</updated>
-<id>http://paulstamatiou.com</id>
+<title type="text" xml:lang="es">Open de Ala Delta de Pedro Bernardo</title>
+<link type="application/atom+xml" href="http://clubdevuelopb.com/open/index.xml" rel="self"/>
+<link type="text" href="http://clubdevuelopb.com/open" rel="alternate"/>
+<id>http://clubdevuelopb.com/open</id>
 <author>
-<name>Paul Stamatiou</name>
+<name>Open de Ala Delta de Pedro Bernardo</name>
 </author>
-<rights>Copyright (c) 2005-2011, Paul Stamatiou; all rights reserved.</rights>
 
 
 <entry>
 <title>Tres aterrizajes en La Iglesuela</title>
-<link href="http://paulstamatiou.com/2012/02/16/tres_aterrizajes_en_la_iglesuela.html"/>
+<link href="http://clubdevuelopb.com/open/2012/02/16/tres_aterrizajes_en_la_iglesuela.html"/>
 <updated>2012-02-16T00:00:00+01:00</updated>
-<id>http://paulstamatiou.com/2012/02/16/tres_aterrizajes_en_la_iglesuela</id>
+<id>http://clubdevuelopb.com/open/2012/02/16/tres_aterrizajes_en_la_iglesuela</id>
 <content type="html">&lt;p&gt;Ha llegado a nuestra redacción un vídeo anónimo de un piloto que, cámara en casco, nos muestra &lt;strong&gt;tres posibles aproximaciones&lt;/strong&gt; para aterrizar en el Egido de &lt;strong&gt;La Iglesuela&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;centered&quot;&gt;
@@ -31,7 +28,8 @@
 &lt;/ol&gt;
 &lt;p&gt;Entre los ganadores sortearemos &lt;strong&gt;un despegue gratis por la rampa de madera&lt;/strong&gt;.&lt;/p&gt;
 
-Included file 'rss_footer.html' not found in _includes directory</content>
+</content>
 </entry>
+
 
 </feed>
