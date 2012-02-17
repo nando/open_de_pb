@@ -1,0 +1,10 @@
+'settings':
+  ignore_if_same_revision: true
+'open':
+  skip: false
+  scheme: ftp
+  user: 
+  password: 
+  host: www.clubdevuelopb.com
+  port: 21
+  path: /open
