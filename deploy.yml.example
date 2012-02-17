@@ -3,8 +3,9 @@
 'open':
   skip: false
   scheme: ftp
-  user: 
+  passive: true
+  user: juegossalud.com
   password: 
   host: www.clubdevuelopb.com
   port: 21
-  path: /open
+  path: /
