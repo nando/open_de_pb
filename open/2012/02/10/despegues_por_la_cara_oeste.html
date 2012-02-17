@@ -8,7 +8,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
     <base href="http://clubdevuelopb.com/open/" /> 
-    <title>Pilotos inscritos - I Open de Ala Delta de Pedro Bernardo</title>
+    <title>Despegues por la cara Oeste - I Open de Ala Delta de Pedro Bernardo</title>
     <link rel="alternate" type="application/atom+xml" title="Feed del Open de Ala Delta de Pedro Bernardo" href="http://clubdevuelopb.com/open/index.xml" />
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="styles/inspired_by_bundler_inspired.css" />
@@ -16,7 +16,7 @@
       <link rel="stylesheet" type="text/css" href="styles/ie6.css" />
     <![endif]-->
 </head>
-<body class="pilotos">
+<body class="noticias">
 <header>
     <h1>I Open de Ala Delta de Pedro Bernardo</h1>
     <h2>28 de Abril - 1 de Mayo de 2012</h2>
@@ -26,7 +26,7 @@
         <li><a href="http://clubdevuelopb.com/open">Presentación</a></li>
         <li><a href="reglamento.html">Reglamento</a></li>
         <li><a href="inscripcion.html">Inscripción</a></li>
-        <li class="active"><a href="pilotos.html">Pilotos</a></li>
+        <li><a href="pilotos.html">Pilotos</a></li>
         <li><a href="balizas.html">Balizas</a></li>
         <li><a href="clasificacion.html">Clasificación</a></li>
         <li><a href="archivo.html">Archivo</a></li>
@@ -38,42 +38,32 @@
 <div class="article">
 <article role="main">
 <section>
-<h2>Pilotos inscritos</h2>
+<div id="post">
+  <h2>Despegues por la cara Oeste
+  <span class="date">10/02/2012</span>
+  </h2>
+<p>Rescatamos este gran vídeo de Flanajan en quedada que tubo lugar el pasado 3 de septiembre de 2011 con motivo de la Carrera Popular de La Iglesuela</p> 
 
-  <table class="pilots">
-    <thead>
-      <tr>
-        <th width="46%">Nombre</th>
-        <th width="40%">Ala</th>
-        <th width="14%">Pagado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="spinner">
-        <td colspan="3"><img alt="cargando pilotos..." src="images/ajax-loader.gif"/></td>
-      </tr>
-    </tbody>
-  </table>
+<div class="centered">
+<iframe width="560" height="315" src="http://www.youtube.com/embed/adzW36rHv5Q" frameborder="0" allowfullscreen></iframe>
+</div>
 
-  <script src="javascript/jquery.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-  $(window).load(function(){
-    $.ajax({
-      url: 'http://morning-planet-6150.herokuapp.com/pilots.json',
-      dataType: 'jsonp',
-      success: function(pilots) {
-        var tbody = $('table.pilots tbody');
-        tbody.html('');
-        for(i=0;i<pilots.length;i++){
-          tbody.append("<tr><td>"+pilots[i].name+" "+pilots[i].surname+"</td>"+
-                        "<td>"+pilots[i].glider+"</td>"+
-                        "<td>"+(pilots[i].paid ? 'Sí' : 'No')+"</td></tr>");
-    
-        }
-      }
-    });
-  });
-  </script>
+
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'opendeltietar';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Por favor, habilita JavaScript para ver los <a href="http://disqus.com/?ref_noscript">comentarios vía Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comentarios vía <span class="logo-disqus">Disqus</span></a>
+
 
 </section>
 </article>
