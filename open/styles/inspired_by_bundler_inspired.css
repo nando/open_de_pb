@@ -1,0 +1,246 @@
+body{
+  background:#FAFAFC;
+  background-attachment: fixed;
+  background-image: url("../images/pb_background.jpg");
+  color:#043042;
+  font:16px Helvetica,Arial,sans-serif;
+  line-height:1.6em;
+  margin-left:164px;
+}
+a{
+  color:#14173a;
+  font-weight:700;
+  text-decoration:none
+}
+a:hover{
+  border-bottom:1px #14173a dashed
+}
+img.logo {
+  position:fixed;
+  left:0px;
+  top:12px;
+}
+img.glider {
+  position:fixed;
+  left:-150px;
+  top:60px;
+}
+header h1{
+  font:34px Georgia;
+  font-weight:bolder;
+  margin-bottom:0;
+  margin-top:30px;
+  text-shadow:#91a1a9 2px 2px 0
+}
+header h2{
+  font:18px Georgia;
+  margin-top:5px;
+  margin-top:5px;
+}
+nav{
+  background:url("../images/section_bg.png");
+  font-size:95%;
+  position:fixed;
+  left:15px;
+  top:159px;
+  height:50px;
+  height:auto;
+  overflow:visible;
+  border-radius:5px;
+  -moz-border-radius:5px;
+}
+nav ul{
+  list-style:none;
+  padding-left:0px;
+  margin-left:0px;
+}
+nav li a{
+  padding:0 19px 0 18px;
+  font-weight: normal;
+  display: block;
+}
+nav li.active {
+  background:url("../images/section_bg.png");
+}
+nav li.active a {
+  font-weight: bold;
+}
+nav li a:hover {
+  background:url("../images/section_bg.png");
+  border-bottom:0;
+}
+div.centered {
+  text-align: center;
+  margin: 10px;
+}
+div.article {
+  background:url("../images/section_bg.png");
+  padding:10px 20px 30px 30px;
+  margin-top:60px;
+  width:700px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+}
+section h2 {
+  border-bottom:2px black solid;
+  padding-bottom:5px
+}
+span.date {
+  float: right;
+  font-weight: normal;
+  color: #D1DDFF;
+}
+fieldset {
+  padding: 0px 16px 20px 16px;
+  background: none repeat scroll 0 0 #e2d7c1;
+  margin:10px;
+  width: 284px;
+  border-radius:5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+
+  min-height: 250px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  _height: 250px;
+
+}
+form#new_pilot fieldset div.field label.error {
+  display: none!important;
+}
+form#new_pilot fieldset div.field .error {
+  margin-top: 2px;
+  border: 1px red solid;
+  background-color: #ffa1b1;
+}
+h3 {
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+p {
+  margin-top: 0.1em;
+}
+fieldset h3 {
+  border-bottom:1px black solid;
+}
+div.field {
+  margin-top: 0.4em;
+}
+form input, form select {
+  font-size: 110%; 
+  width: 280px;
+}
+form input:focus {
+  background: #d2dff5;
+}
+div.actions {
+  text-align: center;
+}
+div.actions input{
+  padding: 5px;
+  font-size: 114%; 
+  color:#043042;
+  font-weight: bold; 
+}
+table {
+  width: 100%;
+}
+table td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table.results tr.day:hover {
+  background: #d2d7f5;
+}
+table th {
+  text-align: left;
+  padding-left: 10px;
+  background-color: #e2d7c1;
+  border-radius:3px;
+  -moz-border-radius:3px;
+}
+table.pilots tr:hover {
+  background: #a2f7e5;
+}
+table.pilots td {
+  background-color: #d2d7ff;
+  border-radius:3px;
+  -moz-border-radius:3px;
+}
+table tr.spinner td {
+  text-align: center;
+  padding: 30px;
+}
+
+footer {margin-left:200px;width:700px}
+
+body.balizas div.article {
+  width:90%;
+}
+#map {
+  border:1px grey solid;
+  height: 450px;
+}
+
+a.dsq-brlink {
+  font-size: 10px;
+}
+
+article a.media {
+  border-bottom:0px;
+}
+
+article img.left {
+  border:1px black solid;
+  margin: 10px 35px 10px 0px;
+  float: left;
+  display: block;
+}
+article img.right {
+  border:1px black solid;
+  margin: 10px 0px 10px 20px;
+  float: right;
+}
+
+article ul {
+  padding-left: 10px;
+}
+article li {
+  padding-top: 10px;
+}
+
+.hover { /* for IE using onmouseover and onmouseout */
+background: #d2d7ff;
+}
+tr.fs_res_res_row:hover
+{
+background: #d2d7ff;
+}
+div.fs_res
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: x-small;
+}
+table.fs_res
+{
+border:solid 1px gray;
+border-collapse:collapse;
+font-size: x-small;
+background: #e2d7c1;
+}
+td.fs_res
+{
+border:solid 1px gray;
+vertical-align:top;
+padding:5px;
+nowrap:true;
+}
+th.fs_res
+{
+border:solid 1px gray;
+vertical-align:center;
+}
+
+
