@@ -1,11 +1,8 @@
 'settings':
   ignore_if_same_revision: true
-'open':
+'ftp://www.clubdevuelopb.com:21/':
   skip: false
-  scheme: ftp
   passive: true
-  user: juegossalud.com
-  password: 
-  host: www.clubdevuelopb.com
-  port: 21
-  path: /
+  user: salud.com
+  password: $
+  chdir: / 
