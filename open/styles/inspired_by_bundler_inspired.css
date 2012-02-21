@@ -26,14 +26,14 @@ img.glider {
   top:60px;
 }
 header h1{
-  font:34px Georgia;
+  font:36px Georgia;
   font-weight:bolder;
   margin-bottom:0;
   margin-top:30px;
   text-shadow:#91a1a9 2px 2px 0
 }
 header h2{
-  font:18px Georgia;
+  font:20px Georgia;
   margin-top:5px;
   margin-top:5px;
 }
@@ -80,6 +80,22 @@ div.article {
   width:700px;
   border-radius:5px;
   -moz-border-radius:5px;
+}
+div.account {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 130%;
+  background:url("../images/section_bg.png");
+  border-radius:5px;
+  -moz-border-radius:5px;
+}
+div.account h4 {
+  margin: 0px;
+}
+div.account p {
+  padding: 0px;
+  margin: 0px;
 }
 section h2 {
   border-bottom:2px black solid;
