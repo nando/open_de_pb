@@ -176,8 +176,12 @@ table tr.spinner td {
 
 footer {margin-left:200px;width:700px}
 
-body.balizas div.article {
+body.balizas div.article, body.mapa div.article {
   width:90%;
+}
+body.mapa iframe {
+  width:100%;
+  height:100%;
 }
 #map {
   border:1px grey solid;

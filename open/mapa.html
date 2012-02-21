@@ -8,7 +8,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
     <base href="http://clubdevuelopb.com/open/" /> 
-    <title>Balizas - I Open de Ala Delta de Pedro Bernardo</title>
+    <title>Mapa de la zona - I Open de Ala Delta de Pedro Bernardo</title>
     <link rel="alternate" type="application/atom+xml" title="Feed del Open de Ala Delta de Pedro Bernardo" href="http://clubdevuelopb.com/open/index.xml" />
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="styles/inspired_by_bundler_inspired.css" />
@@ -16,7 +16,7 @@
       <link rel="stylesheet" type="text/css" href="styles/ie6.css" />
     <![endif]-->
 </head>
-<body class="balizas">
+<body class="mapa">
 <header>
     <h1>I Open de Ala Delta de Pedro Bernardo</h1>
     <h2>28 de Abril - 1 de Mayo de 2012</h2>
@@ -27,8 +27,8 @@
         <li><a href="reglamento.html">Reglamento</a></li>
         <li><a href="inscripcion.html">Inscripción</a></li>
         <li><a href="pilotos.html">Pilotos</a></li>
-        <li class="active"><a href="balizas.html">Balizas</a></li>
-        <li><a href="mapa.html">Mapa</a></li>
+        <li><a href="balizas.html">Balizas</a></li>
+        <li class="active"><a href="mapa.html">Mapa</a></li>
         <li><a href="archivo.html">Archivo</a></li>
       </ul>
     </nav>
@@ -38,21 +38,11 @@
 <div class="article">
 <article role="main">
 <section>
-<h2>Balizas</h2>
+<h2>Mapa de la zona</h2>
 
-  <p>Estamos terminando de preparar las balizas que utilizaremos en el Open. En breve las colgaremos en esta sección en formato WPT, GPX y KML.</p>
   <div id="map">
+    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.es/maps/ms?msid=205075994648021540374.0004abfc1ecc287de86b8&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=40.209916,-4.833957&amp;spn=0.111189,0.182229&amp;output=embed"></iframe><br /><small>
   </div>
-
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-  <script type="text/javascript">
-    var myOptions = {
-      mapTypeId: google.maps.MapTypeId.TERRAIN
-    }
-    var map = new google.maps.Map(document.getElementById('map'), myOptions);
-    var ctaLayer = new google.maps.KmlLayer('http://clubdevuelopb.com/open/downloads/Balizas_Open_Pedro_Bernardo.KML');
-    ctaLayer.setMap(map);
-  </script>
 
 </section>
 </article>
