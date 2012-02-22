@@ -189,8 +189,18 @@ table tr.spinner td {
   padding: 30px;
 }
 
-footer {margin-left:200px;width:700px}
-
+footer {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  font-size: 70%;
+  margin-left:45px;
+  width:700px;
+}
+footer a {
+  color:#043042;
+}
+body.balizas footer, body.mapa footer,
 body.balizas div.article, body.mapa div.article {
   width:90%;
 }
