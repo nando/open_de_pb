@@ -26,15 +26,14 @@ img.glider {
   top:60px;
 }
 header h1{
-  font:36px Georgia;
+  font-size:36px;
   font-weight:bolder;
   margin-bottom:0;
-  margin-top:26px;
-  text-shadow:#91a1a9 2px 2px 0
+  margin-top:42px;
+  text-shadow:#91a1a9 1px 1px 0
 }
 header h2{
-  font:20px Georgia;
-  margin-top:5px;
+  font-size:20px;
   margin-top:5px;
 }
 nav{
