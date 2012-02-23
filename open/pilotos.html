@@ -56,7 +56,7 @@
     </tbody>
     <tfoot>
       <tr>
-        <td colspan="3" class="total">Total: <span id="total_pilots">? alas</span></td>
+        <td colspan="3" class="total">Total: <span id="total_pilots">? alas</span>&nbsp;<span id="total_sport">(? sport)</span></td>
       </tr>
     </tfoot>
   </table>
@@ -72,19 +72,21 @@
         var tbody = $('tbody', table);
         var tfoot = $('tfoot', table);
         var brands = {};
+        var sport = 0;
         tbody.html('');
         for(var i=0;i<pilots.length;i++){
+          if(pilots[i].glider_class == 0) sport++;
           if(brands[pilots[i].brand] === undefined)
-            brands[pilots[i].brand] = 1
+            brands[pilots[i].brand] = 1;
           else
-            brands[pilots[i].brand]++
-          
-          tbody.append("<tr><td>"+pilots[i].name+" "+pilots[i].surname+"</td>"+
+            brands[pilots[i].brand]++;
+          tbody.append('<tr class="class_'+pilots[i].glider_class+'">'+
+                        '<td>'+pilots[i].name+" "+pilots[i].surname+"</td>"+
                         "<td>"+pilots[i].brand+' '+pilots[i].model+"</td>"+
                         "<td>"+(pilots[i].paid ? 'Sí' : 'No')+"</td></tr>");
-    
         }
         $('#total_pilots', tfoot).html(pilots.length+ ' alas');
+        $('#total_sport', tfoot).html('('+sport+ ' sport)');
         tfoot.show();
 
         $.each(brands, function(brand, count) {

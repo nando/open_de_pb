@@ -176,7 +176,8 @@ table th {
   border-radius:3px;
   -moz-border-radius:3px;
 }
-table.pilots tr:hover {
+table.pilots tr:hover td,
+table.pilots tr.class_0:hover td {
   background: #a2f7e5;
 }
 table.pilots td {
@@ -201,6 +202,12 @@ tfoot {
 }
 #total_pilots {
   font-weight: bold;
+}
+table.pilots tr.class_0 td {
+  background: #B6FFB1;
+}
+#total_sport {
+  color: #8188CC;
 }
 footer {
   display: block;
