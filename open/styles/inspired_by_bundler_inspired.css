@@ -188,14 +188,16 @@ table tr.spinner td {
   text-align: center;
   padding: 30px;
 }
+table.pilots tfoot td.total {
+  font-size: 130%;
+}
 table.pilots tfoot td{
-  background: none;
-  padding-top: 10px;
-  padding-left: 12px;
+  background:url("../images/section_bg.png");
+  font-size: 90%;
 }
 tfoot {
+  margin-top:30px;
   display: none;
-  font-size: 110%;
 }
 #total_pilots {
   font-weight: bold;

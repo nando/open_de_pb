@@ -56,7 +56,7 @@
     </tbody>
     <tfoot>
       <tr>
-        <td colspan="3">Total: <span id="total_pilots">? alas</span></td>
+        <td colspan="3" class="total">Total: <span id="total_pilots">? alas</span></td>
       </tr>
     </tfoot>
   </table>
@@ -70,15 +70,26 @@
       success: function(pilots) {
         var table = $('table.pilots');
         var tbody = $('tbody', table);
+        var tfoot = $('tfoot', table);
+        var brands = {};
         tbody.html('');
         for(var i=0;i<pilots.length;i++){
+          if(brands[pilots[i].brand] === undefined)
+            brands[pilots[i].brand] = 1
+          else
+            brands[pilots[i].brand]++
+          
           tbody.append("<tr><td>"+pilots[i].name+" "+pilots[i].surname+"</td>"+
-                        "<td>"+pilots[i].glider+"</td>"+
+                        "<td>"+pilots[i].brand+' '+pilots[i].model+"</td>"+
                         "<td>"+(pilots[i].paid ? 'Sí' : 'No')+"</td></tr>");
     
         }
-        $('#total_pilots', table).html(pilots.length+ ' alas');
-        $('tfoot', table).show();
+        $('#total_pilots', tfoot).html(pilots.length+ ' alas');
+        tfoot.show();
+
+        $.each(brands, function(brand, count) {
+            tfoot.append('<tr><td colspan="3">'+brand+": <strong>"+count+"</strong></td></tr>");
+        });
       }
     });
   });
