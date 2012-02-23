@@ -54,6 +54,11 @@
         <td colspan="3"><img alt="cargando pilotos..." src="images/ajax-loader.gif"/></td>
       </tr>
     </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total: <span id="total_pilots">? alas</span></td>
+      </tr>
+    </tfoot>
   </table>
 
   <script src="javascript/jquery.min.js" type="text/javascript"></script>
@@ -63,14 +68,17 @@
       url: 'http://morning-planet-6150.herokuapp.com/pilots.json',
       dataType: 'jsonp',
       success: function(pilots) {
-        var tbody = $('table.pilots tbody');
+        var table = $('table.pilots');
+        var tbody = $('tbody', table);
         tbody.html('');
-        for(i=0;i<pilots.length;i++){
+        for(var i=0;i<pilots.length;i++){
           tbody.append("<tr><td>"+pilots[i].name+" "+pilots[i].surname+"</td>"+
                         "<td>"+pilots[i].glider+"</td>"+
                         "<td>"+(pilots[i].paid ? 'Sí' : 'No')+"</td></tr>");
     
         }
+        $('#total_pilots', table).html(pilots.length+ ' alas');
+        $('tfoot', table).show();
       }
     });
   });
