@@ -29,6 +29,7 @@ header h1{
   font-size:36px;
   font-weight:bolder;
   margin-bottom:0;
+  line-height:0.9em;
   margin-top:42px;
   text-shadow:#91a1a9 1px 1px 0
 }
@@ -75,10 +76,13 @@ div.centered {
 div.article {
   background:url("../images/section_bg.png");
   padding:10px 20px 30px 30px;
-  margin-top:60px;
-  width:700px;
+  margin-top:54px;
+  width:90%;
   border-radius:5px;
   -moz-border-radius:5px;
+}
+div.account_wrapper {
+  text-align: center;
 }
 div.account {
   margin: 10px;
@@ -88,6 +92,14 @@ div.account {
   background:url("../images/section_bg.png");
   border-radius:5px;
   -moz-border-radius:5px;
+
+  min-height: 50px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  _height: 50px;
 }
 div.account h4 {
   margin: 0px;
@@ -106,21 +118,25 @@ span.date {
   color: #D1DDFF;
 }
 fieldset {
-  padding: 0px 16px 20px 16px;
+  padding: 0px 2% 20px 2%;
   background: none repeat scroll 0 0 #e2d7c1;
-  margin:10px;
-  width: 284px;
+  margin:1%;
+  width: 42%;
   border-radius:5px;
   -moz-border-radius: 5px 5px 5px 5px;
 
-  min-height: 250px;
+  min-height: 200px;
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: top;
   zoom: 1;
   *display: inline;
-  _height: 250px;
+  _height: 200px;
 
+}
+form#new_pilot fieldset input, form#new_pilot fieldset select {
+  font-size: 110%; 
+  width: 98%;
 }
 form#new_pilot fieldset div.field label.error {
   display: none!important;
@@ -143,14 +159,11 @@ fieldset h3 {
 div.field {
   margin-top: 0.4em;
 }
-form input, form select {
-  font-size: 110%; 
-  width: 280px;
-}
 form input:focus {
   background: #d2dff5;
 }
 div.actions {
+  width: 98%;
   text-align: center;
 }
 div.actions input{
@@ -178,7 +191,8 @@ table th {
 }
 table.pilots tr:hover td,
 table.pilots tr.class_0:hover td {
-  background: #a2f7e5;
+  background:#FAFAFC;
+  color: #1F1F2F;
 }
 table.pilots td {
   background-color: #d2d7ff;
@@ -204,7 +218,7 @@ tfoot {
   font-weight: bold;
 }
 table.pilots tr.class_0 td {
-  background: #B6FFB1;
+  background: #A6FAA1;
 }
 #total_sport {
   color: #61BF66;
@@ -215,7 +229,7 @@ footer {
   margin-top: 5px;
   font-size: 70%;
   margin-left:45px;
-  width:700px;
+  width:90%;
 }
 footer a {
   color:#043042;
