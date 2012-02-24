@@ -2,10 +2,12 @@ body{
   background:#FAFAFC;
   background-attachment: fixed;
   background-image: url("../images/pb_background.jpg");
+  background-repeat:repeat-x;
   color:#043042;
   font:16px Helvetica,Arial,sans-serif;
   line-height:1.6em;
   margin-left:164px;
+  max-width:960px;
 }
 a{
   color:#14173a;
@@ -25,12 +27,16 @@ img.glider {
   left:-150px;
   top:60px;
 }
+
+header{
+  margin-top:42px;
+}
+
 header h1{
   font-size:36px;
   font-weight:bolder;
   margin-bottom:0;
   line-height:0.9em;
-  margin-top:42px;
   text-shadow:#91a1a9 1px 1px 0
 }
 header h2{
@@ -39,6 +45,7 @@ header h2{
 }
 nav{
   background:url("../images/section_bg.png");
+  background: rgba(255,2555,255, .4);
   font-size:95%;
   position:fixed;
   left:15px;
@@ -61,12 +68,14 @@ nav li a{
 }
 nav li.active {
   background:url("../images/section_bg.png");
+  background: rgba(255,2555,255, .4);
 }
 nav li.active a {
   font-weight: bold;
 }
 nav li a:hover {
   background:url("../images/section_bg.png");
+  background: rgba(255,2555,255, .4);
   border-bottom:0;
 }
 div.centered {
@@ -75,6 +84,7 @@ div.centered {
 }
 div.article {
   background:url("../images/section_bg.png");
+  background: rgba(255,2555,255, .4);
   padding:10px 20px 30px 30px;
   margin-top:54px;
   width:90%;
@@ -90,6 +100,7 @@ div.account {
   text-align: center;
   font-size: 130%;
   background:url("../images/section_bg.png");
+  background: rgba(255,2555,255, .4);
   border-radius:5px;
   -moz-border-radius:5px;
 
@@ -136,8 +147,20 @@ fieldset {
 }
 form#new_pilot fieldset input, form#new_pilot fieldset select {
   font-size: 110%; 
-  width: 98%;
+  width: 100%;
+  border:1px solid #666;
+  font-size:14px;
 }
+
+form#new_pilot fieldset input {
+  padding:6px 0;
+  text-indent:7px;
+}
+
+form#new_pilot fieldset select {
+
+}
+
 form#new_pilot fieldset div.field label.error {
   display: none!important;
 }
@@ -208,6 +231,7 @@ table.pilots tfoot td.total {
 }
 table.pilots tfoot td{
   background:url("../images/section_bg.png");
+  background: rgba(255,2555,255, .4);
   font-size: 90%;
 }
 tfoot {
@@ -234,10 +258,7 @@ footer {
 footer a {
   color:#043042;
 }
-body.balizas footer, body.mapa footer,
-body.balizas div.article, body.mapa div.article {
-  width:90%;
-}
+
 body.mapa iframe {
   width:100%;
   height:100%;
@@ -307,3 +328,160 @@ vertical-align:center;
 }
 
 
+
+
+
+/*		Default Layout: 992px. 
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  body {
+    background:#A7C7EF;
+  }
+  
+  header h1 {
+    font-size:30px;
+  }
+  
+  article img {
+    max-width:50%;
+  }
+  
+  h2 span.date {
+    float:none;
+    color:#333;
+    font-size:12px;
+    display:block;
+  }
+  
+  
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Inherits styles from: Default Layout.
+--------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  
+    body {
+      margin-left:0;
+      margin-right:0;
+      background:#A7C7EF;
+    }
+    
+    header {
+      padding-top:0px;
+      margin-left:10px;
+      margin-right:10px;
+      position:relative;
+    }
+    
+    header h1,
+    header h2 {
+      padding-left:74px;
+    }
+    
+    header h1 {
+      font-size:24px;
+      line-height:normal;
+    }
+    
+    header h2 {
+      font-size:15px;
+    }
+  
+    nav {
+      position:static;
+      left:auto;
+      top:auto;
+      padding-top:1px;
+      padding-bottom:1px;
+    }
+    
+    nav {
+      margin-bottom:20px;
+    }
+    
+    img.logo {
+      position:absolute;
+      left:0;
+      top:-2px;
+      width:60px;
+    }
+  
+    div.article {
+      margin:0 10px;
+      width:auto;
+      padding:20px;
+    }
+    
+    article img {
+      width:100%;
+    }
+    
+    section h2 {
+      margin-top:0;
+    }
+    
+    h2 span.date {
+      float:none;
+      color:#333;
+      font-size:12px;
+      display:block;
+    }
+    
+    article img.left,
+    article img.right {
+      float:none;
+      margin:0;
+    }
+    
+    
+    fieldset {
+      width:100%;
+      margin-left:0;
+      margin-right:0;
+      margin-bottom:20px;
+      padding-left:0;
+      padding-right:0;
+    }
+    
+    fieldset > * {
+      margin-left:20px;
+      margin-right:20px;
+    }
+    
+    footer {
+      margin:0 10px;
+    }
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}
