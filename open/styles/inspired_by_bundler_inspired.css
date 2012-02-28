@@ -17,6 +17,14 @@ a{
 a:hover{
   border-bottom:1px #14173a dashed
 }
+h2 a{
+  color:#88A;
+  font-weight:700;
+}
+h2 a:hover{
+  color:#011012;
+  border-bottom: none
+}
 img.logo {
   position:fixed;
   left:20px;
@@ -35,6 +43,7 @@ header{
 header h1{
   font-size:36px;
   font-weight:bolder;
+  padding-top:42px;
   margin-bottom:0;
   line-height:0.9em;
   text-shadow:#91a1a9 1px 1px 0
