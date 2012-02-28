@@ -36,14 +36,10 @@ img.glider {
   top:60px;
 }
 
-header{
-  margin-top:42px;
-}
-
 header h1{
   font-size:36px;
   font-weight:bolder;
-  padding-top:42px;
+  padding-top:17px;
   margin-bottom:0;
   line-height:0.9em;
   text-shadow:#91a1a9 1px 1px 0
