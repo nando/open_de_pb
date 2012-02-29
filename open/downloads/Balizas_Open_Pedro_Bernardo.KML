@@ -53,10 +53,10 @@
       </Placemark>
       <Placemark>
         <name>A02068</name>
-        <description>1 AT PIEDRALAVES</description>
+        <description>1 AT HIGUERA DUEÑAS</description>
         <styleUrl>#waypoint_h</styleUrl>
         <Point>
-          <coordinates>-4.684984,40.306217,680.000000</coordinates>
+          <coordinates>-4.598195,40.234043,637.000000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -460,6 +460,22 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>B98053</name>
+        <description>1 EL CABEZO</description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-4.885250,40.312918,2175.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B98054</name>
+        <description>1 VÉRTICE GEODÉSICO</description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-4.624166,40.364722,1951.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>D01125</name>
         <description>1 DESPEG PB OESTE</description>
         <styleUrl>#waypoint_d</styleUrl>
@@ -579,7 +595,6 @@
           <coordinates>-3.717241,41.108025,0.000000</coordinates>
         </Point>
       </Placemark>
-
     </Folder>
     <LookAt>
       <longitude>-4.945944</longitude>
