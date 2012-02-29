@@ -292,6 +292,11 @@ article img.right {
   margin: 10px 0px 10px 20px;
   float: right;
 }
+div.clearer {
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
 
 article ul {
   padding-left: 10px;
