@@ -453,10 +453,10 @@
       </Placemark>
       <Placemark>
         <name>B98054</name>
-        <description>1 VÉRTICE GEODÉSICO</description>
+        <description>1 LA ESCUSA PUNTO GEOD</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.624166,40.364722,1951.000000</coordinates>
+          <coordinates>-4.624166,40.364722,1955.000000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
