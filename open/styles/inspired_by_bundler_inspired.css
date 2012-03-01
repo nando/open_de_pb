@@ -9,6 +9,22 @@ body{
   margin-left:164px;
   max-width:960px;
 }
+th.glider_class {
+  padding-left: 0;
+  text-align: center;
+}
+td.glider_class span {
+  background-image: url("../images/alas.png");
+  display: block;
+  width: 94px;
+  height: 40px;
+}
+td.class_0 span {
+  background-position: 0px -197px;
+}
+td.class_5 span {
+  background-position: 2px -101px;
+}
 a{
   color:#14173a;
   font-weight:700;
@@ -219,7 +235,7 @@ table th {
 }
 table.pilots tr:hover td,
 table.pilots tr.class_0:hover td {
-  background:#FAFAFC;
+  background:#aaa;
   color: #1F1F2F;
 }
 table.pilots td {

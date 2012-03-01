@@ -45,9 +45,9 @@
   <table class="pilots">
     <thead>
       <tr>
-        <th width="46%">Nombre</th>
+        <th width="48%">Nombre</th>
         <th width="40%">Ala</th>
-        <th width="14%">Pagado</th>
+        <th class="glider_class" width="12%">Tipo</th>
       </tr>
     </thead>
     <tbody>
@@ -82,8 +82,8 @@
           
           tbody.append('<tr class="class_'+pilots[i].glider_class+'">'+
                         '<td>'+pilots[i].name+" "+pilots[i].surname+"</td>"+
-                        "<td>"+pilots[i].brand+' '+pilots[i].model+"</td>"+
-                        "<td>"+(pilots[i].paid ? 'Sí' : 'No')+"</td></tr>");
+                        '<td>'+pilots[i].brand+' '+pilots[i].model+"</td>"+
+                        '<td class="glider_class class_'+pilots[i].glider_class+'"><span>&nbsp;</span></td></tr>');
         }
         $('#total_pilots', tfoot).html(pilots.length+ ' alas');
         $('#total_sport', tfoot).html('('+sport+ ' sport)');
