@@ -140,9 +140,12 @@ div.account p {
   padding: 0px;
   margin: 0px;
 }
+#post h2 {
+  margin-bottom: 0;
+}
 section h2 {
   border-bottom:2px black solid;
-  padding-bottom:5px
+  padding-bottom:5px;
 }
 span.date {
   float: right;
@@ -266,7 +269,7 @@ table.pilots tr.class_0 td {
   background: #A6FAA1;
 }
 #total_sport {
-  color: #61BF66;
+  color: #216F36;
 }
 footer {
   display: block;
@@ -297,10 +300,15 @@ article a.media {
   border-bottom:0px;
 }
 
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
 article img.left {
   border:1px black solid;
   margin: 10px 35px 10px 0px;
-  float: left;
   display: block;
 }
 article img.right {
@@ -313,7 +321,11 @@ div.clearer {
   line-height: 0;
   height: 0;
 }
-
+#page-navigation {
+  font-size: 80%;
+  font-style: italic;
+  margin-bottom: 0.8em;
+}
 article ul {
   padding-left: 10px;
 }
