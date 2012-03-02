@@ -197,9 +197,6 @@ h3 {
   margin-top: 0.6em;
   margin-bottom: 0.3em;
 }
-p {
-  margin-top: 0.1em;
-}
 fieldset h3 {
   border-bottom:1px black solid;
 }
@@ -323,7 +320,6 @@ div.clearer {
 }
 #page-navigation {
   font-size: 80%;
-  font-style: italic;
   margin-bottom: 0.8em;
 }
 article ul {
