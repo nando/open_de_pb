@@ -325,9 +325,6 @@ div.clearer {
 article ul {
   padding-left: 10px;
 }
-article li {
-  padding-top: 10px;
-}
 
 .hover { /* for IE using onmouseover and onmouseout */
 background: #d2d7ff;
