@@ -66,7 +66,7 @@ header h2{
 }
 nav{
   background:url("../images/section_bg.png");
-  background: rgba(255,2555,255, .4);
+  background: rgba(255,255,255, .5);
   font-size:95%;
   position:fixed;
   left:15px;
@@ -89,14 +89,14 @@ nav li a{
 }
 nav li.active {
   background:url("../images/section_bg.png");
-  background: rgba(255,2555,255, .4);
+  background: rgba(255,255,255, .5);
 }
 nav li.active a {
   font-weight: bold;
 }
 nav li a:hover {
   background:url("../images/section_bg.png");
-  background: rgba(255,2555,255, .4);
+  background: rgba(255,255,255, .5);
   border-bottom:0;
 }
 div.centered {
@@ -105,7 +105,7 @@ div.centered {
 }
 div.article {
   background:url("../images/section_bg.png");
-  background: rgba(255,2555,255, .4);
+  background: rgba(255,255,255, .5);
   padding:10px 20px 30px 30px;
   margin-top:54px;
   width:90%;
@@ -121,7 +121,7 @@ div.account {
   text-align: center;
   font-size: 130%;
   background:url("../images/section_bg.png");
-  background: rgba(255,2555,255, .4);
+  background: rgba(255,255,255, .5);
   border-radius:5px;
   -moz-border-radius:5px;
 
@@ -252,7 +252,7 @@ table.pilots tfoot td.total {
 }
 table.pilots tfoot td{
   background:url("../images/section_bg.png");
-  background: rgba(255,2555,255, .4);
+  background: rgba(255,255,255, .5);
   font-size: 90%;
 }
 tfoot {
