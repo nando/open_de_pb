@@ -47,8 +47,8 @@
     <thead>
       <tr>
         <th width="48%">Nombre</th>
-        <th width="40%">Ala</th>
-        <th class="glider_class" width="12%">Tipo</th>
+        <th class="glider_class" width="12%">Clase</th>
+        <th width="40%">Marca y modelo</th>
       </tr>
     </thead>
     <tbody>
@@ -70,29 +70,32 @@
       url: 'http://morning-planet-6150.herokuapp.com/pilots.json',
       dataType: 'jsonp',
       success: function(pilots) {
-        var table = $('table.pilots');
-        var tbody = $('tbody', table);
-        var tfoot = $('tfoot', table);
-        var brands = {};
-        var sport = 0;
+        var table = $('table.pilots'),
+            tbody = $('tbody', table),
+            tfoot = $('tfoot', table),
+            brands = {},
+            sport = 0,
+            paid = 0;
         tbody.html('');
         for(var i=0;i<pilots.length;i++){
           if(pilots[i].glider_class == 0) sport++;
+          if(pilots[i].paid) paid++;
           
           ( brands[pilots[i].brand]++ || ( brands[pilots[i].brand] = 1) )
           
           tbody.append('<tr class="class_'+pilots[i].glider_class+'">'+
                         '<td>'+pilots[i].name+" "+pilots[i].surname+"</td>"+
-                        '<td>'+pilots[i].brand+' '+pilots[i].model+"</td>"+
-                        '<td class="glider_class class_'+pilots[i].glider_class+'"><span>&nbsp;</span></td></tr>');
+                        '<td class="glider_class"><span>&nbsp;</span></td>'+
+                        '<td>'+pilots[i].brand+' '+pilots[i].model+"</td></tr>");
         }
         $('#total_pilots', tfoot).html(pilots.length+ ' alas');
         $('#total_sport', tfoot).html('('+sport+ ' sport)');
-        tfoot.show();
 
         $.each(brands, function(brand, count) {
-            tfoot.append('<tr><td colspan="3">'+brand+": <strong>"+count+"</strong></td></tr>");
+            tfoot.append('<tr class="brand_total '+brand+'"><td colspan="3"><span>&nbsp;</span>'+brand+": <strong>"+count+"</strong></td></tr>");
         });
+        tfoot.append('<tr><td colspan="3">Inscripciones pagadas: <strong>'+paid+"</strong></td></tr>");
+        tfoot.show();
       }
     });
   });

@@ -19,10 +19,10 @@ td.glider_class span {
   width: 94px;
   height: 40px;
 }
-td.class_0 span {
+tr.class_0 td.glider_class span {
   background-position: 0px -197px;
 }
-td.class_5 span {
+tr.class_5 td.glider_class span {
   background-position: 2px -101px;
 }
 a{
@@ -248,9 +248,11 @@ table th {
   border-radius:3px;
   -moz-border-radius:3px;
 }
-table.pilots tr:hover td,
-table.pilots tr.class_0:hover td {
-  background:#aaa;
+table.pilots tr:hover td.glider_class {
+  background: #66BA61;
+}
+table.pilots tr:hover td{
+  background: #A6FAA1;
   color: #1F1F2F;
 }
 table.pilots td {
@@ -258,12 +260,18 @@ table.pilots td {
   border-radius:3px;
   -moz-border-radius:3px;
 }
+table.pilots td.glider_class {
+  background:#6771FF;
+}
 table tr.spinner td {
   text-align: center;
   padding: 30px;
 }
 table.pilots tfoot td.total {
   font-size: 130%;
+}
+table.pilots tfoot tr.brand_total {
+  background: #FFF;
 }
 table.pilots tfoot td{
   background:url("../images/section_bg.png");
@@ -276,9 +284,6 @@ tfoot {
 }
 #total_pilots {
   font-weight: bold;
-}
-table.pilots tr.class_0 td {
-  background: #A6FAA1;
 }
 #total_sport {
   color: #216F36;
