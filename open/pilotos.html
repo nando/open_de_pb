@@ -94,7 +94,7 @@
         $.each(brands, function(brand, count) {
             tfoot.append('<tr class="brand_total '+brand+'"><td colspan="3"><span>&nbsp;</span>'+brand+": <strong>"+count+"</strong></td></tr>");
         });
-        tfoot.append('<tr><td colspan="3">Inscripciones pagadas: <strong>'+paid+"</strong></td></tr>");
+        tfoot.append('<tr class="total_paid"><td colspan="3">Inscripciones pagadas: <strong>'+paid+"</strong></td></tr>");
         tfoot.show();
       }
     });

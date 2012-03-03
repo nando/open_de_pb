@@ -251,7 +251,7 @@ table th {
 table.pilots tr:hover td.glider_class {
   background: #66BA61;
 }
-table.pilots tr:hover td{
+table.pilots tr:hover td {
   background: #A6FAA1;
   color: #1F1F2F;
 }
@@ -269,9 +269,38 @@ table tr.spinner td {
 }
 table.pilots tfoot td.total {
   font-size: 130%;
+  background: #e2d7c1;
 }
-table.pilots tfoot tr.brand_total {
+table.pilots tfoot tr.total_paid td {
+  background: #FF7777;
+}
+table.pilots tfoot tr.brand_total:hover td,
+table.pilots tfoot tr.brand_total td {
   background: #FFF;
+}
+table.pilots tr.brand_total td span {
+  background:url("../images/brands.png");
+  width:70px;
+  height: 24px;
+  float: left;
+}
+table.pilots tfoot tr.brand_total.A-I-R td span {
+  background-position: -6px -125px;
+}
+table.pilots tfoot tr.brand_total.WILLS.WING td span {
+  background-position: -5px -66px;
+}
+table.pilots tfoot tr.brand_total.ICARO td span {
+  background-position: -4px -254px;
+}
+table.pilots tfoot tr.brand_total.FLUGDRACHEN.GMBH td span {
+  background-position: -6px -290px;
+}
+table.pilots tfoot tr.brand_total.AEROS td span {
+  background-position: -5px -32px;
+}
+table.pilots tfoot tr.brand_total.MOYES td span {
+  background-position: 0px -98px;
 }
 table.pilots tfoot td{
   background:url("../images/section_bg.png");
