@@ -46,21 +46,25 @@
   <table class="pilots">
     <thead>
       <tr>
-        <th width="48%">Nombre</th>
+        <th width="46%">Nombre y apellidos</th>
         <th class="glider_class" width="12%">Clase</th>
-        <th width="40%">Marca y modelo</th>
+        <th width="38%">Marca y modelo</th>
+        <th class="paid" width="4%">€</th>
       </tr>
     </thead>
     <tbody>
       <tr class="spinner">
-        <td colspan="3"><img alt="cargando pilotos..." src="images/ajax-loader.gif"/></td>
+        <td colspan="4"><img alt="cargando pilotos..." src="images/ajax-loader.gif"/></td>
       </tr>
     </tbody>
-    <tfoot>
+  </table>
+
+  <table class="pilot_stats">
+    <tbody>
       <tr>
-        <td colspan="3" class="total">Total: <span id="total_pilots">? alas</span>&nbsp;<span id="total_sport">(? sport)</span></td>
+        <td class="total">Total: <span id="total_pilots">? alas</span>&nbsp;<span id="total_sport">(? sport)</span></td>
       </tr>
-    </tfoot>
+    </tbody>
   </table>
 
   <script src="javascript/jquery.min.js" type="text/javascript"></script>
@@ -72,7 +76,7 @@
       success: function(pilots) {
         var table = $('table.pilots'),
             tbody = $('tbody', table),
-            tfoot = $('tfoot', table),
+            tstats = $('table.pilot_stats tbody'),
             brands = {},
             sport = 0,
             paid = 0;
@@ -84,18 +88,19 @@
           ( brands[pilots[i].brand]++ || ( brands[pilots[i].brand] = 1) )
           
           tbody.append('<tr class="class_'+pilots[i].glider_class+'">'+
-                        '<td>'+pilots[i].name+" "+pilots[i].surname+"</td>"+
+                        '<td>'+pilots[i].name+" "+pilots[i].surname+'</td>'+
                         '<td class="glider_class"><span>&nbsp;</span></td>'+
-                        '<td>'+pilots[i].brand+' '+pilots[i].model+"</td></tr>");
+                        '<td>'+pilots[i].brand+' '+pilots[i].model+"</td>"+
+                        '<td class="paid_'+pilots[i].paid+'"><span>&nbsp;</span></td></tr>');
         }
-        $('#total_pilots', tfoot).html(pilots.length+ ' alas');
-        $('#total_sport', tfoot).html('('+sport+ ' sport)');
+        $('#total_pilots', tstats).html(pilots.length+ ' alas');
+        $('#total_sport', tstats).html('('+sport+ ' sport)');
 
         $.each(brands, function(brand, count) {
-            tfoot.append('<tr class="brand_total '+brand+'"><td colspan="3"><span>&nbsp;</span>'+brand+": <strong>"+count+"</strong></td></tr>");
+            tstats.append('<tr class="brand_total '+brand+'"><td><span>&nbsp;</span>'+brand+": <strong>"+count+"</strong></td></tr>");
         });
-        tfoot.append('<tr class="total_paid"><td colspan="3">Inscripciones pagadas: <strong>'+paid+"</strong></td></tr>");
-        tfoot.show();
+        tstats.append('<tr class="total_paid"><td>Inscripciones pagadas: <strong>'+paid+"</strong></td></tr>");
+        tstats.show();
       }
     });
   });

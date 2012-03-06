@@ -9,7 +9,7 @@ body{
   margin-left:164px;
   max-width:960px;
 }
-th.glider_class {
+th.glider_class, th.paid {
   padding-left: 0;
   text-align: center;
 }
@@ -267,48 +267,51 @@ table tr.spinner td {
   text-align: center;
   padding: 30px;
 }
-table.pilots tfoot td.total {
+table.pilot_stats tbody td.total {
   font-size: 130%;
   background: #e2d7c1;
 }
-table.pilots tfoot tr.total_paid td {
+table.pilot_stats tbody tr.total_paid td {
   background: #FF7777;
 }
-table.pilots tfoot tr.brand_total:hover td,
-table.pilots tfoot tr.brand_total td {
+table.pilot_stats tbody tr.brand_total:hover td,
+table.pilot_stats tbody tr.brand_total td {
   background: #FFF;
 }
-table.pilots tr.brand_total td span {
+table.pilot_stats tr.brand_total td span {
   background:url("../images/brands.png");
   width:70px;
   height: 24px;
   float: left;
 }
-table.pilots tfoot tr.brand_total.A-I-R td span {
+table.pilot_stats tbody tr.brand_total.A-I-R td span {
   background-position: -6px -125px;
 }
-table.pilots tfoot tr.brand_total.WILLS.WING td span {
+table.pilot_stats tbody tr.brand_total.WILLS.WING td span {
   background-position: -5px -66px;
 }
-table.pilots tfoot tr.brand_total.ICARO td span {
+table.pilot_stats tbody tr.brand_total.ICARO td span {
   background-position: -4px -254px;
 }
-table.pilots tfoot tr.brand_total.FLUGDRACHEN.GMBH td span {
+table.pilot_stats tbody tr.brand_total.FLUGDRACHEN.GMBH td span {
   background-position: -6px -290px;
 }
-table.pilots tfoot tr.brand_total.AEROS td span {
+table.pilot_stats tbody tr.brand_total.AEROS td span {
   background-position: -5px -32px;
 }
-table.pilots tfoot tr.brand_total.MOYES td span {
+table.pilot_stats tbody tr.brand_total.MOYES td span {
   background-position: 0px -98px;
 }
-table.pilots tfoot td{
+table.pilot_stats tbody td{
   background:url("../images/section_bg.png");
   background: rgba(255,255,255, .5);
   font-size: 90%;
 }
-tfoot {
+table.pilot_stats {
   margin-top:30px;
+  width: auto;
+}
+table.pilot_stats tbody {
   display: none;
 }
 #total_pilots {
@@ -316,6 +319,17 @@ tfoot {
 }
 #total_sport {
   color: #216F36;
+}
+.paid_false span, .paid_true span {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.paid_false span {
+  background:url("../images/question_mark.png");
+}
+.paid_true span {
+  background:url("../images/certified.png");
 }
 footer {
   display: block;
