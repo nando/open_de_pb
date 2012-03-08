@@ -45,6 +45,7 @@ img.logo {
   position:fixed;
   left:20px;
   top:12px;
+  padding-bottom: 20px;
 }
 img.glider {
   position:fixed;
@@ -63,6 +64,12 @@ header h1{
 header h2{
   font-size:20px;
   margin-top:5px;
+}
+footer p {
+  margin: 0;
+}
+footer nav {
+  display: none;
 }
 nav{
   background:url("../images/section_bg.png");
@@ -112,11 +119,15 @@ div.article {
   border-radius:5px;
   -moz-border-radius:5px;
 }
+#page-navigation {
+  font-size: 80%;
+  margin-bottom: 0.8em;
+}
 div.account_wrapper {
   text-align: center;
 }
 div.quote {
-  margin-left: 30px;
+  margin: 20px 10px 10px 30px;
   padding: 10px 20px 20px 20px;
   font-style: italic;
   background:url("../images/section_bg.png");
@@ -381,10 +392,6 @@ div.clearer {
   line-height: 0;
   height: 0;
 }
-#page-navigation {
-  font-size: 80%;
-  margin-bottom: 0.8em;
-}
 article ul {
   padding-left: 10px;
 }
@@ -420,9 +427,6 @@ th.fs_res
 border:solid 1px gray;
 vertical-align:center;
 }
-
-
-
 
 
 /*		Default Layout: 992px. 
@@ -495,24 +499,28 @@ px      68    160    252    344    436    528    620    712    */
     
     header h1 {
       padding-top:0;
-      font-size:24px;
+      font-size:18px;
       line-height:normal;
     }
     
     header h2 {
-      font-size:15px;
+      font-size:11px;
     }
   
-    nav {
+    footer nav {
+      display: block;
+      font-size: 14px;
+      text-align: left;
       position:static;
       left:auto;
       top:auto;
       padding-top:1px;
       padding-bottom:1px;
+      margin-bottom:10px;
     }
     
-    nav {
-      margin-bottom:20px;
+    header nav {
+      display: none;
     }
     
     img.logo {
@@ -523,7 +531,7 @@ px      68    160    252    344    436    528    620    712    */
     }
   
     div.article {
-      margin:0 10px;
+      margin:15px 10px;
       width:auto;
       padding:20px;
     }
@@ -533,6 +541,7 @@ px      68    160    252    344    436    528    620    712    */
     }
     
     section h2 {
+      font-size:18px;
       margin-top:0;
     }
     
@@ -564,8 +573,10 @@ px      68    160    252    344    436    528    620    712    */
       margin-right:20px;
     }
     
+
     footer {
-      margin:0 10px;
+      margin:10px 10px;
+      width:auto;
     }
 	
 }
