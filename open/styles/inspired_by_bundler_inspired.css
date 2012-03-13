@@ -313,6 +313,9 @@ table.pilot_stats tbody tr.brand_total.AEROS td span {
 table.pilot_stats tbody tr.brand_total.MOYES td span {
   background-position: 0px -98px;
 }
+table.pilot_stats tbody tr.brand_total.SYNAIRGIE td span {
+  background-position: -4px -321px;
+}
 table.pilot_stats tbody td{
   background:url("../images/section_bg.png");
   background: rgba(255,255,255, .5);
