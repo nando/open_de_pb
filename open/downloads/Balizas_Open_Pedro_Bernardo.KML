@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2"
 	xmlns:gx="http://www.google.com/kml/ext/2.2">
   <Document>
-    <name>GPS device</name>
+    <name>Balizas del Open de Ala Delta de Pedro Bernardo</name>
     <Snippet>Created Wed Feb  8 12:08:16 2012</Snippet>
     <Style id="waypoint_b">
       <IconStyle>
@@ -124,11 +124,11 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>A13078</name>
-        <description>1 AT ALMENDRAL CAÑADA</description>
-        <styleUrl>#waypoint_a</styleUrl>
+        <name>B13078</name>
+        <description>1 ALMENDRAL CAÑADA</description>
+        <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.731866,40.182816,780.000000</coordinates>
+          <coordinates>-4.731866,40.182816,635.000000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -153,14 +153,6 @@
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.966190,39.989056,480.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A17064</name>
-        <description>1 AT SOTILLO ADRADA sur</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.574256,40.267487,735.000000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -276,14 +268,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B19051</name>
-        <description>1 CASAVIEJA GASOLINERA</description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.726745,40.286625,510.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>B20062</name>
         <description>1 ADRADA CASTILLO</description>
         <styleUrl>#waypoint_b</styleUrl>
@@ -337,14 +321,6 @@
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.443419,40.346993,650.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>B30140</name>
-        <description>1 ADRADA TERMICA</description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.626086,40.323021,1400.000000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
