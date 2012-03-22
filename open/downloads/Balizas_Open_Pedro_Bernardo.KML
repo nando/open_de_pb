@@ -563,9 +563,9 @@
       </Placemark>
     </Folder>
     <LookAt>
-      <longitude>-4.945944</longitude>
-      <latitude>40.165590</latitude>
-      <range>64065.665637</range>
+      <longitude>-4.865944</longitude>
+      <latitude>40.245590</latitude>
+      <range>34065.665637</range>
     </LookAt>
   </Document>
 </kml>
