@@ -28,48 +28,106 @@
     <Folder>
       <name>Waypoints</name>
       <Placemark>
-        <name>A01044</name>
-        <description>1 AT PEDRO BERNARDO</description>
+        <name>G01044</name>
+        <description>GOL PEDRO BERNARDO</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.881338,40.228405,439.900000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>A02068</name>
-        <description>1 AT HIGUERA DUEÑAS</description>
+        <name>G02070</name>
+        <description>GOL IGLESUELA</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.598195,40.234043,637.000000</coordinates>
+          <coordinates>-4.751533,40.229332,700.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>A03070</name>
-        <description>1 AT IGLESUELA</description>
+        <name>G03068</name>
+        <description>GOL HIGUERA DUEÑAS</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.751533,40.229332,700.000000</coordinates>
+          <coordinates>-4.598195,40.234043,637.0</coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>G04036</name>
+        <description>GOL TALAVERA</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.808965,39.953602,365.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G05094</name>
+        <description>GOL MARUGAN AERODROMO</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.368954,40.909817,940.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G06108</name>
+        <description>GOL AVILA AERODROMO</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.791884,40.605515,1080.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G07102</name>
+        <description>GOL PIEDRAHITA ESCOMBRERA</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-5.318584,40.483639,1016.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G08074</name>
+        <description>GOL ALCAZAREN AERODROMO</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.695979,41.371464,738.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G09117</name>
+        <description>GOL ARCONES</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-3.717241,41.108025,1172.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G10048</name>
+        <description>GOL ESCALONA</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.411290,40.181118,477.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G11029</name>
+        <description>GOL ROSARITO</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-5.358474,40.067268,288.0</coordinates>
+        </Point>
+      </Placemark>
+
+
       <Placemark>
         <name>A04058</name>
-        <description>1 AT MARRUPE CRUCE</description>
+        <description>AT MARRUPE CRUCE</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.795122,40.088688,580.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A05030</name>
-        <description>1 AT TIETAR</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-5.474033,40.041718,300.100000</coordinates>
+          <coordinates>-4.795122,40.088688,580.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>A06043</name>
-        <description>1 AT IGLESUELA AERODROMO</description>
+        <description>AT IGLESUELA AERODROMO</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.789621,40.246906,430.100000</coordinates>
@@ -77,63 +135,47 @@
       </Placemark>
       <Placemark>
         <name>A07055</name>
-        <description>1 AT MONTESCLAROS</description>
+        <description>AT MONTESCLAROS</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.941124,40.110424,550.000000</coordinates>
+          <coordinates>-4.941124,40.110424,550.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>A08037</name>
-        <description>1 AT OROPESA</description>
+        <description>AT OROPESA</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-5.162455,39.931725,370.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A09041</name>
-        <description>1 AT TALAVERA GASOLINERA</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.823360,40.007538,409.900000</coordinates>
+          <coordinates>-5.162455,39.931725,370.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>A10045</name>
-        <description>1 AT BUENAVENTURA</description>
+        <description>AT BUENAVENTURA</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.853853,40.180302,450.000000</coordinates>
+          <coordinates>-4.853853,40.180302,450.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>A11037</name>
-        <description>1 AT CAZALEGAS</description>
+        <description>AT CAZALEGAS</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.741658,39.993290,370.000000</coordinates>
+          <coordinates>-4.741658,39.993290,370.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>A12051</name>
-        <description>1 AT PUEBLA MONTALVAN</description>
+        <description>AT PUEBLA MONTALVAN</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.351251,39.883575,510.100000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>B13078</name>
-        <description>1 ALMENDRAL CAÑADA</description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.731866,40.182816,635.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>A14049</name>
-        <description>1 AT MAQUEDA GASOLINERA</description>
+        <description>AT MAQUEDA GASOLINERA</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.380190,40.078259,489.900000</coordinates>
@@ -141,7 +183,7 @@
       </Placemark>
       <Placemark>
         <name>A15041</name>
-        <description>1 AT CRUCE ASP TAL</description>
+        <description>AT CRUCE ASP TAL</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-5.039601,40.180374,409.900000</coordinates>
@@ -149,7 +191,7 @@
       </Placemark>
       <Placemark>
         <name>A16048</name>
-        <description>1 AT VELADA DEPOSITO</description>
+        <description>AT VELADA DEPOSITO</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.966190,39.989056,480.100000</coordinates>
@@ -157,7 +199,7 @@
       </Placemark>
       <Placemark>
         <name>A18075</name>
-        <description>1 AT NAVAMORCUENDE</description>
+        <description>AT NAVAMORCUENDE</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.794487,40.158661,749.900000</coordinates>
@@ -165,15 +207,15 @@
       </Placemark>
       <Placemark>
         <name>A19050</name>
-        <description>1 AT RIELVES</description>
+        <description>AT RIELVES</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.200020,39.960262,500.000000</coordinates>
+          <coordinates>-4.200020,39.960262,500.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>A22038</name>
-        <description>1 AT CANDELEDA</description>
+        <description>AT CANDELEDA</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-5.225620,40.127358,380.100000</coordinates>
@@ -181,39 +223,33 @@
       </Placemark>
       <Placemark>
         <name>A24067</name>
-        <description>1 AT NAVAHONDILLA urb</description>
+        <description>AT NAVAHONDILLA urb</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.470084,40.335983,669.900000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>A31046</name>
-        <description>1 AT VALVERDE VERA</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-5.494130,40.098026,460.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>A43052</name>
-        <description>1 AT ALMOROX</description>
+        <description>AT ALMOROX</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.386746,40.211617,520.000000</coordinates>
+          <coordinates>-4.386746,40.211617,520.0</coordinates>
         </Point>
       </Placemark>
+
+
       <Placemark>
         <name>B01029</name>
-        <description>1 TALAYUELA</description>
+        <description>TALAYUELA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.605917,39.984917,290.000000</coordinates>
+          <coordinates>-5.605917,39.984917,290.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B05072</name>
-        <description>1 TORRE INCENDIOS</description>
+        <description>TORRE INCENDIOS</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.844302,40.268162,719.900000</coordinates>
@@ -221,7 +257,7 @@
       </Placemark>
       <Placemark>
         <name>B07080</name>
-        <description>1 ABANTERA</description>
+        <description>ABANTERA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.962979,40.210636,799.900000</coordinates>
@@ -229,7 +265,7 @@
       </Placemark>
       <Placemark>
         <name>B08044</name>
-        <description>1 LANZAHITA FRONTON</description>
+        <description>LANZAHITA FRONTON</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.929815,40.205826,439.900000</coordinates>
@@ -237,31 +273,39 @@
       </Placemark>
       <Placemark>
         <name>B09028</name>
-        <description>1 NAVALMORAL GASOLINERA</description>
+        <description>NAVALMORAL GASOLINERA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.691867,39.904233,278.000000</coordinates>
+          <coordinates>-5.691867,39.904233,278.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>B09058</name>
-        <description>1 MOMBELTRAN CASTILLO</description>
+        <name>B10058</name>
+        <description>MOMBELTRAN CASTILLO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.019141,40.255928,580.000000</coordinates>
+          <coordinates>-5.019141,40.255928,580.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B13078</name>
+        <description>ALMENDRAL CAÑADA</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-4.740501,40.183365,635.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B14040</name>
-        <description>1 LA HIGUERILLA</description>
+        <description>LA HIGUERILLA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.996919,40.185524,400.000000</coordinates>
+          <coordinates>-4.996919,40.185524,400.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B16038</name>
-        <description>1 TIETAR PUENTE</description>
+        <description>TIETAR PUENTE</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-5.019223,40.154987,380.100000</coordinates>
@@ -269,7 +313,7 @@
       </Placemark>
       <Placemark>
         <name>B20062</name>
-        <description>1 ADRADA CASTILLO</description>
+        <description>ADRADA CASTILLO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.641086,40.297485,619.900000</coordinates>
@@ -277,7 +321,7 @@
       </Placemark>
       <Placemark>
         <name>B24069</name>
-        <description>1 HIGUERA DUEÑAS pueblo</description>
+        <description>HIGUERA DUEÑAS pueblo</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.603349,40.238682,690.100000</coordinates>
@@ -285,7 +329,7 @@
       </Placemark>
       <Placemark>
         <name>B25085</name>
-        <description>1 MONASTERIO SEMIA</description>
+        <description>MONASTERIO SEMIA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.515096,40.310463,849.900000</coordinates>
@@ -293,39 +337,39 @@
       </Placemark>
       <Placemark>
         <name>B26076</name>
-        <description>1 CAMPO FUTBOL</description>
+        <description>CAMPO FUTBOL</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.920983,40.237450,760.000000</coordinates>
+          <coordinates>-4.920983,40.237450,760.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B27070</name>
-        <description>1 S MARTIN VALDEIGLESIAS</description>
+        <description>S MARTIN VALDEIGLESIAS</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.409911,40.358379,700.000000</coordinates>
+          <coordinates>-4.409911,40.358379,700.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B28050</name>
-        <description>1 VILLA PRADO</description>
+        <description>VILLA PRADO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.295161,40.278904,500.000000</coordinates>
+          <coordinates>-4.295161,40.278904,500.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B29065</name>
-        <description>1 TIEMBLO CRUCE</description>
+        <description>TIEMBLO CRUCE</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.443419,40.346993,650.000000</coordinates>
+          <coordinates>-4.443419,40.346993,650.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B33082</name>
-        <description>1 PB IGLESIA</description>
+        <description>PB IGLESIA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.915575,40.241295,819.900000</coordinates>
@@ -333,7 +377,7 @@
       </Placemark>
       <Placemark>
         <name>B41070</name>
-        <description>1 ARENAS SAN PEDRO</description>
+        <description>ARENAS SAN PEDRO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-5.080217,40.209385,749.900000</coordinates>
@@ -341,39 +385,79 @@
       </Placemark>
       <Placemark>
         <name>B42040</name>
-        <description>1 MADRIGAL VERA</description>
+        <description>MADRIGAL VERA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.340024,40.149117,400.000000</coordinates>
+          <coordinates>-5.340024,40.149117,400.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B44055</name>
-        <description>1 PB BASURERO</description>
+        <description>PB BASURERO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.901190,40.231342,550.000000</coordinates>
+          <coordinates>-4.901190,40.231342,550.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B45218</name>
+        <description>EL CABEZO</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-4.885250,40.312918,2175.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B46196</name>
+        <description>LA ESCUSA PUNTO GEOD</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-4.624166,40.364722,1955.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B47110</name>
+        <description>VILLACASTIN IGLESIA</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-4.411687,40.781597,1100.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B48160</name>
+        <description>PARADOR DE GREDOS</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-5.113503,40.354858,1600.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B49135</name>
+        <description>CASTILLO MANQUEOSPESE</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-4.838780,40.534325,1351.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B58066</name>
-        <description>1 CRUCE GUISANDO</description>
+        <description>CRUCE GUISANDO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.121533,40.192150,660.000000</coordinates>
+          <coordinates>-5.121533,40.192150,660.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B59070</name>
-        <description>1 ABANTERA CRUCE</description>
+        <description>ABANTERA CRUCE</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.018610,40.207615,700.000000</coordinates>
+          <coordinates>-5.018610,40.207615,700.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>B60130</name>
-        <description>1 MIJARES</description>
+        <description>MIJARES</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.823485,40.290966,1300.100000</coordinates>
@@ -381,63 +465,49 @@
       </Placemark>
       <Placemark>
         <name>B61120</name>
-        <description>1 PIEDRALAVES</description>
+        <description>PIEDRALAVES</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.723631,40.325760,1200.100000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>B98039</name>
-        <description>1 NAVALCAN</description>
+        <name>B62039</name>
+        <description>NAVALCAN</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.088167,40.069333,394.000000</coordinates>
+          <coordinates>-5.088167,40.069333,394.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>B98040</name>
-        <description>1 PARRILLAS</description>
+        <name>B63040</name>
+        <description>PARRILLAS</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.057000,40.058167,400.000000</coordinates>
+          <coordinates>-5.057000,40.058167,400.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>B98051</name>
-        <description>1 CUEVAS AGUILA</description>
+        <name>B64051</name>
+        <description>CUEVAS AGUILA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-5.052867,40.174450,510.000000</coordinates>
+          <coordinates>-5.052867,40.174450,510.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>B98052</name>
-        <description>1 ALDEA ARANGO</description>
+        <name>B65052</name>
+        <description>ALDEA ARANGO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
-          <coordinates>-4.976667,40.100000,521.000000</coordinates>
+          <coordinates>-4.976667,40.100000,521.0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>B98053</name>
-        <description>1 EL CABEZO</description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.885250,40.312918,2175.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>B98054</name>
-        <description>1 LA ESCUSA PUNTO GEOD</description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.624166,40.364722,1955.000000</coordinates>
-        </Point>
-      </Placemark>
+
+
       <Placemark>
         <name>D01125</name>
-        <description>1 DESPEG PB OESTE</description>
+        <description>DESPEG PB OESTE</description>
         <styleUrl>#waypoint_d</styleUrl>
         <Point>
           <coordinates>-4.906204,40.255474,1125.100000</coordinates>
@@ -445,7 +515,7 @@
       </Placemark>
       <Placemark>
         <name>D02100</name>
-        <description>1 DESPEG PB ESTE</description>
+        <description>DESPEG PB ESTE</description>
         <styleUrl>#waypoint_d</styleUrl>
         <Point>
           <coordinates>-4.888968,40.250858,999.900000</coordinates>
@@ -453,113 +523,49 @@
       </Placemark>
       <Placemark>
         <name>D03094</name>
-        <description>1 DESPEG PB SUR</description>
+        <description>DESPEG PB SUR</description>
         <styleUrl>#waypoint_d</styleUrl>
         <Point>
-          <coordinates>-4.894709,40.243836,940.000000</coordinates>
+          <coordinates>-4.894709,40.243836,940.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>D08132</name>
-        <description>1 DESPEG REAL S VICENTE</description>
+        <description>DESPEG REAL S VICENTE</description>
         <styleUrl>#waypoint_d</styleUrl>
         <Point>
-          <coordinates>-4.743076,40.154736,1320.000000</coordinates>
+          <coordinates>-4.743076,40.154736,1320.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>D09132</name>
-        <description>5 DESPEG ARREBATACAPAS</description>
+        <description>DESPEG ARREBATACAPAS</description>
         <styleUrl>#waypoint_d</styleUrl>
         <Point>
-          <coordinates>-4.511002,40.447605,1320.000000</coordinates>
+          <coordinates>-4.511002,40.447605,1320.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>D11120</name>
-        <description>1 DESPEG PIEDRALAVES</description>
+        <description>DESPEG PIEDRALAVES</description>
         <styleUrl>#waypoint_d</styleUrl>
         <Point>
           <coordinates>-4.679132,40.326775,1200.100000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Gol Avila aerodromo</name>
-        <description><![CDATA[]]></description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.791884,40.605515,0.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Gol Escombrera-Piedrahita</name>
-        <description><![CDATA[<br>]]></description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-5.318584,40.483639,1016.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Caseta Despegue-Peñanegra</name>
-        <description><![CDATA[<br>]]></description>
+        <name>D12192</name>
+        <description>DESPEG PIEDRAHITA Caseta</description>
         <styleUrl>#waypoint_d</styleUrl>
         <Point>
-          <coordinates>-5.300721,40.421989,0.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Iglesia Villacastin</name>
-        <description><![CDATA[<br>]]></description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.411687,40.781597,0.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Gol Marugan aerodromo</name>
-        <description><![CDATA[<br>]]></description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.368954,40.909817,0.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Parador de Gredos</name>
-        <description><![CDATA[<br>]]></description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-5.113503,40.354858,0.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Castillo Manqueospese</name>
-        <description><![CDATA[<br>]]></description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.838780,40.534325,0.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Gol Alcazaren aerodromo</name>
-        <description><![CDATA[<br>]]></description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.695979,41.371464,0.000000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Gol Arcones-campa</name>
-        <description><![CDATA[<br>]]></description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-3.717241,41.108025,0.000000</coordinates>
+          <coordinates>-5.300721,40.421989,1920.0</coordinates>
         </Point>
       </Placemark>
     </Folder>
     <LookAt>
       <longitude>-4.945944</longitude>
       <latitude>40.165590</latitude>
-      <range>184065.665637</range>
+      <range>64065.665637</range>
     </LookAt>
   </Document>
 </kml>
