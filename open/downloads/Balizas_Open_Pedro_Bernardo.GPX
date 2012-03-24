@@ -8,403 +8,397 @@
     <link href="http://www.gethome.no/stein.sorensen/">
       <text>GPS dump for www.flightlog.org</text>
     </link>
-    <time>2012-03-23T22:03:50Z</time>
+    <time>2012-03-24T22:36:18Z</time>
     <bounds minlat="39.883575" minlon="-5.691867" maxlat="41.371464" maxlon="-3.717241"/>
   </metadata>
-  <wpt lat="40.228405" lon="-4.881338">
-    <ele>440.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G01044</name>
-    <cmt>GOL PEDRO BERNARDO</cmt>
-  </wpt>
-  <wpt lat="40.229332" lon="-4.751533">
-    <ele>700.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G02070</name>
-    <cmt>GOL IGLESUELA</cmt>
-  </wpt>
-  <wpt lat="40.234043" lon="-4.598195">
-    <ele>637.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G03068</name>
-    <cmt>GOL HIGUERA DUENAS</cmt>
-  </wpt>
-  <wpt lat="39.953602" lon="-4.808965">
-    <ele>365.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G04036</name>
-    <cmt>GOL TALAVERA</cmt>
-  </wpt>
-  <wpt lat="40.909817" lon="-4.368954">
-    <ele>940.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G05094</name>
-    <cmt>GOL MARUGAN AERODROMO</cmt>
-  </wpt>
-  <wpt lat="40.605515" lon="-4.791884">
-    <ele>1080.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G06108</name>
-    <cmt>GOL AVILA AERODROMO</cmt>
-  </wpt>
-  <wpt lat="40.483639" lon="-5.318584">
-    <ele>1016.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G07102</name>
-    <cmt>GOL PIEDRAHITA ESCOMBRERA</cmt>
-  </wpt>
-  <wpt lat="41.371464" lon="-4.695979">
-    <ele>738.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G08074</name>
-    <cmt>GOL ALCAZAREN AERODROMO</cmt>
-  </wpt>
-  <wpt lat="41.108025" lon="-3.717241">
-    <ele>1172.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G09117</name>
-    <cmt>GOL ARCONES</cmt>
-  </wpt>
-  <wpt lat="40.181118" lon="-4.411290">
-    <ele>477.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G10048</name>
-    <cmt>GOL ESCALONA</cmt>
-  </wpt>
-  <wpt lat="40.067268" lon="-5.358474">
-    <ele>288.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>G11029</name>
-    <cmt>GOL ROSARITO</cmt>
-  </wpt>
-  <wpt lat="40.088688" lon="-4.795122">
-    <ele>580.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A04058</name>
-    <cmt>AT MARRUPE CRUCE</cmt>
-  </wpt>
-  <wpt lat="40.246906" lon="-4.789621">
-    <ele>430.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A06043</name>
-    <cmt>AT IGLESUELA AERODROMO</cmt>
-  </wpt>
-  <wpt lat="40.110424" lon="-4.941124">
-    <ele>550.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A07055</name>
-    <cmt>AT MONTESCLAROS</cmt>
-  </wpt>
-  <wpt lat="39.931725" lon="-5.162455">
-    <ele>370.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A08037</name>
-    <cmt>AT OROPESA</cmt>
-  </wpt>
-  <wpt lat="40.180302" lon="-4.853853">
-    <ele>450.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A10045</name>
-    <cmt>AT BUENAVENTURA</cmt>
-  </wpt>
-  <wpt lat="39.993290" lon="-4.741658">
-    <ele>370.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A11037</name>
-    <cmt>AT CAZALEGAS</cmt>
-  </wpt>
-  <wpt lat="39.883575" lon="-4.351251">
-    <ele>510.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A12051</name>
-    <cmt>AT PUEBLA MONTALVAN</cmt>
-  </wpt>
-  <wpt lat="40.078259" lon="-4.380190">
-    <ele>490.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A14049</name>
-    <cmt>AT MAQUEDA GASOLINERA</cmt>
-  </wpt>
-  <wpt lat="40.180374" lon="-5.039601">
-    <ele>410.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A15041</name>
-    <cmt>AT CRUCE ASP TAL</cmt>
-  </wpt>
-  <wpt lat="39.989056" lon="-4.966190">
-    <ele>480.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A16048</name>
-    <cmt>AT VELADA DEPOSITO</cmt>
-  </wpt>
-  <wpt lat="40.158661" lon="-4.794487">
-    <ele>750.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A18075</name>
-    <cmt>AT NAVAMORCUENDE</cmt>
-  </wpt>
-  <wpt lat="39.960262" lon="-4.200020">
-    <ele>500.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A19050</name>
-    <cmt>AT RIELVES</cmt>
-  </wpt>
-  <wpt lat="40.127358" lon="-5.225620">
-    <ele>380.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A22038</name>
-    <cmt>AT CANDELEDA</cmt>
-  </wpt>
-  <wpt lat="40.335983" lon="-4.470084">
-    <ele>670.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A24067</name>
-    <cmt>AT NAVAHONDILLA urb</cmt>
-  </wpt>
-  <wpt lat="40.211617" lon="-4.386746">
-    <ele>520.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>A43052</name>
-    <cmt>AT ALMOROX</cmt>
-  </wpt>
-  <wpt lat="39.984917" lon="-5.605917">
-    <ele>290.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B01029</name>
-    <cmt>TALAYUELA</cmt>
-  </wpt>
-  <wpt lat="40.268162" lon="-4.844302">
-    <ele>720.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B05072</name>
-    <cmt>TORRE INCENDIOS</cmt>
-  </wpt>
-  <wpt lat="40.210636" lon="-4.962979">
-    <ele>800.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B07080</name>
-    <cmt>ABANTERA</cmt>
-  </wpt>
-  <wpt lat="40.205826" lon="-4.929815">
-    <ele>440.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B08044</name>
-    <cmt>LANZAHITA FRONTON</cmt>
-  </wpt>
-  <wpt lat="39.904233" lon="-5.691867">
-    <ele>278.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B09028</name>
-    <cmt>NAVALMORAL GASOLINERA</cmt>
-  </wpt>
-  <wpt lat="40.255928" lon="-5.019141">
-    <ele>580.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B10058</name>
-    <cmt>MOMBELTRAN CASTILLO</cmt>
-  </wpt>
-  <wpt lat="40.183365" lon="-4.740501">
-    <ele>635.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B13078</name>
-    <cmt>ALMENDRAL CANADA</cmt>
-  </wpt>
-  <wpt lat="40.185524" lon="-4.996919">
-    <ele>400.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B14040</name>
-    <cmt>LA HIGUERILLA</cmt>
-  </wpt>
-  <wpt lat="40.154987" lon="-5.019223">
-    <ele>380.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B16038</name>
-    <cmt>TIETAR PUENTE</cmt>
-  </wpt>
-  <wpt lat="40.297485" lon="-4.641086">
-    <ele>620.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B20062</name>
-    <cmt>ADRADA CASTILLO</cmt>
-  </wpt>
-  <wpt lat="40.238682" lon="-4.603349">
-    <ele>690.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B24069</name>
-    <cmt>HIGUERA DUENAS pueblo</cmt>
-  </wpt>
-  <wpt lat="40.310463" lon="-4.515096">
-    <ele>850.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B25085</name>
-    <cmt>MONASTERIO SEMIA</cmt>
-  </wpt>
-  <wpt lat="40.237450" lon="-4.920983">
-    <ele>760.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B26076</name>
-    <cmt>CAMPO FUTBOL</cmt>
-  </wpt>
-  <wpt lat="40.358379" lon="-4.409911">
-    <ele>700.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B27070</name>
-    <cmt>S MARTIN VALDEIGLESIAS</cmt>
-  </wpt>
-  <wpt lat="40.278904" lon="-4.295161">
-    <ele>500.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B28050</name>
-    <cmt>VILLA PRADO</cmt>
-  </wpt>
-  <wpt lat="40.346993" lon="-4.443419">
-    <ele>650.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B29065</name>
-    <cmt>TIEMBLO CRUCE</cmt>
-  </wpt>
-  <wpt lat="40.241295" lon="-4.915575">
-    <ele>820.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B33082</name>
-    <cmt>PB IGLESIA</cmt>
-  </wpt>
-  <wpt lat="40.209385" lon="-5.080217">
-    <ele>750.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B41070</name>
-    <cmt>ARENAS SAN PEDRO</cmt>
-  </wpt>
-  <wpt lat="40.149117" lon="-5.340024">
-    <ele>400.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B42040</name>
-    <cmt>MADRIGAL VERA</cmt>
-  </wpt>
-  <wpt lat="40.231342" lon="-4.901190">
-    <ele>550.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B44055</name>
-    <cmt>PB BASURERO</cmt>
-  </wpt>
-  <wpt lat="40.312918" lon="-4.885250">
-    <ele>2175.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B45218</name>
-    <cmt>EL CABEZO</cmt>
-  </wpt>
-  <wpt lat="40.364722" lon="-4.624166">
-    <ele>1955.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B46196</name>
-    <cmt>LA ESCUSA PUNTO GEOD</cmt>
-  </wpt>
-  <wpt lat="40.781597" lon="-4.411687">
-    <ele>1100.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B47110</name>
-    <cmt>VILLACASTIN IGLESIA</cmt>
-  </wpt>
-  <wpt lat="40.354858" lon="-5.113503">
-    <ele>1600.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B48160</name>
-    <cmt>PARADOR DE GREDOS</cmt>
-  </wpt>
-  <wpt lat="40.534325" lon="-4.838780">
-    <ele>1351.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B49135</name>
-    <cmt>CASTILLO MANQUEOSPESE</cmt>
-  </wpt>
-  <wpt lat="40.192150" lon="-5.121533">
-    <ele>660.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B58066</name>
-    <cmt>CRUCE GUISANDO</cmt>
-  </wpt>
-  <wpt lat="40.207615" lon="-5.018610">
-    <ele>700.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B59070</name>
-    <cmt>ABANTERA CRUCE</cmt>
-  </wpt>
-  <wpt lat="40.290966" lon="-4.823485">
-    <ele>1300.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B60130</name>
-    <cmt>MIJARES</cmt>
-  </wpt>
-  <wpt lat="40.325760" lon="-4.723631">
-    <ele>1200.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B61120</name>
-    <cmt>PIEDRALAVES</cmt>
-  </wpt>
-  <wpt lat="40.069333" lon="-5.088167">
-    <ele>394.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B62039</name>
-    <cmt>NAVALCAN</cmt>
-  </wpt>
-  <wpt lat="40.058167" lon="-5.057000">
-    <ele>400.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B63040</name>
-    <cmt>PARRILLAS</cmt>
-  </wpt>
-  <wpt lat="40.174450" lon="-5.052867">
-    <ele>510.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B64051</name>
-    <cmt>CUEVAS AGUILA</cmt>
-  </wpt>
-  <wpt lat="40.100000" lon="-4.976667">
-    <ele>521.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>B65052</name>
-    <cmt>ALDEA ARANGO</cmt>
-  </wpt>
   <wpt lat="40.255474" lon="-4.906204">
     <ele>1125.0</ele>
-    <time>2012-03-23T21:59:42</time>
+    <time>2012-03-24T22:35:13</time>
     <name>D01125</name>
     <cmt>DESPEG PB OESTE</cmt>
   </wpt>
   <wpt lat="40.250858" lon="-4.888968">
     <ele>1000.0</ele>
-    <time>2012-03-23T21:59:42</time>
+    <time>2012-03-24T22:35:13</time>
     <name>D02100</name>
     <cmt>DESPEG PB ESTE</cmt>
   </wpt>
   <wpt lat="40.243836" lon="-4.894709">
     <ele>940.0</ele>
-    <time>2012-03-23T21:59:42</time>
+    <time>2012-03-24T22:35:13</time>
     <name>D03094</name>
     <cmt>DESPEG PB SUR</cmt>
   </wpt>
   <wpt lat="40.154736" lon="-4.743076">
     <ele>1320.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>D08132</name>
+    <time>2012-03-24T22:35:13</time>
+    <name>D04132</name>
     <cmt>DESPEG REAL S VICENTE</cmt>
-  </wpt>
-  <wpt lat="40.447605" lon="-4.511002">
-    <ele>1320.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>D09132</name>
-    <cmt>DESPEG ARREBATACAPAS</cmt>
-  </wpt>
-  <wpt lat="40.326775" lon="-4.679132">
-    <ele>1200.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>D11120</name>
-    <cmt>DESPEG PIEDRALAVES</cmt>
   </wpt>
   <wpt lat="40.421989" lon="-5.300721">
     <ele>1920.0</ele>
-    <time>2012-03-23T21:59:42</time>
-    <name>D12192</name>
-    <cmt>DESPEG PIEDRAHITA Caseta</cmt>
+    <time>2012-03-24T22:35:13</time>
+    <name>D10192</name>
+    <cmt>DESPEG PIEDRAHITA CASETA</cmt>
+  </wpt>
+  <wpt lat="40.228405" lon="-4.881338">
+    <ele>440.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G01044</name>
+    <cmt>GOL PEDRO BERNARDO</cmt>
+  </wpt>
+  <wpt lat="40.229332" lon="-4.751533">
+    <ele>700.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G02070</name>
+    <cmt>GOL IGLESUELA</cmt>
+  </wpt>
+  <wpt lat="40.234043" lon="-4.598195">
+    <ele>637.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G03068</name>
+    <cmt>GOL HIGUERA DUENAS</cmt>
+  </wpt>
+  <wpt lat="39.953602" lon="-4.808965">
+    <ele>365.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G04036</name>
+    <cmt>GOL TALAVERA</cmt>
+  </wpt>
+  <wpt lat="40.909817" lon="-4.368954">
+    <ele>940.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G05094</name>
+    <cmt>GOL MARUGAN AERODROMO</cmt>
+  </wpt>
+  <wpt lat="40.605515" lon="-4.791884">
+    <ele>1080.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G06108</name>
+    <cmt>GOL AVILA AERODROMO</cmt>
+  </wpt>
+  <wpt lat="40.483639" lon="-5.318584">
+    <ele>1016.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G07102</name>
+    <cmt>GOL PIEDRAHITA ESCOMBRERA</cmt>
+  </wpt>
+  <wpt lat="41.371464" lon="-4.695979">
+    <ele>738.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G08074</name>
+    <cmt>GOL ALCAZAREN AERODROMO</cmt>
+  </wpt>
+  <wpt lat="41.108025" lon="-3.717241">
+    <ele>1172.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G09117</name>
+    <cmt>GOL ARCONES</cmt>
+  </wpt>
+  <wpt lat="40.181118" lon="-4.411290">
+    <ele>477.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G10048</name>
+    <cmt>GOL ESCALONA</cmt>
+  </wpt>
+  <wpt lat="40.067268" lon="-5.358474">
+    <ele>288.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>G11029</name>
+    <cmt>GOL ROSARITO</cmt>
+  </wpt>
+  <wpt lat="39.984917" lon="-5.605917">
+    <ele>290.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B01029</name>
+    <cmt>TALAYUELA</cmt>
+  </wpt>
+  <wpt lat="40.088688" lon="-4.795122">
+    <ele>580.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B04058</name>
+    <cmt>MARRUPE CRUCE</cmt>
+  </wpt>
+  <wpt lat="40.268162" lon="-4.844302">
+    <ele>720.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B05072</name>
+    <cmt>TORRE INCENDIOS</cmt>
+  </wpt>
+  <wpt lat="40.210636" lon="-4.962979">
+    <ele>800.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B07080</name>
+    <cmt>ABANTERA</cmt>
+  </wpt>
+  <wpt lat="40.205826" lon="-4.929815">
+    <ele>440.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B08044</name>
+    <cmt>LANZAHITA FRONTON</cmt>
+  </wpt>
+  <wpt lat="39.904233" lon="-5.691867">
+    <ele>278.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B09028</name>
+    <cmt>NAVALMORAL GASOLINERA</cmt>
+  </wpt>
+  <wpt lat="40.255928" lon="-5.019141">
+    <ele>580.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B10058</name>
+    <cmt>MOMBELTRAN CASTILLO</cmt>
+  </wpt>
+  <wpt lat="40.183365" lon="-4.740501">
+    <ele>635.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B13078</name>
+    <cmt>ALMENDRAL CANADA</cmt>
+  </wpt>
+  <wpt lat="40.185524" lon="-4.996919">
+    <ele>400.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B14040</name>
+    <cmt>LA HIGUERILLA</cmt>
+  </wpt>
+  <wpt lat="40.326775" lon="-4.679132">
+    <ele>1200.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B11120</name>
+    <cmt>PIEDRALAVES DESPEG PARAP</cmt>
+  </wpt>
+  <wpt lat="40.154987" lon="-5.019223">
+    <ele>380.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B16038</name>
+    <cmt>TIETAR PUENTE</cmt>
+  </wpt>
+  <wpt lat="40.297485" lon="-4.641086">
+    <ele>620.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B20062</name>
+    <cmt>ADRADA CASTILLO</cmt>
+  </wpt>
+  <wpt lat="40.238682" lon="-4.603349">
+    <ele>690.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B24069</name>
+    <cmt>HIGUERA DUENAS PUEBLO</cmt>
+  </wpt>
+  <wpt lat="40.310463" lon="-4.515096">
+    <ele>850.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B25085</name>
+    <cmt>MONASTERIO SEMIA</cmt>
+  </wpt>
+  <wpt lat="40.237450" lon="-4.920983">
+    <ele>760.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B26076</name>
+    <cmt>CAMPO FUTBOL</cmt>
+  </wpt>
+  <wpt lat="40.358379" lon="-4.409911">
+    <ele>700.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B27070</name>
+    <cmt>S MARTIN VALDEIGLESIAS</cmt>
+  </wpt>
+  <wpt lat="40.278904" lon="-4.295161">
+    <ele>500.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B28050</name>
+    <cmt>VILLA DEL PRADO</cmt>
+  </wpt>
+  <wpt lat="40.346993" lon="-4.443419">
+    <ele>650.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B29065</name>
+    <cmt>TIEMBLO CRUCE</cmt>
+  </wpt>
+  <wpt lat="40.241295" lon="-4.915575">
+    <ele>820.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B33082</name>
+    <cmt>PB IGLESIA</cmt>
+  </wpt>
+  <wpt lat="40.209385" lon="-5.080217">
+    <ele>750.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B41070</name>
+    <cmt>ARENAS SAN PEDRO</cmt>
+  </wpt>
+  <wpt lat="40.149117" lon="-5.340024">
+    <ele>400.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B42040</name>
+    <cmt>MADRIGAL VERA</cmt>
+  </wpt>
+  <wpt lat="40.231342" lon="-4.901190">
+    <ele>550.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B44055</name>
+    <cmt>PB BASURERO</cmt>
+  </wpt>
+  <wpt lat="40.312918" lon="-4.885250">
+    <ele>2175.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B45218</name>
+    <cmt>EL CABEZO</cmt>
+  </wpt>
+  <wpt lat="40.364722" lon="-4.624166">
+    <ele>1955.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B46196</name>
+    <cmt>LA ESCUSA PUNTO GEOD</cmt>
+  </wpt>
+  <wpt lat="40.781597" lon="-4.411687">
+    <ele>1100.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B47110</name>
+    <cmt>VILLACASTIN IGLESIA</cmt>
+  </wpt>
+  <wpt lat="40.354858" lon="-5.113503">
+    <ele>1600.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B48160</name>
+    <cmt>PARADOR DE GREDOS</cmt>
+  </wpt>
+  <wpt lat="40.534325" lon="-4.838780">
+    <ele>1351.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B49135</name>
+    <cmt>CASTILLO MANQUEOSPESE</cmt>
+  </wpt>
+  <wpt lat="40.192150" lon="-5.121533">
+    <ele>660.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B58066</name>
+    <cmt>CRUCE GUISANDO</cmt>
+  </wpt>
+  <wpt lat="40.207615" lon="-5.018610">
+    <ele>700.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B59070</name>
+    <cmt>ABANTERA CRUCE</cmt>
+  </wpt>
+  <wpt lat="40.290966" lon="-4.823485">
+    <ele>1300.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B60130</name>
+    <cmt>MIJARES</cmt>
+  </wpt>
+  <wpt lat="40.325760" lon="-4.723631">
+    <ele>1200.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B61120</name>
+    <cmt>PIEDRALAVES</cmt>
+  </wpt>
+  <wpt lat="40.069333" lon="-5.088167">
+    <ele>394.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B62039</name>
+    <cmt>NAVALCAN</cmt>
+  </wpt>
+  <wpt lat="40.058167" lon="-5.057000">
+    <ele>400.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B63040</name>
+    <cmt>PARRILLAS</cmt>
+  </wpt>
+  <wpt lat="40.174450" lon="-5.052867">
+    <ele>510.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B64051</name>
+    <cmt>CUEVAS AGUILA</cmt>
+  </wpt>
+  <wpt lat="40.100000" lon="-4.976667">
+    <ele>521.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>B65052</name>
+    <cmt>ALDEA ARANGO</cmt>
+  </wpt>
+  <wpt lat="40.246906" lon="-4.789621">
+    <ele>430.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A06043</name>
+    <cmt>AT IGLESUELA AERODROMO</cmt>
+  </wpt>
+  <wpt lat="40.110424" lon="-4.941124">
+    <ele>550.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A07055</name>
+    <cmt>AT MONTESCLAROS</cmt>
+  </wpt>
+  <wpt lat="39.931725" lon="-5.162455">
+    <ele>370.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A08037</name>
+    <cmt>AT OROPESA</cmt>
+  </wpt>
+  <wpt lat="40.180302" lon="-4.853853">
+    <ele>450.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A10045</name>
+    <cmt>AT BUENAVENTURA</cmt>
+  </wpt>
+  <wpt lat="39.993290" lon="-4.741658">
+    <ele>370.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A11037</name>
+    <cmt>AT CAZALEGAS</cmt>
+  </wpt>
+  <wpt lat="39.883575" lon="-4.351251">
+    <ele>510.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A12051</name>
+    <cmt>AT PUEBLA MONTALVAN</cmt>
+  </wpt>
+  <wpt lat="40.078259" lon="-4.380190">
+    <ele>490.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A14049</name>
+    <cmt>AT MAQUEDA GASOLINERA</cmt>
+  </wpt>
+  <wpt lat="40.180374" lon="-5.039601">
+    <ele>410.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A15041</name>
+    <cmt>AT CRUCE ASP TAL</cmt>
+  </wpt>
+  <wpt lat="39.989056" lon="-4.966190">
+    <ele>480.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A16048</name>
+    <cmt>AT VELADA DEPOSITO</cmt>
+  </wpt>
+  <wpt lat="40.158661" lon="-4.794487">
+    <ele>750.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A18075</name>
+    <cmt>AT NAVAMORCUENDE</cmt>
+  </wpt>
+  <wpt lat="39.960262" lon="-4.200020">
+    <ele>500.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A19050</name>
+    <cmt>AT RIELVES</cmt>
+  </wpt>
+  <wpt lat="40.127358" lon="-5.225620">
+    <ele>380.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A22038</name>
+    <cmt>AT CANDELEDA</cmt>
+  </wpt>
+  <wpt lat="40.335983" lon="-4.470084">
+    <ele>670.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A24067</name>
+    <cmt>AT NAVAHONDILLA URBANIZACION</cmt>
+  </wpt>
+  <wpt lat="40.211617" lon="-4.386746">
+    <ele>520.0</ele>
+    <time>2012-03-24T22:35:13</time>
+    <name>A43052</name>
+    <cmt>AT ALMOROX</cmt>
   </wpt>
 </gpx>

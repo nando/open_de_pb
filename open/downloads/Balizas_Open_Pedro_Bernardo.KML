@@ -28,6 +28,47 @@
     <Folder>
       <name>Waypoints</name>
       <Placemark>
+        <name>D01125</name>
+        <description>DESPEG PB OESTE</description>
+        <styleUrl>#waypoint_d</styleUrl>
+        <Point>
+          <coordinates>-4.906204,40.255474,1125.100000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D02100</name>
+        <description>DESPEG PB ESTE</description>
+        <styleUrl>#waypoint_d</styleUrl>
+        <Point>
+          <coordinates>-4.888968,40.250858,999.900000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D03094</name>
+        <description>DESPEG PB SUR</description>
+        <styleUrl>#waypoint_d</styleUrl>
+        <Point>
+          <coordinates>-4.894709,40.243836,940.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D04132</name>
+        <description>DESPEG REAL S VICENTE</description>
+        <styleUrl>#waypoint_d</styleUrl>
+        <Point>
+          <coordinates>-4.743076,40.154736,1320.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D10192</name>
+        <description>DESPEG PIEDRAHITA CASETA</description>
+        <styleUrl>#waypoint_d</styleUrl>
+        <Point>
+          <coordinates>-5.300721,40.421989,1920.0</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
         <name>G01044</name>
         <description>GOL PEDRO BERNARDO</description>
         <styleUrl>#waypoint_a</styleUrl>
@@ -45,7 +86,7 @@
       </Placemark>
       <Placemark>
         <name>G03068</name>
-        <description>GOL HIGUERA DUEÑAS</description>
+        <description>GOL HIGUERA DUENAS</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
           <coordinates>-4.598195,40.234043,637.0</coordinates>
@@ -116,135 +157,20 @@
         </Point>
       </Placemark>
 
-
-      <Placemark>
-        <name>A04058</name>
-        <description>AT MARRUPE CRUCE</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.795122,40.088688,580.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A06043</name>
-        <description>AT IGLESUELA AERODROMO</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.789621,40.246906,430.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A07055</name>
-        <description>AT MONTESCLAROS</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.941124,40.110424,550.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A08037</name>
-        <description>AT OROPESA</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-5.162455,39.931725,370.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A10045</name>
-        <description>AT BUENAVENTURA</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.853853,40.180302,450.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A11037</name>
-        <description>AT CAZALEGAS</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.741658,39.993290,370.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A12051</name>
-        <description>AT PUEBLA MONTALVAN</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.351251,39.883575,510.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A14049</name>
-        <description>AT MAQUEDA GASOLINERA</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.380190,40.078259,489.900000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A15041</name>
-        <description>AT CRUCE ASP TAL</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-5.039601,40.180374,409.900000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A16048</name>
-        <description>AT VELADA DEPOSITO</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.966190,39.989056,480.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A18075</name>
-        <description>AT NAVAMORCUENDE</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.794487,40.158661,749.900000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A19050</name>
-        <description>AT RIELVES</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.200020,39.960262,500.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A22038</name>
-        <description>AT CANDELEDA</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-5.225620,40.127358,380.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A24067</name>
-        <description>AT NAVAHONDILLA urb</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.470084,40.335983,669.900000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>A43052</name>
-        <description>AT ALMOROX</description>
-        <styleUrl>#waypoint_a</styleUrl>
-        <Point>
-          <coordinates>-4.386746,40.211617,520.0</coordinates>
-        </Point>
-      </Placemark>
-
-
       <Placemark>
         <name>B01029</name>
         <description>TALAYUELA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-5.605917,39.984917,290.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B04058</name>
+        <description>MARRUPE CRUCE</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-4.795122,40.088688,580.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -289,7 +215,7 @@
       </Placemark>
       <Placemark>
         <name>B13078</name>
-        <description>ALMENDRAL CAÑADA</description>
+        <description>ALMENDRAL CANADA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.740501,40.183365,635.0</coordinates>
@@ -301,6 +227,14 @@
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.996919,40.185524,400.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B11120</name>
+        <description>PIEDRALAVES DESPEG PARAP</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-4.679132,40.326775,1200.100000</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -321,7 +255,7 @@
       </Placemark>
       <Placemark>
         <name>B24069</name>
-        <description>HIGUERA DUEÑAS pueblo</description>
+        <description>HIGUERA DUENAS PUEBLO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.603349,40.238682,690.100000</coordinates>
@@ -353,7 +287,7 @@
       </Placemark>
       <Placemark>
         <name>B28050</name>
-        <description>VILLA PRADO</description>
+        <description>VILLA DEL PRADO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.295161,40.278904,500.0</coordinates>
@@ -504,63 +438,119 @@
         </Point>
       </Placemark>
 
+      <Placemark>
+        <name>A06043</name>
+        <description>AT IGLESUELA AERODROMO</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.789621,40.246906,430.100000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A07055</name>
+        <description>AT MONTESCLAROS</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.941124,40.110424,550.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A08037</name>
+        <description>AT OROPESA</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-5.162455,39.931725,370.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A10045</name>
+        <description>AT BUENAVENTURA</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.853853,40.180302,450.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A11037</name>
+        <description>AT CAZALEGAS</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.741658,39.993290,370.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A12051</name>
+        <description>AT PUEBLA MONTALVAN</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.351251,39.883575,510.100000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A14049</name>
+        <description>AT MAQUEDA GASOLINERA</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.380190,40.078259,489.900000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A15041</name>
+        <description>AT CRUCE ASP TAL</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-5.039601,40.180374,409.900000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A16048</name>
+        <description>AT VELADA DEPOSITO</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.966190,39.989056,480.100000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A18075</name>
+        <description>AT NAVAMORCUENDE</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.794487,40.158661,749.900000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A19050</name>
+        <description>AT RIELVES</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.200020,39.960262,500.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A22038</name>
+        <description>AT CANDELEDA</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-5.225620,40.127358,380.100000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A24067</name>
+        <description>AT NAVAHONDILLA URBANIZACION</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.470084,40.335983,669.900000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A43052</name>
+        <description>AT ALMOROX</description>
+        <styleUrl>#waypoint_a</styleUrl>
+        <Point>
+          <coordinates>-4.386746,40.211617,520.0</coordinates>
+        </Point>
+      </Placemark>
 
-      <Placemark>
-        <name>D01125</name>
-        <description>DESPEG PB OESTE</description>
-        <styleUrl>#waypoint_d</styleUrl>
-        <Point>
-          <coordinates>-4.906204,40.255474,1125.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D02100</name>
-        <description>DESPEG PB ESTE</description>
-        <styleUrl>#waypoint_d</styleUrl>
-        <Point>
-          <coordinates>-4.888968,40.250858,999.900000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D03094</name>
-        <description>DESPEG PB SUR</description>
-        <styleUrl>#waypoint_d</styleUrl>
-        <Point>
-          <coordinates>-4.894709,40.243836,940.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D08132</name>
-        <description>DESPEG REAL S VICENTE</description>
-        <styleUrl>#waypoint_d</styleUrl>
-        <Point>
-          <coordinates>-4.743076,40.154736,1320.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D09132</name>
-        <description>DESPEG ARREBATACAPAS</description>
-        <styleUrl>#waypoint_d</styleUrl>
-        <Point>
-          <coordinates>-4.511002,40.447605,1320.0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D11120</name>
-        <description>DESPEG PIEDRALAVES</description>
-        <styleUrl>#waypoint_d</styleUrl>
-        <Point>
-          <coordinates>-4.679132,40.326775,1200.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D12192</name>
-        <description>DESPEG PIEDRAHITA Caseta</description>
-        <styleUrl>#waypoint_d</styleUrl>
-        <Point>
-          <coordinates>-5.300721,40.421989,1920.0</coordinates>
-        </Point>
-      </Placemark>
     </Folder>
     <LookAt>
       <longitude>-4.865944</longitude>
