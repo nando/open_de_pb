@@ -161,12 +161,6 @@
     <name>B14040</name>
     <cmt>LA HIGUERILLA</cmt>
   </wpt>
-  <wpt lat="40.326775" lon="-4.679132">
-    <ele>1200.0</ele>
-    <time>2012-03-24T22:35:13</time>
-    <name>B11120</name>
-    <cmt>PIEDRALAVES DESPEG PARAP</cmt>
-  </wpt>
   <wpt lat="40.154987" lon="-5.019223">
     <ele>380.0</ele>
     <time>2012-03-24T22:35:13</time>

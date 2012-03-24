@@ -230,14 +230,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B11120</name>
-        <description>PIEDRALAVES DESPEG PARAP</description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-4.679132,40.326775,1200.100000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>B16038</name>
         <description>TIETAR PUENTE</description>
         <styleUrl>#waypoint_b</styleUrl>
