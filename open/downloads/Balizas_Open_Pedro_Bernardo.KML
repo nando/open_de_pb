@@ -158,7 +158,7 @@
       </Placemark>
 
       <Placemark>
-        <name>B06043</name>
+        <name>B01043</name>
         <description>AT IGLESUELA AERODROMO</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
@@ -166,7 +166,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B10045</name>
+        <name>B02045</name>
         <description>AT BUENAVENTURA</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
@@ -174,7 +174,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B15041</name>
+        <name>B03041</name>
         <description>AT CRUCE ASP TAL</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
@@ -182,7 +182,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B18075</name>
+        <name>B04075</name>
         <description>AT NAVAMORCUENDE</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
@@ -191,7 +191,7 @@
       </Placemark>
 
       <Placemark>
-        <name>B01029</name>
+        <name>B05029</name>
         <description>TALAYUELA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -199,7 +199,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B04058</name>
+        <name>B06058</name>
         <description>MARRUPE CRUCE</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -207,7 +207,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B05072</name>
+        <name>B07072</name>
         <description>TORRE INCENDIOS</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -215,7 +215,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B07080</name>
+        <name>B08080</name>
         <description>ABANTERA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -223,19 +223,11 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B08044</name>
+        <name>B09044</name>
         <description>LANZAHITA FRONTON</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-4.929815,40.205826,439.900000</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>B09028</name>
-        <description>NAVALMORAL GASOLINERA</description>
-        <styleUrl>#waypoint_b</styleUrl>
-        <Point>
-          <coordinates>-5.691867,39.904233,278.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -244,6 +236,14 @@
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
           <coordinates>-5.019141,40.255928,580.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B11028</name>
+        <description>NAVALMORAL GASOLINERA</description>
+        <styleUrl>#waypoint_b</styleUrl>
+        <Point>
+          <coordinates>-5.691867,39.904233,278.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -463,7 +463,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B07055</name>
+        <name>B67055</name>
         <description>MONTESCLAROS</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -471,7 +471,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B08037</name>
+        <name>B68037</name>
         <description>OROPESA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -479,7 +479,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B11037</name>
+        <name>B69037</name>
         <description>CAZALEGAS</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -487,7 +487,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B12051</name>
+        <name>B70051</name>
         <description>PUEBLA MONTALVAN</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -495,7 +495,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B14049</name>
+        <name>B71049</name>
         <description>MAQUEDA GASOLINERA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -503,7 +503,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B16048</name>
+        <name>B72048</name>
         <description>VELADA DEPOSITO</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -511,7 +511,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B19050</name>
+        <name>B73050</name>
         <description>RIELVES</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -519,7 +519,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B22038</name>
+        <name>B74038</name>
         <description>CANDELEDA</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -527,7 +527,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B24067</name>
+        <name>B75067</name>
         <description>NAVAHONDILLA URBANIZACION</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
@@ -535,7 +535,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>B43052</name>
+        <name>B76052</name>
         <description>ALMOROX</description>
         <styleUrl>#waypoint_b</styleUrl>
         <Point>
