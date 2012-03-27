@@ -10,6 +10,49 @@
 
 
 <entry>
+<title>Cargando las balizas con GpsDump</title>
+<link href="http://clubdevuelopb.com/open/2012/03/27/cargando_las_balizas_con_gpsdump.html"/>
+<updated>2012-03-27T00:00:00+02:00</updated>
+<id>http://clubdevuelopb.com/open/2012/03/27/cargando_las_balizas_con_gpsdump</id>
+<content type="html">&lt;p&gt;Para los que no tengáis experiencia cargando las balizas en vuestro GPS aquí va una pequeña chuleta para hacerlo con el &lt;a href='http://www.gethome.no/stein.sorensen/body_gpsdump.htm'&gt;GpsDump&lt;/a&gt;. Con otros programas el proceso suele ser similar:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Lo primero es bajarnos el GpsDump si todavía no lo tenemos en nuestro ordenador. Lo puedes hacer pinchando &lt;a href='http://www.gethome.no/stein.sorensen/GpsDump467.exe'&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Lo siguiente es bajarnos el fichero de balizas. Lo puedes hacer pinchando con el botón derecho &lt;a href='downloads/Balizas_Open_Pedro_Bernardo.WPT'&gt;aquí&lt;/a&gt; y seleccionando la opción &amp;#8221;&lt;em&gt;Guardar enlace como&amp;#8230;&lt;/em&gt;&amp;#8221;.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Después ejecutamos GpsDump (con doble-click donde lo hayamos guardado en el paso 1) y leemos el fichero de balizas: menú &lt;strong&gt;File&lt;/strong&gt;, opción &lt;strong&gt;Open wpts.&lt;/strong&gt; (y seleccionamos el fichero de balizas buscándolo donde lo hayamos guardado en el paso 2).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;En este punto deberían aparecernos todas las balizas listadas en el panel principal del GpsDump. Tenemos que seleccionar las balizas que queremos cargar en nuestro GPS: para seleccionar todas pulsa &lt;strong&gt;Ctrl+A&lt;/strong&gt; (es decir, pulsa la tecla &lt;em&gt;Control&lt;/em&gt; y sin soltarla pulsa la tecla &lt;em&gt;A&lt;/em&gt;).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Para terminar enviamos las balizas seleccionadas a nuestro GPS por medio del menú &lt;strong&gt;Wpts&lt;/strong&gt; y la opción &lt;strong&gt;Send to ???&lt;/strong&gt;, siendo &lt;em&gt;???&lt;/em&gt; el modelo de nuestro GPS. Si nuestro modelo tiene dos opciones, una terminada en &lt;em&gt;(Only name)&lt;/em&gt; y otra en &lt;em&gt;(ID + Name)&lt;/em&gt;, se recomienda usar esta última, que nos meterá además del ID de la baliza parte de su nombre (p.e. &lt;em&gt;G07117 GOL ARCONES&lt;/em&gt;).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;En este punto las balizas ya deberían estar en nuestro GPS. Si se produjo un error en el paso anterior comprueba que el GPS esta bien conectado con el ordenador. Dependiendo del GPS es posible que tengamos que ponerlo en lo que se suele llamar &lt;em&gt;modo transferencia de datos&lt;/em&gt; (en el Compeo consiste en tener en pantalla el menú de configuración, por ejemplo). Si todo lo anterior parece estar bien y seguimos teniendo problemas podemos probar a cambiar el puerto serie por medio del menú &lt;strong&gt;Misc&lt;/strong&gt;, opción &lt;strong&gt;Set COM port&lt;/strong&gt; e intentar de nuevo el paso 5.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Si por lo que sea la cosa no funciona y todo esto te supera, no te preocupes, al formalizar la inscripción nosotros nos encargaremos de meter las balizas en tu GPS sea como sea. Eso sí, si el cable es especial no te olvides de llevarlo contigo. Si no puedes esperar a ese momento pregunta en el &lt;a href='http://es.groups.yahoo.com/group/ala_delta/'&gt;foro de ala delta&lt;/a&gt; que no te faltarán buenos consejos.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;¡A volar de flor en flor!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content>
+</entry>
+
+
+<entry>
 <title>¡Ya tenemos las balizas!</title>
 <link href="http://clubdevuelopb.com/open/2012/03/26/ya_tenemos_balizas.html"/>
 <updated>2012-03-26T00:00:00+02:00</updated>
