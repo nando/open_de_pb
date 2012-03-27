@@ -77,11 +77,11 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>G02070</name>
+        <name>G02052</name>
         <description>GOL IGLESUELA</description>
         <styleUrl>#waypoint_a</styleUrl>
         <Point>
-          <coordinates>-4.751533,40.229332,700.0</coordinates>
+          <coordinates>-4.751533,40.229332,515.0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
