@@ -10,45 +10,20 @@
 
 
 <entry>
-<title>Cargando las balizas con GpsDump</title>
-<link href="http://clubdevuelopb.com/open/2012/03/27/cargando_las_balizas_con_gpsdump.html"/>
-<updated>2012-03-27T00:00:00+02:00</updated>
-<id>http://clubdevuelopb.com/open/2012/03/27/cargando_las_balizas_con_gpsdump</id>
-<content type="html">&lt;p&gt;Para los que no tengáis experiencia cargando las balizas en vuestro GPS aquí va una pequeña chuleta para hacerlo con el &lt;a href='http://www.gethome.no/stein.sorensen/body_gpsdump.htm'&gt;GpsDump&lt;/a&gt;. Con otros programas el proceso suele ser similar:&lt;/p&gt;
+<title>Del Bosque y La Copa del Mundo en Pedro Bernardo</title>
+<link href="http://clubdevuelopb.com/open/2012/03/30/del_bosque_y_la_copa_del_mundo_en_pedro_bernardo.html"/>
+<updated>2012-03-30T00:00:00+02:00</updated>
+<id>http://clubdevuelopb.com/open/2012/03/30/del_bosque_y_la_copa_del_mundo_en_pedro_bernardo</id>
+<content type="html">&lt;img src='images/del_bosque.jpg' alt='Del Bosque con la Copa del Mundo' class='left' /&gt;
+&lt;p&gt;¿Qué mejor manera de comenzar el I Open de Pedro Bernardo que haciéndonos una foto con la Copa del Mundo de Fútbol de Sudáfrica 2010?&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Lo primero es bajarnos el GpsDump si todavía no lo tenemos en nuestro ordenador. Lo puedes hacer pinchando &lt;a href='http://www.gethome.no/stein.sorensen/GpsDump467.exe'&gt;aquí&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;Pues seguro que si lo intentamos hacer aposta no nos sale, pero cosas del azar, &lt;strong&gt;el viernes 27 de abril a las 7 de la tarde&lt;/strong&gt; (una hora después de que comience la formalización de inscripciones del Open), el seleccionador nacional de fútbol y campeón del mundo &lt;strong&gt;Vicente del Bosque&lt;/strong&gt; estará participando en una charla-coloquio en el &lt;strong&gt;Centro Cultural&lt;/strong&gt; del pueblo.&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Lo siguiente es bajarnos el fichero de balizas. Lo puedes hacer pinchando con el botón derecho &lt;a href='downloads/Balizas_Open_Pedro_Bernardo.WPT'&gt;aquí&lt;/a&gt; y seleccionando la opción &amp;#8221;&lt;em&gt;Guardar enlace como&amp;#8230;&lt;/em&gt;&amp;#8221;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;Y &lt;strong&gt;desde las 10 de la mañana hasta las 10 de la noche&lt;/strong&gt;, también en el Centro Cultural, &lt;strong&gt;estará expuesta La Copa del Mundo&lt;/strong&gt; para que podamos verla e inmortalizarnos junto ella.&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;Después ejecutamos GpsDump (con doble-click donde lo hayamos guardado en el paso 1) y leemos el fichero de balizas: menú &lt;strong&gt;File&lt;/strong&gt;, opción &lt;strong&gt;Open wpts.&lt;/strong&gt; (y seleccionamos el fichero de balizas buscándolo donde lo hayamos guardado en el paso 2).&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;Un motivo más para no perderse este primer Open, que a falta de cuatro semanas justas para su comienzo ya tiene &lt;a href='pilotos.html'&gt;42 pilotos inscritos&lt;/a&gt; procedentes de muy diversos lugares&amp;#8230; &lt;strong&gt;¡os esperamos con La Copa!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;En este punto deberían aparecernos todas las balizas listadas en el panel principal del GpsDump. Tenemos que seleccionar las balizas que queremos cargar en nuestro GPS: para seleccionar todas pulsa &lt;strong&gt;Ctrl+A&lt;/strong&gt; (es decir, pulsa la tecla &lt;em&gt;Control&lt;/em&gt; y sin soltarla pulsa la tecla &lt;em&gt;A&lt;/em&gt;).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Para terminar enviamos las balizas seleccionadas a nuestro GPS por medio del menú &lt;strong&gt;Wpts&lt;/strong&gt; y la opción &lt;strong&gt;Send to ???&lt;/strong&gt;, siendo &lt;em&gt;???&lt;/em&gt; el modelo de nuestro GPS. Si nuestro modelo tiene dos opciones, una terminada en &lt;em&gt;(Only name)&lt;/em&gt; y otra en &lt;em&gt;(ID + Name)&lt;/em&gt;, se recomienda usar esta última, que nos meterá además del ID de la baliza parte de su nombre (p.e. &lt;em&gt;G07117 GOL ARCONES&lt;/em&gt;).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;En este punto las balizas ya deberían estar en nuestro GPS. Si se produjo un error en el paso anterior comprueba que el GPS esta bien conectado con el ordenador. Dependiendo del GPS es posible que tengamos que ponerlo en lo que se suele llamar &lt;em&gt;modo transferencia de datos&lt;/em&gt; (en el Compeo consiste en tener en pantalla el menú de configuración, por ejemplo). Si todo lo anterior parece estar bien y seguimos teniendo problemas podemos probar a cambiar el puerto serie por medio del menú &lt;strong&gt;Misc&lt;/strong&gt;, opción &lt;strong&gt;Set COM port&lt;/strong&gt; e intentar de nuevo el paso 5.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Si por lo que sea la cosa no funciona y todo esto te supera, no te preocupes, al formalizar la inscripción nosotros nos encargaremos de meter las balizas en tu GPS sea como sea. Eso sí, si el cable es especial no te olvides de llevarlo contigo. Si no puedes esperar a ese momento pregunta en el &lt;a href='http://es.groups.yahoo.com/group/ala_delta/'&gt;foro de ala delta&lt;/a&gt; que no te faltarán buenos consejos.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;¡A volar de flor en flor!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content>
+&lt;p&gt;Vía &lt;a href='http://pbdigital.blogspot.com.es/2012/03/la-copa-del-mundo-en-pedro-bernardo.html'&gt;PBDigital&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 
 
@@ -71,7 +46,7 @@
 <updated>2012-03-08T00:00:00+01:00</updated>
 <id>http://clubdevuelopb.com/open/2012/03/08/un-par-de-vuelos-en-agosto</id>
 <content type="html">&lt;p&gt;Carlos ha colgado un par de vuelos por la cuerda que no tienen desperdicio. En el primero pasa el puerto de Mijares hasta llegar a la Gamonosa para continuar hacia La Iglesuela donde aterriza. Del segundo sólo vemos el principio ya que el vídeo se corta cuando sobrevuela El Cabezo con un buen puñado de alas.&lt;/p&gt;
-&lt;iframe src='http://www.youtube.com/embed/EDqBQH2fzn4' allowfullscreen='allowfullscreen' frameborder='0'&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/EDqBQH2fzn4' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;&lt;div class='quote'&gt;
 &lt;p&gt;&quot;Un par de vuelos por la montaña de Pedro Bernardo, dos regalos de los muchos que el valle del Tietar nos hace a los voladores cada temporada.&quot;&lt;/p&gt;
 &lt;p&gt;CARLOS&lt;/p&gt;
@@ -126,8 +101,8 @@
 <link href="http://clubdevuelopb.com/open/2012/02/29/xicohumo_meets_peter_bernard_east.html"/>
 <updated>2012-02-29T00:00:00+01:00</updated>
 <id>http://clubdevuelopb.com/open/2012/02/29/xicohumo_meets_peter_bernard_east</id>
-<content type="html">&lt;p&gt;O &amp;#8220;&lt;strong&gt;el día que nos juntamos 14 alas en la este sin haberlo preparado&lt;/strong&gt;&amp;#8221;. Mucho material (&lt;a href='http://www.youtube.com/watch?v=BON9OCJTrs0' title='Vídeo de Xicohumo'&gt;vídeo&lt;/a&gt;, &lt;a href='https://picasaweb.google.com/102973229036192373723/PedroBernardo1102011' title='Fotos de Carlos'&gt;fotos&lt;/a&gt; y &lt;a href='http://skyrides.wordpress.com/2011/10/01/sabado-1-de-octubre-de-2011-pedro-bernardo-este-bajo/' title='Post en Skyrides'&gt;relato&lt;/a&gt;) de aquel bonito día que arrancaba el todavía jugosete mes de octubre del pasado 2011.&lt;/p&gt;
-&lt;iframe src='http://www.youtube.com/embed/BON9OCJTrs0' allowfullscreen='allowfullscreen' frameborder='0'&gt;
+<content type="html">&lt;p&gt;O &amp;#8220;&lt;strong&gt;el día que nos juntamos 14 alas en la este sin haberlo preparado&lt;/strong&gt;&amp;#8221;. Mucho material (&lt;a title='Vídeo de Xicohumo' href='http://www.youtube.com/watch?v=BON9OCJTrs0'&gt;vídeo&lt;/a&gt;, &lt;a title='Fotos de Carlos' href='https://picasaweb.google.com/102973229036192373723/PedroBernardo1102011'&gt;fotos&lt;/a&gt; y &lt;a title='Post en Skyrides' href='http://skyrides.wordpress.com/2011/10/01/sabado-1-de-octubre-de-2011-pedro-bernardo-este-bajo/'&gt;relato&lt;/a&gt;) de aquel bonito día que arrancaba el todavía jugosete mes de octubre del pasado 2011.&lt;/p&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/BON9OCJTrs0' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
