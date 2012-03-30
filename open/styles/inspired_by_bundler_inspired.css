@@ -169,6 +169,10 @@ div.account p {
 #post h2 {
   margin-bottom: 0;
 }
+a.do_comment {
+  font-size: 80%; 
+  font-style: italic; 
+}
 section h2 {
   border-bottom:2px black solid;
   padding-bottom:5px;
