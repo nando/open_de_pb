@@ -48,6 +48,8 @@
 <ul>
 <li>Site: <a href='http://morning-planet-6150.herokuapp.com'>http://morning-planet-6150.herokuapp.com</a></li>
 
+<li><a href='http://morning-planet-6150.herokuapp.com/pilots.pdf'>Registro de despegues</a>: <a href='http://morning-planet-6150.herokuapp.com/pilots.pdf'>http://morning-planet-6150.herokuapp.com/pilots.pdf</a></li>
+
 <li>Repo en Heroku: git@heroku.com:morning-planet-6150.git</li>
 
 <li>Repo en Github: git@github.com:nando/openflydb.git</li>
@@ -64,11 +66,12 @@
 <h2 id='mantenimientos'>Mantenimientos</h2>
 
 <ul>
-<li>
-<p>Balizas Edición de KML a mano y de ahí a WPT y GPX con GPSDump, CSV con GPSBabel y PDF leyendo el CSV desde Excel o Libre Office.</p>
-
-<p>$EDITOR Balizas.KML wine ~/bin/GpsDump.exe # generar WPT y GPX con GPSDump gpsbabel -i kml -f downloads/Balizas.KML -o unicsv -F downloads/Balizas.csv oocalc downloads/Balizas.csv # y con él CSV generamos el PDF</p>
-</li>
+<li>Balizas Edición de KML a mano y de ahí a WPT y GPX con GPSDump, CSV con GPSBabel y PDF leyendo el CSV desde Excel o Libre Office. <pre>
+  $EDITOR Balizas.KML
+  wine ~/bin/GpsDump.exe # generar WPT y GPX con GPSDump
+  gpsbabel -i kml -f downloads/Balizas.KML -o unicsv -F downloads/Balizas.csv
+  oocalc downloads/Balizas.csv # y con él CSV generamos el PDF
+</pre></li>
 </ul>
 </section>
 </article>
