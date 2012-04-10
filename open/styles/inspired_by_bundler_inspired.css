@@ -317,6 +317,9 @@ table.pilot_stats tbody tr.brand_total.FLUGDRACHEN.GMBH td span {
 table.pilot_stats tbody tr.brand_total.AIRBORNE td span {
   background-position: -5px -161px;
 }
+table.pilot_stats tbody tr.brand_total.AIRWAVE td span {
+  background-position: -5px 51px;
+}
 table.pilot_stats tbody tr.brand_total.AEROS td span {
   background-position: -5px -32px;
 }
