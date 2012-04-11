@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Fs version="3.4" comment="Generated with OpenflyDB">
+  <FsCompetition id="0" name="OpenflyDB Comp" location="OpenflyDB loc" from="2012-04-28" to="2012-05-01" utc_offset="+2">
+    <FsParticipants>
+      <FsParticipant id="32"
+                     name="Ako Abollado"
+                     glider="AEROS Combat GT"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CVL MADRID" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="50"
+                     name="Alberto (Xicohumo) González Sánchez"
+                     glider="WILLS WING Sport 2 175"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="HOMBRES PAJARO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="55"
+                     name="Antonio López Lobo"
+                     glider="MOYES Litespeed"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="PEDRO BERNARDO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="38"
+                     name="Antonio Saez Medina"
+                     glider="A-I-R ATOS VQR "
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="ARCONES-CORNEJA" />
+          <FsCustomAttribute name="Tipo de Ala" value="Rígida" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="A-I-R" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="40"
+                     name="António Ideias"
+                     glider="SYNAIRGIE Synairgie"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CNVL-PORTUGAL" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="SYNAIRGIE" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="24"
+                     name="Antonio Luis Faria Araujo"
+                     glider="A-I-R ATOS"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="AVLS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Rígida" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="A-I-R" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="20"
+                     name="Armando Cerrada"
+                     glider="AEROS Combat L"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="PETER  BERNARD" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="34"
+                     name="Benito Rodríguez González"
+                     glider="WILLS WING T2C"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="VUELO LIBRE ZONZAMAS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="37"
+                     name="Blay Jr. Olmos"
+                     glider="MOYES ?"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CVL MADRID" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="26"
+                     name="Carlos Gonzalez Agueros"
+                     glider="AEROS Combat-09"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="SIN CLUB" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="17"
+                     name="Carlos Virgilio"
+                     glider="ICARO 2000 Laminar Z08"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="AVLS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="ICARO 2000" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="19"
+                     name="Carlos  Crespo Menéndez"
+                     glider="AEROS Discus C"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="REAL AREOCLUB DE TOLEDO, LILLO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="43"
+                     name="Christian Cid Moran"
+                     glider="AEROS Compat Steal"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CORNEJA DE GREDOS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="25"
+                     name="Daniel Martín Mota"
+                     glider="WILLS WING T2C"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="EL MILANAR" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="46"
+                     name="David González González"
+                     glider="MOYES Litespeed S"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="HOMBRES PáJARO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="49"
+                     name="Domingo Gallego Escribano"
+                     glider="AEROS Combat-09 13.2"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="ORTXADAR" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="39"
+                     name="Eneko Paez Maicas"
+                     glider="MOYES S "
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="ORTZADAR" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="3"
+                     name="Fernando García Samblas"
+                     glider="MOYES Litespeed S4"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CLUB ALPIN" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="16"
+                     name="Francisco Javier Sánchez Ramos"
+                     glider="ICARO 2000 Laminar Z8"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CLUB VUELO LIBRE ALCARREñO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="ICARO 2000" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="42"
+                     name="Gabi König"
+                     glider="AEROS Discus"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CORNEJA DE GREDOS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="29"
+                     name="Gabriel Peláez Hervás"
+                     glider="MOYES Litespeed S5"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="ALCARREñO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="45"
+                     name="Horacio Calvillo Jimenez"
+                     glider="A-I-R ATOS C"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CVL CADIZ" />
+          <FsCustomAttribute name="Tipo de Ala" value="Rígida" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="A-I-R" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="41"
+                     name="Iosu Errea"
+                     glider="MOYES RS"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="DELTA CLUB DE NAVARRA" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="30"
+                     name="Jesus Galve Osorio"
+                     glider="AEROS Combat 15 LF"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="HOMBRES PAJARO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="36"
+                     name="Joan Hidalgo Proia"
+                     glider="WILLS WING T2C 154"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CLUB ÀGER VOL LLIURE" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="35"
+                     name="José Alcaide Jiménez"
+                     glider="MOYES Litespeed S"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="HOMBRES PAJARO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="27"
+                     name="José Piris Rodríguez"
+                     glider="MOYES Litespeed S3.5"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="PEDRO BERNARDO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="53"
+                     name="Jose Luis (Luli) Pérez Pérez"
+                     glider="WILLS WING Talon 140"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CVL CADIZ" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="28"
+                     name="José Manuel (Juaki) Sanchez Garcia"
+                     glider="WILLS WING T2C 154"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CVL CADIZ" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="51"
+                     name="Juan Lorenzo Rodríguez"
+                     glider="AEROS Combat L"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="PETER.BERNAR" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="56"
+                     name="Juan Antonio (Juani) Molina Vera"
+                     glider="A-I-R ATOS VR"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="VUELO LIBRE MALAGA" />
+          <FsCustomAttribute name="Tipo de Ala" value="Rígida" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="A-I-R" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="14"
+                     name="Juan Manuel Guillén Sánchez"
+                     glider="AEROS Combat GT 13.2"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CLUB ALPIN FRANCAIS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="21"
+                     name="Julio Lopez Fernandez"
+                     glider="AEROS Combat GT 13.2"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="ALPIN FRANCES" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="22"
+                     name="Julio Sancho Morcillo"
+                     glider="WILLS WING T2 144"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="PETER BERNARD" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="57"
+                     name="Luis Bienzobas  Baile"
+                     glider="AEROS Combat GT 13.5"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="VUELO LIBRE ORTZADAR" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="31"
+                     name="Manuel Neto"
+                     glider="ICARO 2000 Laminar MR"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CLUB NACIONAL DE VOO LIVRE" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="ICARO 2000" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="33"
+                     name="Mario Granizo Pérez"
+                     glider="MOYES Litespeed S5"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CLUB DE VUELO ALCARREñO" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="47"
+                     name="Nestor Arjona Trigo"
+                     glider="AEROS Discus 13"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CORRECAS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="13"
+                     name="Pablo García Abia"
+                     glider="AEROS Discus 14C"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CORNEJA DE GREDOS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="AEROS" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="52"
+                     name="Pablo Vicens Hualde"
+                     glider="WILLS WING Sport 2"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CLUB VUELO LIBRE ARCONES" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="23"
+                     name="Paco  Ortuño Candela"
+                     glider="WILLS WING T2C"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="DELTA CLUB VALENCIA" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="XL" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="15"
+                     name="Ricardo Marques da Costa"
+                     glider="MOYES RS 3.5 Carbon"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="CNVL" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="MOYES" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="L" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="18"
+                     name="Rui Pereira"
+                     glider="FLUGDRACHEN GMBH Impuls IC"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="AVLS" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="FLUGDRACHEN GMBH" />
+          <FsCustomAttribute name="Pagado" value="1" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="44"
+                     name="Tximo (Jose Mari) Iriarte Ziritza"
+                     glider="WILLS WING T2 C"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="ORTZADAR" />
+          <FsCustomAttribute name="Tipo de Ala" value="Calva" />
+          <FsCustomAttribute name="Sport" value="0" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="48"
+                     name="Yon Bárcena Ortiz de Urbina"
+                     glider="WILLS WING U2 145"
+                     birthday=""
+                     glider_main_colors=""
+                     fai_licence=""
+                     female=""
+                     nat_code_3166_a3=""
+                     sponsor=""
+                     CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="AMILLENA" />
+          <FsCustomAttribute name="Tipo de Ala" value="Mástil" />
+          <FsCustomAttribute name="Sport" value="1" />
+          <FsCustomAttribute name="Fabricante" value="WILLS WING" />
+          <FsCustomAttribute name="Pagado" value="0" />
+          <FsCustomAttribute name="Talla" value="M" />
+        </FsCustomAttributes>
+      </FsParticipant>
+    </FsParticipants>
+  </FsCompetition>
+</Fs>
