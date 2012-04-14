@@ -334,6 +334,9 @@ table.pilot_stats tbody td{
   background: rgba(255,255,255, .5);
   font-size: 90%;
 }
+table#brands_stats {
+  float: left;
+}
 table.pilot_stats {
   margin-top:30px;
   width: auto;
