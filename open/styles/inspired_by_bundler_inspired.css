@@ -414,37 +414,52 @@ div.clearer {
 article ul {
   padding-left: 10px;
 }
-
-.hover { /* for IE using onmouseover and onmouseout */
-background: #d2d7ff;
-}
-tr.fs_res_res_row:hover
-{
-background: #d2d7ff;
+.total_points {
+  font-weight: bold;
 }
 div.fs_res
 {
-font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size: x-small;
+  font-size: small;
+  line-height:1.5em;
 }
-table.fs_res
-{
-border:solid 1px gray;
-border-collapse:collapse;
-font-size: x-small;
-background: #e2d7c1;
+div.fs_res .hover td { /* for IE using onmouseover and onmouseout */
+  background: #A6FAA1;
 }
-td.fs_res
+div.fs_res tr.fs_res_res_row:hover td
 {
-border:solid 1px gray;
-vertical-align:top;
-padding:5px;
-nowrap:true;
+  background: #A6FAA1;
 }
-th.fs_res
+div.fs_res div.report_date {
+font-size: xx-small;
+float:right;
+}
+div.fs_res table
 {
-border:solid 1px gray;
-vertical-align:center;
+  width: auto;
+}
+div.fs_res table.result_list
+{
+  font-size: x-small;
+  width: 100%;
+}
+div.competition table.result_list
+{
+  font-size: small;
+  width: 100%;
+}
+div.fs_res td
+{
+  background:#b5baFF;
+  padding: 2px 4px;
+  nowrap:true;
+  border-radius:3px;
+  -moz-border-radius:3px;
+}
+div.fs_res th
+{
+  line-height:1.3em;
+  padding: 2px 4px;
+  text-align:center;
 }
 
 
