@@ -126,7 +126,7 @@ div.article {
   font-size: 80%;
   margin-bottom: 0.8em;
 }
-div.account_wrapper {
+div.center_wrapper {
   text-align: center;
 }
 div.quote {
@@ -168,6 +168,25 @@ div.account h4 {
 div.account p {
   padding: 0px;
   margin: 0px;
+}
+div.poster {
+  padding: 10px;
+  text-align: center;
+  background:url("../images/section_bg.png");
+  background: #FFF;
+  border-radius:5px;
+  -moz-border-radius:5px;
+
+  min-height: 50px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  _height: 50px;
+}
+article div.poster img {
+  border:0;
 }
 #post h2 {
   margin-bottom: 0;
@@ -396,13 +415,14 @@ article a.media {
 .right {
   float: right;
 }
-article img.left {
+article img {
   border:1px black solid;
+}
+article img.left {
   margin: 10px 35px 10px 0px;
   display: block;
 }
 article img.right {
-  border:1px black solid;
   margin: 10px 0px 10px 20px;
   float: right;
 }
