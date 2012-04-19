@@ -415,14 +415,13 @@ article a.media {
 .right {
   float: right;
 }
-article img {
-  border:1px black solid;
-}
 article img.left {
+  border:1px black solid;
   margin: 10px 35px 10px 0px;
   display: block;
 }
 article img.right {
+  border:1px black solid;
   margin: 10px 0px 10px 20px;
   float: right;
 }
