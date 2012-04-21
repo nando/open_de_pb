@@ -275,8 +275,8 @@ table td {
   padding-left: 10px;
   padding-right: 10px;
 }
-table.results tr.day:hover {
-  background: #d2d7f5;
+table.results tr td.transparent {
+  background: none!important;
 }
 table th {
   text-align: left;
@@ -284,6 +284,21 @@ table th {
   background-color: #e2d7c1;
   border-radius:3px;
   -moz-border-radius:3px;
+}
+table.results tr th, table.results tr td {
+  text-align: center;
+}
+table.results.final {
+  font-size: 1.2em;
+}
+table.results.final th, table.results.final td {
+  padding: 10px;
+}
+table.results tr th{
+  padding-left: 0;
+}
+table.results .row_header {
+  width: 120px;
 }
 table.pilots tr:hover td.glider_class {
   background: #66BA61;
@@ -441,12 +456,16 @@ div.fs_res
   font-size: small;
   line-height:1.5em;
 }
-div.fs_res .hover td { /* for IE using onmouseover and onmouseout */
+div.fs_res .hover td,
+table.results .hover td { /* for IE using onmouseover and onmouseout */
   background: #A6FAA1;
 }
-div.fs_res tr.fs_res_res_row:hover td
-{
+div.fs_res tr.fs_res_res_row:hover td,
+table.results tr:hover td {
   background: #A6FAA1;
+}
+table.results tr td:hover {
+  background: #C6FFC1;
 }
 div.fs_res div.report_date {
 font-size: xx-small;
@@ -466,7 +485,8 @@ div.competition table.result_list
   font-size: small;
   width: 100%;
 }
-div.fs_res td
+div.fs_res td,
+table.results td
 {
   background:#b5baFF;
   padding: 2px 4px;
