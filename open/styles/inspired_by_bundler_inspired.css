@@ -510,6 +510,10 @@ div.fs_res th
   color:#fff;
 }
 
+#preview img {
+  display: block;
+}
+
 
 /*		Default Layout: 992px. 
 		Leftover space for scrollbars @1024px: 32px.
