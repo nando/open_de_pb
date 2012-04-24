@@ -109,10 +109,11 @@
 
           
           tbody.append('<tr class="class_'+pilots[i].glider_class+'">'+
-                        '<td>'+pilots[i].name+" "+pilots[i].surname+'</td>'+
-                        '<td class="glider_class"><span>&nbsp;</span></td>'+
-                        '<td>'+pilots[i].brand+' '+pilots[i].model+"</td>"+
-                        '<td class="paid_'+pilots[i].paid+'"><span>&nbsp;</span></td></tr>');
+            '<td><span class="pilot_id">'+pilots[i].fsdb_id+'</span>'+
+              pilots[i].name+" "+pilots[i].surname+'</td>'+
+            '<td class="glider_class"><span>&nbsp;</span></td>'+
+            '<td class="glider">'+pilots[i].brand+' '+pilots[i].model+"</td>"+
+            '<td class="paid_'+pilots[i].paid+'"><span>&nbsp;</span></td></tr>');
         }
         $('#total_pilots', tstats).html(pilots.length+ ' alas');
         $('#total_sport', tstats).html('('+sport+ ' sport)');
@@ -127,6 +128,9 @@
         });
         tclubs.show();
         tstats.show();
+
+        Included file 'photo_steaker.js' not found in _includes directory
+
       }
     });
   });
