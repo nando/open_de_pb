@@ -771,13 +771,17 @@
         yOffset = 16;
 
     function photo_sticker(td, image_url) {
+      var spinner = 'images/ajax-loader.gif';
+      $("body").append("<div id='preview' style='display: none'><img src='"+spinner+"' alt='foto...' /></div>"); 
+      var preview = $("#preview"),
+          preview_img = $("img", preview);
       var show_photo = function(e) {
-        $("#preview").remove();
-        $("body").append("<div id='preview'><img src='"+ image_url +"' alt='Foto del piloto' /></div>"); 
-        $("#preview")
+        preview_img.attr('src', spinner);
+        preview
           .css("top",(e.pageY - xOffset) + "px")
           .css("left",(e.pageX + yOffset) + "px")
           .fadeIn("fast");            
+        preview_img.attr('src', image_url);
       };
       var photo_handler = function(e) {
         $.ajax({
@@ -791,11 +795,11 @@
             td.unbind('mouseenter',photo_handler);
             td.hover(show_photo,
               function(){
-                $("#preview").remove();
+                preview.hide();            
               }
             );
             td.mousemove(function(e){
-              $("#preview")
+              preview
                 .css("top",(e.pageY - xOffset) + "px")
                 .css("left",(e.pageX + yOffset) + "px");
             });
