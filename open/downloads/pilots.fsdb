@@ -171,9 +171,9 @@
           <FsCustomAttribute name="Fabricante" value="ATOS"/>
         </FsCustomAttributes>
       </FsParticipant>
-      <FsParticipant id="323" name="Felix Pirri" glider="ICARO 2000 Laminar R" birthday="" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="">
+      <FsParticipant id="323" name="Felix Javier García Iglesias" glider="ICARO 2000 Laminar 13R" birthday="" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="">
         <FsCustomAttributes>
-          <FsCustomAttribute name="Club" value="PEDRO BERNARDO"/>
+          <FsCustomAttribute name="Club" value="PONIENTE"/>
           <FsCustomAttribute name="Tipo de Ala" value="Mástil"/>
           <FsCustomAttribute name="Sport" value="1"/>
           <FsCustomAttribute name="Fabricante" value="ICARO 2000"/>
@@ -289,6 +289,14 @@
           <FsCustomAttribute name="Tipo de Ala" value="Calva"/>
           <FsCustomAttribute name="Sport" value="0"/>
           <FsCustomAttribute name="Fabricante" value="MOYES"/>
+        </FsCustomAttributes>
+      </FsParticipant>
+      <FsParticipant id="324" name="José Terrón González" glider="WILLS WING T2C 144" birthday="" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="">
+        <FsCustomAttributes>
+          <FsCustomAttribute name="Club" value="EL MILANAR"/>
+          <FsCustomAttribute name="Tipo de Ala" value="Calva"/>
+          <FsCustomAttribute name="Sport" value="0"/>
+          <FsCustomAttribute name="Fabricante" value="WILLS WING"/>
         </FsCustomAttributes>
       </FsParticipant>
       <FsParticipant id="15" name="José Antonio (Ako) Abollado" glider="AEROS Combat GT" birthday="" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="6750">
