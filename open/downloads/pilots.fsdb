@@ -500,7 +500,7 @@
           <FsCustomAttribute name="Fabricante" value="WILLS WING" />
         </FsCustomAttributes>
       </FsParticipant>
-      <FsParticipant id="1" name="Carlos Puñet" birthday="" glider="" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="">
+      <FsParticipant id="1" name="Carlos Puñet" birthday="" glider="A-I-R ATOS VR11" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="">
         <FsCustomAttributes>
           <FsCustomAttribute name="Club" value="" />
           <FsCustomAttribute name="Tipo de Ala" value="Rígida" />
@@ -508,7 +508,7 @@
           <FsCustomAttribute name="Fabricante" value="" />
         </FsCustomAttributes>
       </FsParticipant>
-      <FsParticipant id="325" name="Pablo Gómez Trenor" birthday="" glider="" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="">
+      <FsParticipant id="325" name="Pablo Gómez Trenor" birthday="" glider="A-I-R ATOS VQ" glider_main_colors="" fai_licence="" female="0" nat_code_3166_a3="ESP" sponsor="" CIVLID="">
         <FsCustomAttributes>
           <FsCustomAttribute name="Club" value="" />
           <FsCustomAttribute name="Tipo de Ala" value="Rígida" />
@@ -518,7 +518,7 @@
       </FsParticipant>
     </FsParticipants>
     <FsTasks>
-      <FsTask id="1" name="Open de PB - Manga 1" tracklog_folder="Z:\home\nando\fs\openfly\tracks\2012\primera_manga">
+      <FsTask id="1" name="Open de PB - Manga 1" tracklog_folder="tracklogs\primera_manga">
         <FsScoreFormula id="GAP2011" use_distance_points="1" use_time_points="1" use_departure_points="0" use_leading_points="1" use_arrival_position_points="1" use_arrival_time_points="0" min_dist="5" nom_dist="40" nom_time="1.5" nom_goal="0.2" day_quality="0" time_points_if_not_in_goal="0.8" jump_the_gun_factor="0" use_1000_points_for_max_day_quality="0" normalize_1000_before_day_quality="0" time_validity_based_on_pilot_with_speed_rank="1" bonus_gr="0" no_pilots_in_goal_factor="1" task_stopped_factor="1" />
         <FsTaskDefinition ss="2" es="5" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="D01125" lat="40.25547" lon="-4.9062" radius="400" open="2012-05-01T15:00:00+02:00" close="2012-05-01T18:00:00+02:00" />
@@ -526,179 +526,229 @@
           <FsTurnpoint id="B20062" lat="40.29749" lon="-4.64109" radius="400" open="2012-05-01T15:30:00+02:00" close="2012-05-01T20:00:00+02:00" />
           <FsTurnpoint id="B13078" lat="40.18336" lon="-4.7405" radius="400" open="2012-05-01T15:30:00+02:00" close="2012-05-01T20:00:00+02:00" />
           <FsTurnpoint id="G02052" lat="40.22933" lon="-4.75153" radius="400" open="2012-05-01T15:30:00+02:00" close="2012-05-01T20:00:00+02:00" />
-          <FsStartGate open="2012-05-01T15:30:59+02:00" />
-          <FsStartGate open="2012-05-01T15:45:59+02:00" />
-          <FsStartGate open="2012-05-01T16:00:59+02:00" />
-          <FsStartGate open="2012-05-01T16:15:59+02:00" />
-          <FsStartGate open="2012-05-01T16:30:59+02:00" />
+          <FsStartGate open="2012-05-01T15:30:00+02:00" />
+          <FsStartGate open="2012-05-01T15:45:00+02:00" />
+          <FsStartGate open="2012-05-01T16:00:00+02:00" />
+          <FsStartGate open="2012-05-01T16:15:00+02:00" />
+          <FsStartGate open="2012-05-01T16:30:00+02:00" />
         </FsTaskDefinition>
         <FsTaskState task_state="REGULAR" goal_altitude="0" score_back_time="0" cancel_reason="" />
         <FsParticipants>
           <FsParticipant id="170">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="20">
             <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T19:48:12+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="150">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="21">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="45" />
           <FsParticipant id="138">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="29">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="17">
             <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T19:55:00+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="143">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="119">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="92">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="318" />
           <FsParticipant id="73" />
           <FsParticipant id="322">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="323" />
           <FsParticipant id="142">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="44" />
           <FsParticipant id="163" />
           <FsParticipant id="130" />
           <FsParticipant id="171">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="60" />
           <FsParticipant id="135">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="127">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="324">
             <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T19:59:47+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="172" />
           <FsParticipant id="320">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="122" />
           <FsParticipant id="307" />
           <FsParticipant id="131" />
           <FsParticipant id="133">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="147">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="46">
             <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T20:01:49+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="13">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="152">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="206">
             <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T20:02:24+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="164" />
           <FsParticipant id="317" />
           <FsParticipant id="167" />
           <FsParticipant id="2">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="9">
             <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T20:03:35+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="312">
             <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="15">
-            <FsFlightData distance="18.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T20:18:28+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
-            <FsFlightDataNote note="Estimado" />
-          </FsParticipant>
-          <FsParticipant id="155">
-            <FsFlightData distance="0.825" started_ss="" finished_ss="" finished_task="2012-05-01T17:59:00+02:00" tracklog_filename="Antonio López Lobo.20120501-171357.5853.155.kml" lc="0" iv="0" ts="2012-05-02T02:51:59+02:00" alt="1039" baro_alt="931" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T18:06:02+02:00" last_tracklog_point_alt="456" last_tracklog_point_baro_alt="364" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="124">
-            <FsFlightData distance="3.732" started_ss="2012-05-01T15:38:48+02:00" finished_ss="" finished_task="2012-05-01T16:23:09+02:00" tracklog_filename="Antonio Luis Faria Araujo.20120501-151013.9450.124.kml" lc="4.93726138930466" iv="376729" ts="2012-05-02T02:51:59+02:00" alt="0" baro_alt="1185" last_tracklog_point_distance="3.180" last_tracklog_point_time="2012-05-01T16:32:26+02:00" last_tracklog_point_alt="0" last_tracklog_point_baro_alt="559" landed_before_deadline="1" />
-            <FsResultPenalty penalty="0.15" penalty_points="0" penalty_reason="Rígida" />
-          </FsParticipant>
-          <FsParticipant id="4">
-            <FsFlightData distance="12.800" started_ss="2012-05-01T15:38:50+02:00" finished_ss="" finished_task="2012-05-01T15:59:32+02:00" tracklog_filename="Armando Cerrada Cordobés.20120501-165252.6013.4.kml" lc="3.96420741462697" iv="302482" ts="2012-05-02T02:51:59+02:00" alt="593" baro_alt="560" last_tracklog_point_distance="12.545" last_tracklog_point_time="2012-05-01T16:01:42+02:00" last_tracklog_point_alt="452" last_tracklog_point_baro_alt="442" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="64">
-            <FsFlightData distance="13.506" started_ss="2012-05-01T15:32:03+02:00" finished_ss="" finished_task="2012-05-01T17:01:44+02:00" tracklog_filename="Benito Rodríguez González.20120501-163703.5906.64.kml" lc="4.1980625821992" iv="320326" ts="2012-05-02T02:51:59+02:00" alt="1620" baro_alt="1552" last_tracklog_point_distance="12.568" last_tracklog_point_time="2012-05-01T17:17:38+02:00" last_tracklog_point_alt="441" last_tracklog_point_baro_alt="422" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="72">
-            <FsFlightData distance="0.390" started_ss="" finished_ss="" finished_task="2012-05-01T15:35:09+02:00" tracklog_filename="Domingo (Txomin) Gallego Escribano.20120501-170427.24424.72.kml" lc="0" iv="0" ts="2012-05-02T02:51:59+02:00" alt="1383" baro_alt="1355" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T16:06:01+02:00" last_tracklog_point_alt="430" last_tracklog_point_baro_alt="442" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="16">
-            <FsFlightData distance="3.645" started_ss="2012-05-01T15:37:41+02:00" finished_ss="" finished_task="2012-05-01T16:17:12+02:00" tracklog_filename="Francisco Javier Sánchez Ramos.20120501-171814.26680.16.kml" lc="4.91724665603483" iv="375202" ts="2012-05-02T02:52:00+02:00" alt="817" baro_alt="618" last_tracklog_point_distance="3.175" last_tracklog_point_time="2012-05-01T16:21:33+02:00" last_tracklog_point_alt="450" last_tracklog_point_baro_alt="321" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="65">
-            <FsFlightData distance="0.672" started_ss="" finished_ss="" finished_task="2012-05-01T15:35:10+02:00" tracklog_filename="Iosu Errea.20120501-170338.21298.65.kml" lc="0" iv="0" ts="2012-05-02T02:52:00+02:00" alt="1284" baro_alt="1262" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T16:03:15+02:00" last_tracklog_point_alt="438" last_tracklog_point_baro_alt="431" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="35">
-            <FsFlightData distance="3.460" started_ss="2012-05-01T15:34:51+02:00" finished_ss="" finished_task="2012-05-01T16:00:37+02:00" tracklog_filename="Ivan Molina Cardenal.20120501-164945.27160.35.kml" lc="4.93292102890606" iv="376398" ts="2012-05-02T02:52:00+02:00" alt="583" baro_alt="559" last_tracklog_point_distance="3.028" last_tracklog_point_time="2012-05-01T16:03:22+02:00" last_tracklog_point_alt="430" last_tracklog_point_baro_alt="419" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="319">
-            <FsFlightData distance="4.595" started_ss="2012-05-01T15:59:21+02:00" finished_ss="" finished_task="2012-05-01T16:23:16+02:00" tracklog_filename="Jorge Peinado.20120501-181209.[CIVLID].319.kml" lc="4.88241333872526" iv="372544" ts="2012-05-02T02:52:00+02:00" alt="677" baro_alt="651" last_tracklog_point_distance="4.108" last_tracklog_point_time="2012-05-01T16:28:06+02:00" last_tracklog_point_alt="446" last_tracklog_point_baro_alt="454" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="321">
-            <FsFlightData distance="0.277" started_ss="" finished_ss="" finished_task="2012-05-01T15:48:24+02:00" tracklog_filename="José Betrian Domínguez.20120501-170220.[CIVLID].321.kml" lc="0" iv="0" ts="2012-05-02T02:52:00+02:00" alt="1248" baro_alt="1236" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T16:07:55+02:00" last_tracklog_point_alt="432" last_tracklog_point_baro_alt="421" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="6">
-            <FsFlightData distance="3.527" started_ss="2012-05-01T15:30:32+02:00" finished_ss="" finished_task="2012-05-01T15:48:11+02:00" tracklog_filename="José Manuel (Juaki) Sanchez Garcia.20120501-163847.10307.6.kml" lc="4.90308102010343" iv="374121" ts="2012-05-02T02:52:00+02:00" alt="620" baro_alt="550" last_tracklog_point_distance="3.225" last_tracklog_point_time="2012-05-01T15:50:41+02:00" last_tracklog_point_alt="462" last_tracklog_point_baro_alt="471" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="151">
-            <FsFlightData distance="14.696" started_ss="2012-05-01T15:43:08+02:00" finished_ss="" finished_task="2012-05-01T16:27:10+02:00" tracklog_filename="Juan Lorenzo Rodríguez.20120501-164847.[CIVLID].151.kml" lc="3.9306015865952" iv="299918" ts="2012-05-02T02:52:00+02:00" alt="1550" baro_alt="1541" last_tracklog_point_distance="13.000" last_tracklog_point_time="2012-05-01T16:50:08+02:00" last_tracklog_point_alt="514" last_tracklog_point_baro_alt="497" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="14">
-            <FsFlightData distance="0.733" started_ss="" finished_ss="" finished_task="2012-05-01T17:55:58+02:00" tracklog_filename="Juan Manuel Guillén Sánchez.20120501-172640.27167.14.kml" lc="0" iv="0" ts="2012-05-02T02:52:00+02:00" alt="1104" baro_alt="951" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T18:04:00+02:00" last_tracklog_point_alt="432" last_tracklog_point_baro_alt="356" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="121">
-            <FsFlightData distance="13.007" started_ss="2012-05-01T15:55:30+02:00" finished_ss="" finished_task="2012-05-01T16:20:01+02:00" tracklog_filename="Julio Lopez Fernandez.20120501-164643.6803.121.kml" lc="4.07992057204769" iv="311311" ts="2012-05-02T02:52:00+02:00" alt="816" baro_alt="809" last_tracklog_point_distance="12.934" last_tracklog_point_time="2012-05-01T16:25:06+02:00" last_tracklog_point_alt="517" last_tracklog_point_baro_alt="507" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="315">
-            <FsFlightData distance="0.778" started_ss="" finished_ss="" finished_task="2012-05-01T15:34:46+02:00" tracklog_filename="Luís Filipe Vardasca Vieira.20120501-172232.[CIVLID].315.kml" lc="0" iv="0" ts="2012-05-02T02:52:00+02:00" alt="1275" baro_alt="1243" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T15:49:17+02:00" last_tracklog_point_alt="430" last_tracklog_point_baro_alt="418" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="144">
-            <FsFlightData distance="24.445" started_ss="2012-05-01T15:45:39+02:00" finished_ss="" finished_task="2012-05-01T16:32:53+02:00" tracklog_filename="Tximo (Jose Mari) Iriarte Ziritza.20120501-170041.[CIVLID].144.kml" lc="3.22483103147318" iv="246065" ts="2012-05-02T02:52:00+02:00" alt="911" baro_alt="903" last_tracklog_point_distance="24.185" last_tracklog_point_time="2012-05-01T16:37:45+02:00" last_tracklog_point_alt="604" last_tracklog_point_baro_alt="600" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="1">
-            <FsFlightData distance="12.576" started_ss="2012-05-01T16:00:38+02:00" finished_ss="" finished_task="2012-05-01T17:30:39+02:00" tracklog_filename="Carlos Puñet Pellise.20120501-165844.6003.1.kml" lc="4.34209621028748" iv="331316" ts="2012-05-02T02:52:00+02:00" alt="444" baro_alt="436" last_tracklog_point_distance="12.576" last_tracklog_point_time="2012-05-01T17:30:39+02:00" last_tracklog_point_alt="444" last_tracklog_point_baro_alt="436" landed_before_deadline="1" />
-            <FsResultPenalty penalty="0.15" penalty_points="0" penalty_reason="Rígida" />
+            <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-09T20:09:47+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="51">
-            <FsFlightData distance="30.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-01T20:21:53+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
-            <FsFlightDataNote note="Estimated" />
-          </FsParticipant>
-          <FsParticipant id="37">
-            <FsFlightData distance="3.290" started_ss="2012-05-01T15:45:12+02:00" finished_ss="" finished_task="2012-05-01T17:23:51+02:00" tracklog_filename="Carlos Crespo Menéndez.20120501-182904.[CIVLID].37.kml" lc="5.04620223017621" iv="385042" ts="2012-05-02T02:52:00+02:00" alt="572" baro_alt="570" last_tracklog_point_distance="3.179" last_tracklog_point_time="2012-05-01T17:27:23+02:00" last_tracklog_point_alt="436" last_tracklog_point_baro_alt="439" landed_before_deadline="1" />
-          </FsParticipant>
-          <FsParticipant id="47">
-            <FsFlightData distance="9.246" started_ss="2012-05-01T15:40:58+02:00" finished_ss="" finished_task="2012-05-01T15:53:11+02:00" tracklog_filename="Paulo Sérgio Alves Gomes.20120501-183033.28713.47.kml" lc="4.29952794085208" iv="328068" ts="2012-05-02T02:52:00+02:00" alt="925" baro_alt="873" last_tracklog_point_distance="7.808" last_tracklog_point_time="2012-05-01T15:59:44+02:00" last_tracklog_point_alt="446" last_tracklog_point_baro_alt="439" landed_before_deadline="1" />
+            <FsFlightData distance="0.000" started_ss="" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-09T20:09:16+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
           </FsParticipant>
           <FsParticipant id="3">
-            <FsFlightData distance="4.223" started_ss="2012-05-01T15:38:17+02:00" finished_ss="" finished_task="" tracklog_filename="" lc="0" iv="0" ts="2012-05-02T02:59:29+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsFlightData distance="4.223" started_ss="2012-05-01T15:38:17+02:00" finished_ss="" finished_task="2012-05-01T16:17:46+02:00" tracklog_filename="" lc="0" iv="0" ts="2012-05-09T20:08:37+02:00" alt="-32768" baro_alt="" last_tracklog_point_distance="-179769313486232000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000" last_tracklog_point_time="" last_tracklog_point_alt="-32768" last_tracklog_point_baro_alt="" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="-1.79769313486232E+305" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="155">
+            <FsFlightData distance="0.825" started_ss="" finished_ss="" finished_task="2012-05-01T17:59:00+02:00" tracklog_filename="Antonio López Lobo.20120501-171357.5853.155.kml" lc="0" iv="0" ts="2012-05-09T20:35:23+02:00" alt="1039" baro_alt="931" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T18:06:02+02:00" last_tracklog_point_alt="456" last_tracklog_point_baro_alt="364" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="0" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="124">
+            <FsFlightData distance="3.732" started_ss="2012-05-01T15:38:48+02:00" finished_ss="" finished_task="2012-05-01T16:23:09+02:00" tracklog_filename="Antonio Luis Faria Araujo.20120501-151013.9450.124.kml" lc="4.93726138930466" iv="376729" ts="2012-05-09T20:35:23+02:00" alt="0" baro_alt="1185" last_tracklog_point_distance="3.180" last_tracklog_point_time="2012-05-01T16:32:26+02:00" last_tracklog_point_alt="0" last_tracklog_point_baro_alt="559" landed_before_deadline="1" />
+            <FsResultPenalty penalty="0.15" penalty_points="0" penalty_reason="Rígida" />
+            <FsResult rank="28" points="22" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0.15" penalty_points="0" penalty_reason="Rígida" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="3.18" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="4">
+            <FsFlightData distance="12.800" started_ss="2012-05-01T15:38:50+02:00" finished_ss="" finished_task="2012-05-01T15:59:32+02:00" tracklog_filename="Armando Cerrada Cordobés.20120501-165252.6013.4.kml" lc="3.96420741462697" iv="302482" ts="2012-05-09T20:35:23+02:00" alt="593" baro_alt="560" last_tracklog_point_distance="12.545" last_tracklog_point_time="2012-05-01T16:01:42+02:00" last_tracklog_point_alt="452" last_tracklog_point_baro_alt="442" landed_before_deadline="1" />
+            <FsResult rank="4" points="40" distance="12.8" ss_time="00:00:00" finished_ss_rank="1" distance_points="39.5" time_points="0" arrival_points="0" departure_points="0" leading_points="0.5" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="12.8" last_distance="12.545" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="64">
+            <FsFlightData distance="13.506" started_ss="2012-05-01T15:32:03+02:00" finished_ss="" finished_task="2012-05-01T17:01:44+02:00" tracklog_filename="Benito Rodríguez González.20120501-163703.5906.64.kml" lc="4.1980625821992" iv="320326" ts="2012-05-09T20:35:23+02:00" alt="1620" baro_alt="1552" last_tracklog_point_distance="12.568" last_tracklog_point_time="2012-05-01T17:17:38+02:00" last_tracklog_point_alt="441" last_tracklog_point_baro_alt="422" landed_before_deadline="1" />
+            <FsResult rank="3" points="41" distance="13.506" ss_time="00:00:00" finished_ss_rank="1" distance_points="40.8" time_points="0" arrival_points="0" departure_points="0" leading_points="0.4" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="13.506" last_distance="12.568" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="37">
+            <FsFlightData distance="3.290" started_ss="2012-05-01T15:45:12+02:00" finished_ss="" finished_task="2012-05-01T17:23:51+02:00" tracklog_filename="Carlos Crespo Menéndez.20120501-182904.[CIVLID].37.kml" lc="5.04620223017621" iv="385042" ts="2012-05-09T20:35:23+02:00" alt="572" baro_alt="570" last_tracklog_point_distance="3.179" last_tracklog_point_time="2012-05-01T17:27:23+02:00" last_tracklog_point_alt="436" last_tracklog_point_baro_alt="439" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:45:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="3.179" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="72">
+            <FsFlightData distance="0.390" started_ss="" finished_ss="" finished_task="2012-05-01T15:35:09+02:00" tracklog_filename="Domingo (Txomin) Gallego Escribano.20120501-170427.24424.72.kml" lc="0" iv="0" ts="2012-05-09T20:35:23+02:00" alt="1383" baro_alt="1355" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T16:06:01+02:00" last_tracklog_point_alt="430" last_tracklog_point_baro_alt="442" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="0" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="16">
+            <FsFlightData distance="3.645" started_ss="2012-05-01T15:37:41+02:00" finished_ss="" finished_task="2012-05-01T16:17:12+02:00" tracklog_filename="Francisco Javier Sánchez Ramos.20120501-171814.26680.16.kml" lc="4.91724665603483" iv="375202" ts="2012-05-09T20:35:23+02:00" alt="817" baro_alt="618" last_tracklog_point_distance="3.175" last_tracklog_point_time="2012-05-01T16:21:33+02:00" last_tracklog_point_alt="450" last_tracklog_point_baro_alt="321" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="3.175" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="65">
+            <FsFlightData distance="0.672" started_ss="" finished_ss="" finished_task="2012-05-01T15:35:10+02:00" tracklog_filename="Iosu Errea.20120501-170338.21298.65.kml" lc="0" iv="0" ts="2012-05-09T20:35:23+02:00" alt="1284" baro_alt="1262" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T16:03:15+02:00" last_tracklog_point_alt="438" last_tracklog_point_baro_alt="431" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="0" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="35">
+            <FsFlightData distance="3.460" started_ss="2012-05-01T15:34:51+02:00" finished_ss="" finished_task="2012-05-01T16:00:37+02:00" tracklog_filename="Ivan Molina Cardenal.20120501-164945.27160.35.kml" lc="4.93292102890606" iv="376398" ts="2012-05-09T20:35:23+02:00" alt="583" baro_alt="559" last_tracklog_point_distance="3.028" last_tracklog_point_time="2012-05-01T16:03:22+02:00" last_tracklog_point_alt="430" last_tracklog_point_baro_alt="419" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="3.028" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="319">
+            <FsFlightData distance="4.595" started_ss="2012-05-01T15:59:21+02:00" finished_ss="" finished_task="2012-05-01T16:23:16+02:00" tracklog_filename="Jorge Peinado.20120501-181209.[CIVLID].319.kml" lc="4.88241333872526" iv="372544" ts="2012-05-09T20:35:23+02:00" alt="677" baro_alt="651" last_tracklog_point_distance="4.108" last_tracklog_point_time="2012-05-01T16:28:06+02:00" last_tracklog_point_alt="446" last_tracklog_point_baro_alt="454" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0.1" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:45:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="4.108" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="321">
+            <FsFlightData distance="0.277" started_ss="" finished_ss="" finished_task="2012-05-01T15:48:24+02:00" tracklog_filename="José Betrian Domínguez.20120501-170220.[CIVLID].321.kml" lc="0" iv="0" ts="2012-05-09T20:35:23+02:00" alt="1248" baro_alt="1236" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T16:07:55+02:00" last_tracklog_point_alt="432" last_tracklog_point_baro_alt="421" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="0" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="6">
+            <FsFlightData distance="3.527" started_ss="2012-05-01T15:30:32+02:00" finished_ss="" finished_task="2012-05-01T15:48:11+02:00" tracklog_filename="José Manuel (Juaki) Sanchez Garcia.20120501-163847.10307.6.kml" lc="4.90308102010343" iv="374121" ts="2012-05-09T20:35:23+02:00" alt="620" baro_alt="550" last_tracklog_point_distance="3.225" last_tracklog_point_time="2012-05-01T15:50:41+02:00" last_tracklog_point_alt="462" last_tracklog_point_baro_alt="471" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="3.225" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="151">
+            <FsFlightData distance="14.696" started_ss="2012-05-01T15:43:08+02:00" finished_ss="" finished_task="2012-05-01T16:27:10+02:00" tracklog_filename="Juan Lorenzo Rodríguez.20120501-164847.[CIVLID].151.kml" lc="3.9306015865952" iv="299918" ts="2012-05-09T20:35:23+02:00" alt="1550" baro_alt="1541" last_tracklog_point_distance="13.000" last_tracklog_point_time="2012-05-01T16:50:08+02:00" last_tracklog_point_alt="514" last_tracklog_point_baro_alt="497" landed_before_deadline="1" />
+            <FsResult rank="2" points="43" distance="14.696" ss_time="00:00:00" finished_ss_rank="1" distance_points="42.4" time_points="0" arrival_points="0" departure_points="0" leading_points="0.5" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="14.696" last_distance="13" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="14">
+            <FsFlightData distance="0.733" started_ss="" finished_ss="" finished_task="2012-05-01T17:55:58+02:00" tracklog_filename="Juan Manuel Guillén Sánchez.20120501-172640.27167.14.kml" lc="0" iv="0" ts="2012-05-09T20:35:23+02:00" alt="1104" baro_alt="951" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T18:04:00+02:00" last_tracklog_point_alt="432" last_tracklog_point_baro_alt="356" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="0" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="121">
+            <FsFlightData distance="13.007" started_ss="2012-05-01T15:55:30+02:00" finished_ss="" finished_task="2012-05-01T16:20:01+02:00" tracklog_filename="Julio Lopez Fernandez.20120501-164643.6803.121.kml" lc="4.07992057204769" iv="311311" ts="2012-05-09T20:35:23+02:00" alt="816" baro_alt="809" last_tracklog_point_distance="12.934" last_tracklog_point_time="2012-05-01T16:25:06+02:00" last_tracklog_point_alt="517" last_tracklog_point_baro_alt="507" landed_before_deadline="1" />
+            <FsResult rank="4" points="40" distance="13.007" ss_time="00:00:00" finished_ss_rank="1" distance_points="39.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0.4" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:45:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="13.007" last_distance="12.934" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="315">
+            <FsFlightData distance="0.778" started_ss="" finished_ss="" finished_task="2012-05-01T15:34:46+02:00" tracklog_filename="Luís Filipe Vardasca Vieira.20120501-172232.[CIVLID].315.kml" lc="0" iv="0" ts="2012-05-09T20:35:23+02:00" alt="1275" baro_alt="1243" last_tracklog_point_distance="0.000" last_tracklog_point_time="2012-05-01T15:49:17+02:00" last_tracklog_point_alt="430" last_tracklog_point_baro_alt="418" landed_before_deadline="1" />
+            <FsResult rank="8" points="26" distance="5" ss_time="00:00:00" finished_ss_rank="1" distance_points="25.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="5" last_distance="0" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="47">
+            <FsFlightData distance="9.246" started_ss="2012-05-01T15:40:58+02:00" finished_ss="" finished_task="2012-05-01T15:53:11+02:00" tracklog_filename="Paulo Sérgio Alves Gomes.20120501-183033.28713.47.kml" lc="4.29952794085208" iv="328068" ts="2012-05-09T20:35:23+02:00" alt="925" baro_alt="873" last_tracklog_point_distance="7.808" last_tracklog_point_time="2012-05-01T15:59:44+02:00" last_tracklog_point_alt="446" last_tracklog_point_baro_alt="439" landed_before_deadline="1" />
+            <FsResult rank="7" points="32" distance="9.246" ss_time="00:00:00" finished_ss_rank="1" distance_points="31.5" time_points="0" arrival_points="0" departure_points="0" leading_points="0.3" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:30:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="9.246" last_distance="7.808" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="144">
+            <FsFlightData distance="24.445" started_ss="2012-05-01T15:45:39+02:00" finished_ss="" finished_task="2012-05-01T16:32:53+02:00" tracklog_filename="Tximo (Jose Mari) Iriarte Ziritza.20120501-170041.[CIVLID].144.kml" lc="3.22483103147318" iv="246065" ts="2012-05-09T20:35:23+02:00" alt="911" baro_alt="903" last_tracklog_point_distance="24.185" last_tracklog_point_time="2012-05-01T16:37:45+02:00" last_tracklog_point_alt="604" last_tracklog_point_baro_alt="600" landed_before_deadline="1" />
+            <FsResult rank="1" points="55" distance="24.445" ss_time="00:00:00" finished_ss_rank="1" distance_points="54.2" time_points="0" arrival_points="0" departure_points="0" leading_points="1.1" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T15:45:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="24.445" last_distance="24.185" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="1">
+            <FsFlightData distance="12.576" started_ss="2012-05-01T16:00:38+02:00" finished_ss="" finished_task="2012-05-01T17:30:39+02:00" tracklog_filename="Carlos Puñet Pellise.20120501-165844.6003.1.kml" lc="4.34209621028748" iv="331316" ts="2012-05-09T20:35:23+02:00" alt="444" baro_alt="436" last_tracklog_point_distance="12.576" last_tracklog_point_time="2012-05-01T17:30:39+02:00" last_tracklog_point_alt="444" last_tracklog_point_baro_alt="436" landed_before_deadline="1" />
+            <FsResultPenalty penalty="0.15" penalty_points="0" penalty_reason="Rígida" />
+            <FsResult rank="6" points="33" distance="12.576" ss_time="00:00:00" finished_ss_rank="1" distance_points="38.9" time_points="0" arrival_points="0" departure_points="0" leading_points="0.3" penalty="0.15" penalty_points="0" penalty_reason="Rígida" got_time_but_not_goal_penalty="False" started_ss="2012-05-01T16:00:00+02:00" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="12.576" last_distance="12.576" last_altitude_above_goal="0" />
+          </FsParticipant>
+          <FsParticipant id="325">
+            <FsFlightData />
+            <FsResult rank="29" points="0" distance="0" ss_time="00:00:00" finished_ss_rank="1" distance_points="0" time_points="0" arrival_points="0" departure_points="0" leading_points="0" penalty="0" penalty_points="0" penalty_reason="" got_time_but_not_goal_penalty="False" ss_time_dec_hours="0" ts="2012-05-09T20:35:23+02:00" real_distance="0" last_distance="0" last_altitude_above_goal="0" />
           </FsParticipant>
         </FsParticipants>
-        <FsTaskScoreParams ss_distance="42.39" task_distance="43.354" no_of_pilots_present="48" no_of_pilots_flying="28" no_of_pilots_lo="28" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="1" no_of_pilots_reaching_goal="0" sum_flown_distance="178.423" best_dist="30" best_time="0.567222222222222" worst_time="0.567222222222222" no_of_pilots_in_competition="64" sum_dist_over_min="103.276" sum_real_dist_over_min="103.276" best_real_dist="30" first_start_time="2012-05-01T15:30:59+02:00" first_finish_time="2012-05-01T16:05:01+02:00" max_time_to_get_time_points="1.32036379073522" no_of_pilots_with_time_points="1" k="0.0357142857142857" arrival_weight="0.0196632596118805" departure_weight="0" leading_weight="0.0275285634566327" time_weight="0.110114253826531" distance_weight="0.842693923104956" smallest_leading_coefficient="3.22483103147318" available_points_distance="53.7275580299072" available_points_time="7.02054423341083" available_points_departure="0" available_points_leading="1.75513605835271" available_points_arrival="1.25366861310908" time_validity="0.554873425528476" launch_validity="0.623048611111111" distance_validity="0.184421428571429" day_quality="0.0637569069347798">
+        <FsTaskScoreParams ss_distance="42.39" task_distance="43.354" no_of_pilots_present="49" no_of_pilots_flying="28" no_of_pilots_lo="28" no_of_pilots_reaching_nom_dist="0" no_of_pilots_reaching_es="0" no_of_pilots_reaching_goal="0" sum_flown_distance="130.423" best_dist="24.445" best_time="0" worst_time="0" no_of_pilots_in_competition="64" sum_dist_over_min="65.276" sum_real_dist_over_min="65.276" best_real_dist="24.445" max_time_to_get_time_points="0" no_of_pilots_with_time_points="0" k="0" arrival_weight="0" departure_weight="0" leading_weight="0.0175" time_weight="0" distance_weight="0.9" smallest_leading_coefficient="3.22483103147318" available_points_distance="54.2103345596053" available_points_time="0" available_points_departure="0" available_points_leading="1.05408983865899" available_points_arrival="0" time_validity="0.829353333561783" launch_validity="0.605760932944606" distance_validity="0.119894351322262" day_quality="0.0602337050662281">
           <FsTaskDistToTp tp_no="1" distance="0.000" />
           <FsTaskDistToTp tp_no="2" distance="0.963" />
           <FsTaskDistToTp tp_no="3" distance="24.406" />

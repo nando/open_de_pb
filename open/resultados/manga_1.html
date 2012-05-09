@@ -768,11 +768,11 @@
   
   $(function(){
     var xOffset = -16,
-        yOffset = 16;
+        yOffset = 16,
+        spinner = 'images/ajax-loader.gif';
+    $("body").append("<div id='preview' style='display: none'><img src='"+spinner+"' alt='foto...' /></div>"); 
 
     function photo_sticker(td, image_url) {
-      var spinner = 'images/ajax-loader.gif';
-      $("body").append("<div id='preview' style='display: none'><img src='"+spinner+"' alt='foto...' /></div>"); 
       var preview = $("#preview"),
           preview_img = $("img", preview);
       var show_photo = function(e) {
