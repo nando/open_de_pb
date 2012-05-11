@@ -126,10 +126,10 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 <content type="html">&lt;p&gt;El domingo 29 de abril varios pilotos volaron por libre. Gallo Quirico grabó algunos de los despegues, con pasadita de Blay Jr. incluída, y Ricardo Marques da Costa grabó un aterrizaje espectacular del mismo &lt;em&gt;&amp;#8220;pajarraco&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Los despegues con la pasadita cuando Eneko se disponía a salir:&lt;/p&gt;
-&lt;iframe src='http://www.youtube.com/embed/r3rWNT-2mqE' allowfullscreen='allowfullscreen' frameborder='0'&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/r3rWNT-2mqE' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;
 &lt;p&gt;El aterrizaje despeinando a nuestros amigos portugueses:&lt;/p&gt;
-&lt;iframe src='http://www.youtube.com/embed/KmGGBg5ylrk' allowfullscreen='allowfullscreen' frameborder='0'&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/KmGGBg5ylrk' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -140,7 +140,7 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 <updated>2012-05-08T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/05/08/los_despegues_del_martes</id>
 <content type="html">&lt;p&gt;&lt;strong&gt;Silvia&lt;/strong&gt; grabó todos los despegues que pudo el último día del Open, y con ellos &lt;strong&gt;Xicohumo&lt;/strong&gt; montó este vídeo para compartirlo con todos&amp;#8230; ¡gracias pareja!&lt;/p&gt;
-&lt;iframe src='http://www.youtube.com/embed/ObLG9OjqzmY' allowfullscreen='allowfullscreen' frameborder='0'&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/ObLG9OjqzmY' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -165,7 +165,7 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 <updated>2012-05-05T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/05/05/el_open_desde_las_camaras_de_ricardo_marques</id>
 <content type="html">&lt;p&gt;Ricardo Marques da Costa ha preparado un vídeo recogiendo sus grabaciones a lo largo del Open incluyendo en el mismo un aterrizaje de Blay Jr. el domingo y &lt;a href='http://www.xcportugal.org/modules.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=32924'&gt;su vuelo del lunes&lt;/a&gt;, en el que llegó con mucha altura a la primera baliza, Navamorcuende, lugar en el que decidió aterrizar tras saber que la manga había sido cancelada. Una gozada de vídeo&amp;#8230; ¡gracias Ricardo!&lt;/p&gt;
-&lt;iframe src='http://www.youtube.com/embed/W6KVs_tNCqc' allowfullscreen='allowfullscreen' frameborder='0'&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/W6KVs_tNCqc' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -191,7 +191,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <updated>2012-05-03T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/05/03/Un_vuelo_el_lunes_30</id>
 <content type="html">&lt;p&gt;Pablo Vicens ha colgado este vídeo de su vuelo del lunes 30 por la tarde, con la manga ya cancelada:&lt;/p&gt;
-&lt;iframe src='http://www.youtube.com/embed/6IIY2IfV5Kc' allowfullscreen='allowfullscreen' frameborder='0'&gt;
+&lt;iframe frameborder='0' src='http://www.youtube.com/embed/6IIY2IfV5Kc' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -229,7 +229,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/05/01/resultados_provisionales_del_Open.html"/>
 <updated>2012-05-01T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/05/01/resultados_provisionales_del_Open</id>
-<content type="html">&lt;img class='left' title='Breafing del Martes 1 de Mayo' src='images/breafing_martes.jpg' alt='Breafing del Martes 1 de Mayo' /&gt;
+<content type="html">&lt;img class='left' src='images/breafing_martes.jpg' alt='Breafing del Martes 1 de Mayo' title='Breafing del Martes 1 de Mayo' /&gt;
 &lt;p&gt;Hemos publicado los &lt;a href='clasificacion_2012.html'&gt;resultados provisionales&lt;/a&gt; del Open a falta de recibir los tracks del primer y tercer clasificado.&lt;/p&gt;
 
 &lt;p&gt;En breve contaremos lo acontecido en último día del Open, que finalmente también fue pasado por agua en contra de las previsiones del día anterior.&lt;/p&gt;
@@ -243,7 +243,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/30/manga_cancelada_en_vuelo.html"/>
 <updated>2012-04-30T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/30/manga_cancelada_en_vuelo</id>
-<content type="html">&lt;img class='right' title='Ricardo Marques sobre la primera baliza (Navamorcuende)' src='images/navamorcuende_rmarques.jpg' alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' /&gt;
+<content type="html">&lt;img class='right' src='images/navamorcuende_rmarques.jpg' alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' title='Ricardo Marques sobre la primera baliza (Navamorcuende)' /&gt;
 &lt;p&gt;Tras una larga espera en el despegue por fin escampó y se pudo poner la primera prueba del primer Open: start de entrada en el campo de fútbol con 1000 metro de radio, Navamorcuende, vuelta a Pedro Bernardo, La Iglesuela y gol con viento de cara en Pedro Bernardo, completando un circuito de 48 kilómetros.&lt;/p&gt;
 
 &lt;p&gt;En &lt;strong&gt;25 minutos&lt;/strong&gt; lograron despegar &lt;strong&gt;23 pilotos&lt;/strong&gt; que comenzaron la prueba. En ese momento el agua volvió al despegue y se aplazaron las ventanas restantes hasta que escampase. Sin embargo poco después la manga sería cancelada por lluvia intensa en el curso de la misma.&lt;/p&gt;
@@ -342,7 +342,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/17/mapa_de_balizas.html"/>
 <updated>2012-04-17T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/17/mapa_de_balizas</id>
-<content type="html">&lt;a href='downloads/Mapa_de_Balizas_Open_de_PB.jpg' title='Mapa de Balizas en alta calidad (ATENCIÓN: 20Mb)'&gt;&lt;img class='right' src='images/mapa_balizas.jpg' alt='Mapa de Balizas en miniatura' /&gt;&lt;/a&gt;
+<content type="html">&lt;a title='Mapa de Balizas en alta calidad (ATENCIÓN: 20Mb)' href='downloads/Mapa_de_Balizas_Open_de_PB.jpg'&gt;&lt;img class='right' src='images/mapa_balizas.jpg' alt='Mapa de Balizas en miniatura' /&gt;&lt;/a&gt;
 &lt;p&gt;&lt;strong&gt;David Iglesias&lt;/strong&gt; todavía no sabe si participará o no en el Open, pero de momento ha tenido el detalle de montar el que será nuestro Mapa de Balizas para el campeonato.&lt;/p&gt;
 
 &lt;p&gt;Al formalizar la inscripción &lt;strong&gt;entregaremos un mapa como este a cada piloto&lt;/strong&gt;, pero si queréis tener alguna copia más o simplemente queréis ir estudiando las balizas, podéis bajaros el mapa haciendo click &lt;a href='downloads/Mapa_de_Balizas_Open_de_PB.jpg'&gt;aquí&lt;/a&gt; o en la imagen de la derecha.&lt;/p&gt;
@@ -358,13 +358,13 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/09/calentando_motores_a_tres_semanas.html"/>
 <updated>2012-04-09T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/09/calentando_motores_a_tres_semanas</id>
-<content type="html">&lt;a href='http://www.ipernity.com/doc/68912/album/268762/show'&gt;&lt;img class='left' title='Listos para despegar' src='http://u1.ipernity.com/22/31/23/12523123.c5fb5994.560.jpg' alt='Listos para despegar' /&gt;&lt;/a&gt;
+<content type="html">&lt;a href='http://www.ipernity.com/doc/68912/album/268762/show'&gt;&lt;img class='left' src='http://u1.ipernity.com/22/31/23/12523123.c5fb5994.560.jpg' title='Listos para despegar' alt='Listos para despegar' /&gt;&lt;/a&gt;
 &lt;p&gt;Günter Porath, Armando Cerrada y Julio López están estos días por la zona poniendo en marcha su proyecto &lt;a href='http://www.flytietar.com'&gt;FlyTietar&lt;/a&gt;. La semana pasada disfrutó de dos grandes vuelos: &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=316536'&gt;una triangulación por el Valle de 62km&lt;/a&gt; y &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=317323'&gt;una escapadita de 86km hasta Villacastín&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Después de una semana santa de malas condiciones, por fin el domingo pudimos despedirla volando con un día precioso de cúmulos sobre la cuerda, un techo de unos 2400, muy buena visibilidad, restos de nieve por las cumbres y el Valle en todo su esplendor agradeciendo las cuatro gotas caídas. Algo es algo.&lt;/p&gt;
 &lt;div class='clearer'&gt;&amp;nbsp;&lt;/div&gt;
 &lt;p&gt;El despegue estaba cambiante, tanto que &lt;a href='http://vimeo.com/40015031'&gt;Günter llegó incluso a abortar su primer intento&lt;/a&gt;. Pero finalmente todos salimos sin problemas. Aquí os dejamos los despegues de Julio, Juanma y Armando, que salieron tras la estela del alemán:&lt;/p&gt;
-&lt;iframe mozallowfullscreen='mozallowfullscreen' src='http://player.vimeo.com/video/39982712?title=0&amp;amp;byline=0&amp;amp;portrait=0' webkitAllowFullScreen='webkitAllowFullScreen' allowFullScreen='allowFullScreen' frameborder='0'&gt;
+&lt;iframe frameborder='0' src='http://player.vimeo.com/video/39982712?title=0&amp;amp;byline=0&amp;amp;portrait=0' webkitAllowFullScreen='webkitAllowFullScreen' mozallowfullscreen='mozallowfullscreen' allowFullScreen='allowFullScreen'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
