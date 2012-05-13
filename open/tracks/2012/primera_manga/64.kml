@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Document>
+  <Style id="track">
+    <LineStyle>
+      <color>11100fff</color>
+      <gx:physicalWidth>2</gx:physicalWidth>
+    </LineStyle>
+  </Style>
+
 <open>1</open>
   <Folder>
     <Metadata src="GpsDump" v="4.64" type="trip"/>
     <open>1</open>
     <name>Trip</name>
-    <description><![CDATA[Tracklog from GpsDump competition mode
+    <Placemark>
+      <styleUrl>#track</styleUrl>
+      <description><![CDATA[Tracklog from GpsDump competition mode
+<img style="float:left; margin-right: 5px;" src="/open/images/pilots/64.jpg">
 <pre>
 Flight statistics
 Date                 2012-05-01
@@ -18,7 +28,6 @@ Total distance       85.63 km
 </pre>]]>
     </description>
 
-    <Placemark>
       <Metadata src="GpsDump" v="4.64" type="track">
         <FsInfo time_of_first_point="2012-05-01T13:14:13Z"
                 civl_pilot_id="5906" comp_pilot_id="64"
@@ -91,7 +100,7 @@ Total distance       85.63 km
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Benito</name>
+      <name>Benito - Wills Wing T2C</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>

@@ -14,7 +14,7 @@
     <name>Trip</name>
     <Placemark>
       <description><![CDATA[Tracklog from GpsDump competition mode
-<img style="float:left" src="/open/images/pilots/151.jpg">
+<img style="float:left; margin-right: 5px;" src="/open/images/pilots/151.jpg">
 <pre>
 Flight statistics
 Date                 2012-05-01
