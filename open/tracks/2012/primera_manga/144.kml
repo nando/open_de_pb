@@ -5,20 +5,15 @@
     <Metadata src="GpsDump" v="4.64" type="trip"/>
     <open>1</open>
     <name>Trip</name>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-05-01
-Start/finish         13:28:19 - 14:37:45
-Duration             1 : 09 : 26
-Max./min. height     1688 / 597 m
-Max. mean/top speed  90 km/h / 95 km/h
-Max/min climb rate   3.10 / -2.12 m/s over 60s
-Total distance       48.58 km
-</pre>]]>
-    </description>
+    <Style id="track">
+      <LineStyle>
+        <color>ff235523</color>
+        <gx:physicalWidth>2</gx:physicalWidth>
+      </LineStyle>
+    </Style>
 
     <Placemark>
+      <styleUrl>#track</styleUrl>
       <Metadata src="GpsDump" v="4.64" type="track">
         <FsInfo time_of_first_point="2012-05-01T13:28:19Z"
                 comp_pilot_id="144"
@@ -66,6 +61,18 @@ Total distance       48.58 km
         </FsInfo>
       </Metadata>
       <name>Tximo</name>
+      <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-05-01
+Start/finish         13:28:19 - 14:37:45
+Duration             1 : 09 : 26
+Max./min. height     1688 / 597 m
+Max. mean/top speed  90 km/h / 95 km/h
+Max/min climb rate   3.10 / -2.12 m/s over 60s
+Total distance       48.58 km
+</pre>]]>
+      </description>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
