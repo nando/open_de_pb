@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Document>
+  <Style id="track">
+    <LineStyle>
+      <color>ff235523</color>
+      <gx:physicalWidth>2</gx:physicalWidth>
+    </LineStyle>
+  </Style>
+
 <open>1</open>
   <Folder>
     <Metadata src="GpsDump" v="4.64" type="trip"/>
     <open>1</open>
     <name>Trip</name>
-    <Style id="track">
-      <LineStyle>
-        <color>ff235523</color>
-        <gx:physicalWidth>2</gx:physicalWidth>
-      </LineStyle>
-    </Style>
-
     <Placemark>
+      <styleUrl>#track</styleUrl>
       <Metadata src="GpsDump" v="4.64" type="track">
         <FsInfo time_of_first_point="2012-05-01T13:28:19Z"
                 comp_pilot_id="144"
@@ -61,7 +62,7 @@
       </Metadata>
       <name>Jose María (Tximo) - Wills Wing T2C</name>
       <description><![CDATA[Tracklog from GpsDump competition mode
-<img style="float:left" src="http://clubdevuelopb.com/open/images/pilots/151.kml">
+<img style="float:left" src="http://clubdevuelopb.com/open/images/pilots/144.jpg">
 <pre>
 Flight statistics
 Date                 2012-05-01
@@ -74,7 +75,6 @@ Total distance       48.58 km
 </pre>]]>
       </description>
       <LineString>
-        <styleUrl>#track</styleUrl>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
 -4.905467,40.256650,1262 -4.905467,40.256650,1263 -4.905467,40.256650,1264 -4.905467,40.256650,1264 -4.905467,40.256650,1264 

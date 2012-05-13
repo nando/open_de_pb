@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Document>
 <open>1</open>
+  <Style id="track">
+    <LineStyle>
+      <color>cc1447ff</color>
+      <gx:physicalWidth>2</gx:physicalWidth>
+    </LineStyle>
+  </Style>
+
   <Folder>
     <Metadata src="GpsDump" v="4.64" type="trip"/>
     <open>1</open>
     <name>Trip</name>
-    <Style id="track">
-      <LineStyle>
-        <color>cc1447ff</color>
-        <gx:physicalWidth>2</gx:physicalWidth>
-      </LineStyle>
-    </Style>
-
     <Placemark>
       <description><![CDATA[Tracklog from GpsDump competition mode
-<img style="float:left" src="/open/images/pilots/151.kml">
+<img style="float:left" src="/open/images/pilots/151.jpg">
 <pre>
 Flight statistics
 Date                 2012-05-01
@@ -250,8 +250,8 @@ Total distance       75.08 km
         </FsInfo>
       </Metadata>
       <name>Juan Lorenzo (Juanito) - AEROS Combat</name>
+      <styleUrl>#track</styleUrl>
       <LineString>
-        <styleUrl>#track</styleUrl>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
 -4.905567,40.256667,1257 -4.905567,40.256667,1257 -4.905567,40.256667,1257 -4.905567,40.256667,1257 -4.905567,40.256667,1257 
