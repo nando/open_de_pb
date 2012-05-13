@@ -5,7 +5,17 @@
     <Metadata src="GpsDump" v="4.64" type="trip"/>
     <open>1</open>
     <name>Trip</name>
-    <description><![CDATA[Tracklog from GpsDump competition mode
+    <Style id="track">
+      <LineStyle>
+        <color>cc1447ff</color>
+        <gx:physicalWidth>2</gx:physicalWidth>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <styleUrl>#track</styleUrl>
+      <description><![CDATA[Tracklog from GpsDump competition mode
+<img style="float:left" src="images/pilots/151.kml">
 <pre>
 Flight statistics
 Date                 2012-05-01
@@ -16,9 +26,8 @@ Max. mean/top speed  95 km/h / 100 km/h
 Max/min climb rate   3.00 / -2.47 m/s over 60s
 Total distance       75.08 km
 </pre>]]>
-    </description>
+      </description>
 
-    <Placemark>
       <Metadata src="GpsDump" v="4.64" type="track">
         <FsInfo time_of_first_point="2012-05-01T13:22:20Z"
                 comp_pilot_id="151"
