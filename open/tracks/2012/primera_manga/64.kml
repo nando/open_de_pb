@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Document>
-  <Style id="track">
-    <LineStyle>
-      <color>11100fff</color>
-      <gx:physicalWidth>2</gx:physicalWidth>
-    </LineStyle>
-  </Style>
-
 <open>1</open>
   <Folder>
     <Metadata src="GpsDump" v="4.64" type="trip"/>
     <open>1</open>
     <name>Trip</name>
     <Placemark>
-      <styleUrl>#track</styleUrl>
       <description><![CDATA[Tracklog from GpsDump competition mode
-<img style="float:left; margin-right: 5px;" src="/open/images/pilots/64.jpg">
+<img style="float:left; margin-right: 15px;" src="/open/images/pilots/64.jpg">
 <pre>
 Flight statistics
 Date                 2012-05-01
