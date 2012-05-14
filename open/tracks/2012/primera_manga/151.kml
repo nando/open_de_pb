@@ -14,10 +14,10 @@
     <name>Trip</name>
     <Placemark>
       <description><![CDATA[
-<img style="float:left; margin: 10px;" src="/open/images/pilots/151.jpg">
-<img style="margin: 10px;" src="/open/images/pilots/151_glider.jpg">
+<img style="float:left; margin: 10px 10px 0px 0px; border: 2px solid black" src="/open/images/pilots/151.jpg">
+<img style="margin-top: 10px; border: 2px solid black" src="/open/images/pilots/151_glider.jpg">
+<div style="clear: left;"></div>
 <pre>
-Flight statistics
 Date                 2012-05-01
 Start/finish         13:22:20 - 14:50:08
 Duration             1 : 27 : 48
@@ -26,6 +26,7 @@ Max. mean/top speed  95 km/h / 100 km/h
 Max/min climb rate   3.00 / -2.47 m/s over 60s
 Total distance       75.08 km
 </pre>
+<a href="/open/tracks/2012/primera_manga/151.kml">Track</a>
 ]]>
       </description>
 
