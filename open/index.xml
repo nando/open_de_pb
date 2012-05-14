@@ -10,6 +10,36 @@
 
 
 <entry>
+<title>Los tracks ganadores sobre el mapa</title>
+<link href="http://clubdevuelopb.com/open/2012/05/14/los_tracks_ganadores_sobre_el_mapa.html"/>
+<updated>2012-05-14T00:00:00+02:00</updated>
+<id>http://clubdevuelopb.com/open/2012/05/14/los_tracks_ganadores_sobre_el_mapa</id>
+<content type="html">&lt;h2&gt;Los tracks ganadores sobre el mapa&lt;/h2&gt;
+  Pinchando en ellos se pueden ver las estadísticas de cada vuelo junto con las fotos y un enlace al track para abrirlo en Google Earth.
+  &lt;div id=&quot;map&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;script src=&quot;javascript/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;http://maps.google.com/maps/api/js?sensor=false&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
+    $(window).load(function(){
+      var myOptions = {
+        mapTypeId: google.maps.MapTypeId.TERRAIN
+      }
+      var map = new google.maps.Map(document.getElementById('map'), myOptions);
+      var ctaLayer = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/primera_manga/144.kml?cache=wer2');
+      ctaLayer.setMap(map);
+      var ctaLayer2 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/primera_manga/151.kml?cache=34dggdkjfhdjh455faeq23');
+      ctaLayer2.setMap(map);
+      var ctaLayer3 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/primera_manga/64.kml?cache=sdfd');
+      ctaLayer3.setMap(map);
+    });
+  &lt;/script&gt;
+</content>
+</entry>
+
+
+<entry>
 <title>Clasificación definitiva del I Open de Pedro Bernardo</title>
 <link href="http://clubdevuelopb.com/open/2012/05/10/clasificacion_final_definitiva_del_i_open.html"/>
 <updated>2012-05-10T00:00:00+02:00</updated>
@@ -201,13 +231,13 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/05/02/primera_y_ultima_manga_de_este_open.html"/>
 <updated>2012-05-02T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/05/02/primera_y_ultima_manga_de_este_open</id>
-<content type="html">&lt;img alt='El despegue oeste la tarde del martes' class='right' src='images/despegue_martes_1.jpg' /&gt;
+<content type="html">&lt;img class='right' src='images/despegue_martes_1.jpg' alt='El despegue oeste la tarde del martes' /&gt;
 &lt;p&gt;La previsión era mejor que la de los días anteriores y existían posibilidades de que no tuviésemos agua. Sin embargo ya en el despegue se pudo ver que el día sería similar a los anteriores. Pasó el, por desgracia, ya clásico chaparrón y se montó el breafing rápidamente.&lt;/p&gt;
 
 &lt;p&gt;Se puso una prueba de 43 kilómetros con 5 ventanas desde las 15:30 entrando en el Start del campo de fútbol, siguiendo después hacia el este hasta el castillo de La Adrada, después cruzar el valle hasta Almendral de la Cañada y terminando con gol en La Iglesuela. Cerca de 20 pilotos despegamos antes de que volviese a cubrirse amenazando con más lluvia.&lt;/p&gt;
 
 &lt;p&gt;Los que estábamos en vuelo, tras marcar el Start y poner rumbo hacia La Adrada nos encontramos con una muralla de agua que se extendía a lo largo de todo el valle. Algunos pilotos llegaron a la primera baliza, otros camino de la misma finalmente se desviaron para aterrizar en La Iglesuela, otros llegaron hasta la campa de Casavieja, y muchos aterrizamos en la campa oficial de Pedro Bernardo.&lt;/p&gt;
-&lt;img alt='El despegue oeste la tarde del martes' class='left' src='images/despegue_martes_2.jpg' /&gt;
+&lt;img class='left' src='images/despegue_martes_2.jpg' alt='El despegue oeste la tarde del martes' /&gt;
 &lt;p&gt;En condiciones normales la manga habría sido cancelada, pero en ese caso el Open habría terminado sin una clasificación y con &lt;strong&gt;los trofeos tallados por Julio Sancho&lt;/strong&gt; rifados o cogiendo polvo en alguna vitrina. Así es que decidimos recoger los tracks para poder hacer la entrega de premios.&lt;/p&gt;
 
 &lt;p&gt;Pero con unas condiciones como aquellas algunos pilotos dieron por echo que la manga sería cancelada y se marcharon sin pasarse por La Iglesuela para entregar sus tracks. Entre ellos estaban &lt;strong&gt;Blay Jr. y Ako&lt;/strong&gt;, que &lt;strong&gt;podrían haber quedado en primera y tercera posición&lt;/strong&gt; respectivamente. Estamos a la espera de recibir sus tracks para hacer definitiva la clasificación. En la misma &lt;strong&gt;Tximo&lt;/strong&gt;, que llegó hasta la baliza de La Adrada, ocuparía la &lt;strong&gt;segunda posición&lt;/strong&gt;.&lt;/p&gt;
@@ -215,7 +245,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 &lt;p&gt;En la &lt;strong&gt;categoría Sport&lt;/strong&gt; se produjo un quíntuple empate entre los cinco pilotos que volaron, ya que todos puntuaron la distancia mínima. Para desempatar se utilizó como criterio el vuelo del día anterior, otorgando el &lt;strong&gt;tercer puesto a Iván Molina Cardenal, el segundo a Nuno Santos, y el primero a Carlos Crespo&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Desde la organización &lt;strong&gt;queremos pedir disculpas&lt;/strong&gt; a aquellos pilotos y familiares que no pudieron llegar a tiempo al ágape y la entrega de premios. Cometimos el error de convocaros allí &amp;#8220;pronto&amp;#8221;, sin daros una hora concreta. La intención era hacerlo lo antes posible para facilitar la asistencia a aquellos que habían venido de más lejos. El año que viene intentaremos evitar que ocurra lo mismo.&lt;/p&gt;
-&lt;img alt='Ala y nube' class='right' src='images/berli.jpg' /&gt;
+&lt;img class='right' src='images/berli.jpg' alt='Ala y nube' /&gt;
 &lt;p&gt;En este sentido sabemos que &lt;strong&gt;tenemos muchas cosas que mejorar&lt;/strong&gt; y que ir puliendo de cara a la edición del año que viene. Aunque algunas son obvias y las tenemos claras, no dudéis en hacernos llegar todas las críticas y sugerencias que tengáis. Serán tenidas en cuenta.&lt;/p&gt;
 
 &lt;p&gt;Porque si nada lo impide habrá II Open. No podría ser de otra forma después del apoyo que nos habéis demostrado asistiendo a pesar de esta borrasca infinita que no nos ha dado tregua, y después de haber vivido la experiencia de compartir un ambiente de vuelo como el que habéis creado todos estos días.&lt;/p&gt;
@@ -229,7 +259,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/05/01/resultados_provisionales_del_Open.html"/>
 <updated>2012-05-01T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/05/01/resultados_provisionales_del_Open</id>
-<content type="html">&lt;img alt='Breafing del Martes 1 de Mayo' title='Breafing del Martes 1 de Mayo' class='left' src='images/breafing_martes.jpg' /&gt;
+<content type="html">&lt;img title='Breafing del Martes 1 de Mayo' class='left' src='images/breafing_martes.jpg' alt='Breafing del Martes 1 de Mayo' /&gt;
 &lt;p&gt;Hemos publicado los &lt;a href='clasificacion_2012.html'&gt;resultados provisionales&lt;/a&gt; del Open a falta de recibir los tracks del primer y tercer clasificado.&lt;/p&gt;
 
 &lt;p&gt;En breve contaremos lo acontecido en último día del Open, que finalmente también fue pasado por agua en contra de las previsiones del día anterior.&lt;/p&gt;
@@ -243,7 +273,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/30/manga_cancelada_en_vuelo.html"/>
 <updated>2012-04-30T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/30/manga_cancelada_en_vuelo</id>
-<content type="html">&lt;img alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' title='Ricardo Marques sobre la primera baliza (Navamorcuende)' class='right' src='images/navamorcuende_rmarques.jpg' /&gt;
+<content type="html">&lt;img title='Ricardo Marques sobre la primera baliza (Navamorcuende)' class='right' src='images/navamorcuende_rmarques.jpg' alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' /&gt;
 &lt;p&gt;Tras una larga espera en el despegue por fin escampó y se pudo poner la primera prueba del primer Open: start de entrada en el campo de fútbol con 1000 metro de radio, Navamorcuende, vuelta a Pedro Bernardo, La Iglesuela y gol con viento de cara en Pedro Bernardo, completando un circuito de 48 kilómetros.&lt;/p&gt;
 
 &lt;p&gt;En &lt;strong&gt;25 minutos&lt;/strong&gt; lograron despegar &lt;strong&gt;23 pilotos&lt;/strong&gt; que comenzaron la prueba. En ese momento el agua volvió al despegue y se aplazaron las ventanas restantes hasta que escampase. Sin embargo poco después la manga sería cancelada por lluvia intensa en el curso de la misma.&lt;/p&gt;
@@ -257,7 +287,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/29/primeros_vuelos_del_open_aunque_sin_manga.html"/>
 <updated>2012-04-29T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/29/primeros_vuelos_del_open_aunque_sin_manga</id>
-<content type="html">&lt;img alt='Primer despegue del Open (Luís Vieira)' class='right' src='images/primer_despegue_del_open_vieira.jpg' /&gt;
+<content type="html">&lt;img class='right' src='images/primer_despegue_del_open_vieira.jpg' alt='Primer despegue del Open (Luís Vieira)' /&gt;
 &lt;p&gt;A las tres y media de la tarde Luís Vardasca Vieira y su Litesport han tenido el merecido honor de realizar el &lt;strong&gt;primer despegue&lt;/strong&gt; de este &lt;strong&gt;primer Open de Pedro Bernardo&lt;/strong&gt;. Tras el mismo pudo escucharse un caluroso aplauso de todos los que allí estábamos, clara muestra de las ganas que teníamos de ver por fin un ala en el aire. Detrás de él no tardaron en salir Antonio Lobo y Carlos Virgilio.&lt;/p&gt;
 
 &lt;p&gt;La prueba para el día ya había sido cancelada por el Comité de Seguridad, pero las cortinas de agua y granizo que penaban el valle no impidieron a más de una docena de pilotos volar entre ellas. Y aunque las condiciones eran suaves algunos completaron un vuelo local de más de dos horas.&lt;/p&gt;</content>
@@ -280,7 +310,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/28/posible_vuelo_de_reconocimiento_por_la_tarde.html"/>
 <updated>2012-04-28T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/28/posible_vuelo_de_reconocimiento_por_la_tarde</id>
-<content type="html">&lt;img alt='Las nubes por encima' class='left' src='images/peter_sabado_12horas.jpg' /&gt;
+<content type="html">&lt;img class='left' src='images/peter_sabado_12horas.jpg' alt='Las nubes por encima' /&gt;
 &lt;p&gt;La prueba de hoy ha sido &lt;a href='clasificacion_2012.html'&gt;cancelada&lt;/a&gt;. Sin dar un solo giro nos hemos despertado ya metidos en la nube, y con lluvia, pero la previsión dice que escampará y la base de las nubes superará los despegues a media tarde. Y efectivamente como podéis ver en la foto, a las 12 las nubes ya estaban por encima del pueblo.&lt;/p&gt;
 
 &lt;p&gt;Con esas condiciones esperamos que al menos los pilotos que lo deseen puedan disfrutar de un vuelo de bienvenida al Open y conocer los despegues y el aterrizaje oficial.&lt;/p&gt;
@@ -294,7 +324,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/27/confirmando_o_lo_contrario.html"/>
 <updated>2012-04-27T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/27/confirmando_o_lo_contrario</id>
-<content type="html">&lt;img alt='Foto del valle el viernes por la tarde' class='right' src='images/Valle_el_viernes_tarde.jpg' /&gt;
+<content type="html">&lt;img class='right' src='images/Valle_el_viernes_tarde.jpg' alt='Foto del valle el viernes por la tarde' /&gt;
 &lt;p&gt;Ante las malas previsiones entendemos que muchos de los pilotos inscritos estén planteándose asistir al Open. Vaya por delante nuestro agradecimiento a todos por el apoyo que nos han dado con su intención inicial de venir a volar con nosotros.&lt;/p&gt;
 
 &lt;p&gt;Como esperamos que las condiciones puedan mejorar a lo largo de estos días, para facilitar la participación en el Open de todos los que finalmente se animen, las inscripciones se podrán formalizar cualquiera de los días del campeonato.&lt;/p&gt;
@@ -342,7 +372,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/17/mapa_de_balizas.html"/>
 <updated>2012-04-17T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/17/mapa_de_balizas</id>
-<content type="html">&lt;a title='Mapa de Balizas en alta calidad (ATENCIÓN: 20Mb)' href='downloads/Mapa_de_Balizas_Open_de_PB.jpg'&gt;&lt;img alt='Mapa de Balizas en miniatura' class='right' src='images/mapa_balizas.jpg' /&gt;&lt;/a&gt;
+<content type="html">&lt;a title='Mapa de Balizas en alta calidad (ATENCIÓN: 20Mb)' href='downloads/Mapa_de_Balizas_Open_de_PB.jpg'&gt;&lt;img class='right' src='images/mapa_balizas.jpg' alt='Mapa de Balizas en miniatura' /&gt;&lt;/a&gt;
 &lt;p&gt;&lt;strong&gt;David Iglesias&lt;/strong&gt; todavía no sabe si participará o no en el Open, pero de momento ha tenido el detalle de montar el que será nuestro Mapa de Balizas para el campeonato.&lt;/p&gt;
 
 &lt;p&gt;Al formalizar la inscripción &lt;strong&gt;entregaremos un mapa como este a cada piloto&lt;/strong&gt;, pero si queréis tener alguna copia más o simplemente queréis ir estudiando las balizas, podéis bajaros el mapa haciendo click &lt;a href='downloads/Mapa_de_Balizas_Open_de_PB.jpg'&gt;aquí&lt;/a&gt; o en la imagen de la derecha.&lt;/p&gt;
@@ -358,13 +388,13 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/04/09/calentando_motores_a_tres_semanas.html"/>
 <updated>2012-04-09T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/04/09/calentando_motores_a_tres_semanas</id>
-<content type="html">&lt;a href='http://www.ipernity.com/doc/68912/album/268762/show'&gt;&lt;img title='Listos para despegar' alt='Listos para despegar' class='left' src='http://u1.ipernity.com/22/31/23/12523123.c5fb5994.560.jpg' /&gt;&lt;/a&gt;
+<content type="html">&lt;a href='http://www.ipernity.com/doc/68912/album/268762/show'&gt;&lt;img title='Listos para despegar' class='left' src='http://u1.ipernity.com/22/31/23/12523123.c5fb5994.560.jpg' alt='Listos para despegar' /&gt;&lt;/a&gt;
 &lt;p&gt;Günter Porath, Armando Cerrada y Julio López están estos días por la zona poniendo en marcha su proyecto &lt;a href='http://www.flytietar.com'&gt;FlyTietar&lt;/a&gt;. La semana pasada disfrutó de dos grandes vuelos: &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=316536'&gt;una triangulación por el Valle de 62km&lt;/a&gt; y &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=317323'&gt;una escapadita de 86km hasta Villacastín&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Después de una semana santa de malas condiciones, por fin el domingo pudimos despedirla volando con un día precioso de cúmulos sobre la cuerda, un techo de unos 2400, muy buena visibilidad, restos de nieve por las cumbres y el Valle en todo su esplendor agradeciendo las cuatro gotas caídas. Algo es algo.&lt;/p&gt;
 &lt;div class='clearer'&gt;&amp;nbsp;&lt;/div&gt;
 &lt;p&gt;El despegue estaba cambiante, tanto que &lt;a href='http://vimeo.com/40015031'&gt;Günter llegó incluso a abortar su primer intento&lt;/a&gt;. Pero finalmente todos salimos sin problemas. Aquí os dejamos los despegues de Julio, Juanma y Armando, que salieron tras la estela del alemán:&lt;/p&gt;
-&lt;iframe mozallowfullscreen='mozallowfullscreen' frameborder='0' src='http://player.vimeo.com/video/39982712?title=0&amp;amp;byline=0&amp;amp;portrait=0' allowFullScreen='allowFullScreen' webkitAllowFullScreen='webkitAllowFullScreen'&gt;
+&lt;iframe frameborder='0' allowFullScreen='allowFullScreen' src='http://player.vimeo.com/video/39982712?title=0&amp;amp;byline=0&amp;amp;portrait=0' mozallowfullscreen='mozallowfullscreen' webkitAllowFullScreen='webkitAllowFullScreen'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -374,7 +404,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://clubdevuelopb.com/open/2012/03/30/del_bosque_y_la_copa_del_mundo_en_pedro_bernardo.html"/>
 <updated>2012-03-30T00:00:00+02:00</updated>
 <id>http://clubdevuelopb.com/open/2012/03/30/del_bosque_y_la_copa_del_mundo_en_pedro_bernardo</id>
-<content type="html">&lt;img alt='Del Bosque con la Copa del Mundo' class='left' src='images/del_bosque.jpg' /&gt;
+<content type="html">&lt;img class='left' src='images/del_bosque.jpg' alt='Del Bosque con la Copa del Mundo' /&gt;
 &lt;p&gt;¿Qué mejor manera de comenzar el I Open de Pedro Bernardo que haciéndonos una foto con la Copa del Mundo de Fútbol de Sudáfrica 2010?&lt;/p&gt;
 
 &lt;p&gt;Pues seguro que si lo intentamos hacer aposta no nos sale, pero cosas del azar, &lt;strong&gt;el viernes 27 de abril a las 7 de la tarde&lt;/strong&gt; (una hora después de que comience la formalización de inscripciones del Open), el seleccionador nacional de fútbol y campeón del mundo &lt;strong&gt;Vicente del Bosque&lt;/strong&gt; estará participando en una charla-coloquio en el &lt;strong&gt;Centro Cultural&lt;/strong&gt; del pueblo.&lt;/p&gt;
@@ -384,49 +414,6 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 &lt;p&gt;Un motivo más para no perderse este primer Open, que a falta de cuatro semanas justas para su comienzo ya tiene &lt;a href='pilotos.html'&gt;42 pilotos inscritos&lt;/a&gt; procedentes de muy diversos lugares&amp;#8230; &lt;strong&gt;¡os esperamos a todos con La Copa!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Vía &lt;a href='http://pbdigital.blogspot.com.es/2012/03/la-copa-del-mundo-en-pedro-bernardo.html'&gt;PBDigital&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-<title>Cargando las balizas con GpsDump</title>
-<link href="http://clubdevuelopb.com/open/2012/03/27/cargando_las_balizas_con_gpsdump.html"/>
-<updated>2012-03-27T00:00:00+02:00</updated>
-<id>http://clubdevuelopb.com/open/2012/03/27/cargando_las_balizas_con_gpsdump</id>
-<content type="html">&lt;p&gt;Para los que no tengáis experiencia cargando las balizas en vuestro GPS aquí va una pequeña chuleta para hacerlo con el &lt;a href='http://www.gethome.no/stein.sorensen/body_gpsdump.htm'&gt;GpsDump&lt;/a&gt;. Con otros programas el proceso suele ser similar:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Lo primero es bajarnos el GpsDump si todavía no lo tenemos en nuestro ordenador. Lo puedes hacer pinchando &lt;a href='http://www.gethome.no/stein.sorensen/GpsDump467.exe'&gt;aquí&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Lo siguiente es bajarnos el fichero de balizas. Lo puedes hacer pinchando con el botón derecho &lt;a href='downloads/Balizas_Open_Pedro_Bernardo.WPT'&gt;aquí&lt;/a&gt; y seleccionando la opción &amp;#8221;&lt;em&gt;Guardar enlace como&amp;#8230;&lt;/em&gt;&amp;#8221;.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Después ejecutamos GpsDump (con doble-click donde lo hayamos guardado en el paso 1) y leemos el fichero de balizas: menú &lt;strong&gt;File&lt;/strong&gt;, opción &lt;strong&gt;Open wpts.&lt;/strong&gt; (y seleccionamos el fichero de balizas buscándolo donde lo hayamos guardado en el paso 2).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;En este punto deberían aparecernos todas las balizas listadas en el panel principal del GpsDump. Tenemos que seleccionar las balizas que queremos cargar en nuestro GPS: para seleccionar todas pulsa &lt;strong&gt;Ctrl+A&lt;/strong&gt; (es decir, pulsa la tecla &lt;em&gt;Control&lt;/em&gt; y sin soltarla pulsa la tecla &lt;em&gt;A&lt;/em&gt;).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Para terminar enviamos las balizas seleccionadas a nuestro GPS por medio del menú &lt;strong&gt;Wpts&lt;/strong&gt; y la opción &lt;strong&gt;Send to ???&lt;/strong&gt;, siendo &lt;em&gt;???&lt;/em&gt; el modelo de nuestro GPS. Si nuestro modelo tiene dos opciones, una terminada en &lt;em&gt;(Only name)&lt;/em&gt; y otra en &lt;em&gt;(ID + Name)&lt;/em&gt;, se recomienda usar esta última, que nos meterá además del ID de la baliza parte de su nombre (p.e. &lt;em&gt;G07117 GOL ARCONES&lt;/em&gt;).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;En este punto las balizas ya deberían estar en nuestro GPS. Si se produjo un error en el paso anterior comprueba que el GPS esta bien conectado con el ordenador. Dependiendo del GPS es posible que tengamos que ponerlo en lo que se suele llamar &lt;em&gt;modo transferencia de datos&lt;/em&gt; (en el Compeo consiste en tener en pantalla el menú de configuración, por ejemplo). Si todo lo anterior parece estar bien y seguimos teniendo problemas podemos probar a cambiar el puerto serie por medio del menú &lt;strong&gt;Misc&lt;/strong&gt;, opción &lt;strong&gt;Set COM port&lt;/strong&gt; e intentar de nuevo el paso 5.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Si por lo que sea la cosa no funciona y todo esto te supera, no te preocupes, al formalizar la inscripción nosotros nos encargaremos de meter las balizas en tu GPS sea como sea. Eso sí, si el cable es especial no te olvides de llevarlo contigo. Si no puedes esperar a ese momento pregunta en el &lt;a href='http://es.groups.yahoo.com/group/ala_delta/'&gt;foro de ala delta&lt;/a&gt; que no te faltarán buenos consejos.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;¡A volar de flor en flor!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content>
 </entry>
 
 
