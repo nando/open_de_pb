@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Document>
+  <Style id="track">
+    <LineStyle>
+      <color>cc1FFF12</color>
+      <gx:physicalWidth>2</gx:physicalWidth>
+    </LineStyle>
+  </Style>
 <open>1</open>
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
@@ -17,257 +23,6 @@ Max/min climb rate   3.05 / -2.67 m/s over 60s
 Total distance       107.47 km
 </pre>]]>
     </description>
-
-    <Placemark>
-      <Metadata src="GpsDump" v="4.66" type="distance_5_point">
-        <FsInfo track_idx="5 145 885 1217 1354" />
-      </Metadata>
-      <name>Distance over 5 points</name>
-      <description>
-        <![CDATA[
-<pre>
-Greatest distance using 5 points
-
-Pos.      Time      Latitude         Longitude         Distance
- A     6  12:46:39  N 40  15  24.12  W 004  54  19.92
- B   146  13:02:03  N 40  14  21.96  W 004  55  27.00  2.49
- C   886  14:16:03  N 40  21  57.30  W 004  37  50.16  28.64
- D  1218  14:48:39  N 40  16  39.06  W 004  34  02.76  11.19
- E  1355  15:01:45  N 40  13  55.56  W 004  35  54.36  5.69
-                                                  Sum  48.01
-</pre>]]>
-      </description>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          -4.905533,40.256700,1270
-          -4.924167,40.239433,1568
-          -4.630600,40.365917,2047
-          -4.567433,40.277517,1487
-          -4.598433,40.232100,712
-        </coordinates>
-      </LineString>
-      <Style>
-        <LineStyle>
-          <color>FFFF0000</color>
-        </LineStyle>
-      </Style>
-    </Placemark>
-
-    <Placemark>
-      <Metadata src="GpsDump" v="4.66" type="distance_4_point">
-        <FsInfo track_idx="5 145 892 1355" />
-      </Metadata>
-      <name>Distance over 4 points</name>
-      <description>
-        <![CDATA[
-<pre>
-Greatest distance using 4 points
-
-Pos.      Time      Latitude         Longitude         Distance
- A     6  12:46:39  N 40  15  24.12  W 004  54  19.92
- B   146  13:02:03  N 40  14  21.96  W 004  55  27.00  2.49
- C   893  14:16:18  N 40  21  54.84  W 004  37  40.68  28.80
- D  1356  15:01:51  N 40  13  55.32  W 004  35  49.26  15.02
-                                                  Sum  46.31
-</pre>]]>
-      </description>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          -4.905533,40.256700,1270
-          -4.924167,40.239433,1568
-          -4.627967,40.365233,2020
-          -4.597017,40.232033,700
-        </coordinates>
-      </LineString>
-      <Style>
-        <LineStyle>
-          <color>FFFF0000</color>
-        </LineStyle>
-      </Style>
-    </Placemark>
-
-    <Placemark>
-      <Metadata src="GpsDump" v="4.66" type="distance_3_point">
-        <FsInfo track_idx="145 892 1355" />
-      </Metadata>
-      <name>Distance over 3 points</name>
-      <description>
-        <![CDATA[
-<pre>
-Greatest distance using 3 points
-
-Pos.      Time      Latitude         Longitude         Distance
- A   146  13:02:03  N 40  14  21.96  W 004  55  27.00
- B   893  14:16:18  N 40  21  54.84  W 004  37  40.68  28.80
- C  1356  15:01:51  N 40  13  55.32  W 004  35  49.26  15.02
-                                                  Sum  43.82
-</pre>]]>
-      </description>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          -4.924167,40.239433,1568
-          -4.627967,40.365233,2020
-          -4.597017,40.232033,700
-        </coordinates>
-      </LineString>
-      <Style>
-        <LineStyle>
-          <color>FFFF0000</color>
-        </LineStyle>
-      </Style>
-    </Placemark>
-
-    <Placemark>
-      <Metadata src="GpsDump" v="4.66" type="distance_open">
-        <FsInfo track_idx="146 1217" />
-      </Metadata>
-      <name>Open distance</name>
-      <description>
-        <![CDATA[
-<pre>
-Greatest distance between any 2 points
-
-Pos.      Time      Latitude         Longitude         Distance
- A   147  13:02:09  N 40  14  24.00  W 004  55  28.26
- B  1218  14:48:39  N 40  16  39.06  W 004  34  02.76  30.66
-</pre>]]>
-      </description>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          -4.924517,40.240000,1556
-          -4.567433,40.277517,1487
-        </coordinates>
-      </LineString>
-      <Style>
-        <LineStyle>
-          <color>FF0000FF</color>
-        </LineStyle>
-      </Style>
-    </Placemark>
-
-    <Placemark>
-      <Metadata src="GpsDump" v="4.66" type="distance_out_and_return">
-        <FsInfo track_idx="5 145 195" />
-      </Metadata>
-      <name>Out-and-return distance</name>
-      <description>
-        <![CDATA[
-<pre>
-Out-and-return distance (max allowable gap 800)
-
-Pos.      Time      Latitude         Longitude         Distance
- A     6  12:46:39  N 40  15  24.12  W 004  54  19.92
- B   146  13:02:03  N 40  14  21.96  W 004  55  27.00  2.49
- C   196  13:07:03  N 40  15  24.36  W 004  54  20.34  0.01
-                                                  Sum  4.96
-</pre>]]>
-      </description>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          -4.905650,40.256767,1499
-          -4.905533,40.256700,1270
-          -4.924167,40.239433,1568
-        </coordinates>
-      </LineString>
-      <Style>
-        <LineStyle>
-          <color>FFFF0000</color>
-        </LineStyle>
-      </Style>
-    </Placemark>
-
-    <Placemark>
-      <Metadata src="GpsDump" v="4.66" type="distance_flat_triangle">
-        <FsInfo track_idx="25 145 166 308 310" />
-      </Metadata>
-      <name>Flat triangle</name>
-      <description>
-        <![CDATA[
-<pre>
-Flat triangle (max allowable gap 800)
-
-Pos.      Time      Latitude         Longitude         Distance
- A    26  12:50:03  N 40  15  23.76  W 004  54  19.44
- B   146  13:02:03  N 40  14  21.96  W 004  55  27.00  1.78
- C   167  13:04:09  N 40  15  16.80  W 004  55  03.48  1.74
- D   309  13:18:21  N 40  15  42.84  W 004  53  58.38  3.26
- E   311  13:18:33  N 40  15  40.92  W 004  53  57.78  0.74
-                                                  Sum  6.04
-</pre>]]>
-      </description>
-      <MultiGeometry>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -4.924167,40.239433,1568
-            -4.917633,40.254667,1347
-            -4.899550,40.261900,1941
-            -4.924167,40.239433,1568
-          </coordinates>
-        </LineString>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -4.905400,40.256600,1368
-            -4.899383,40.261367,1932
-          </coordinates>
-        </LineString>
-      </MultiGeometry>
-      <Style>
-        <LineStyle>
-          <color>FFFF0000</color>
-        </LineStyle>
-      </Style>
-    </Placemark>
-
-    <Placemark>
-      <Metadata src="GpsDump" v="4.66" type="distance_fai_triangle">
-        <FsInfo track_idx="24 25 135 165 196" />
-      </Metadata>
-      <name>FAI triangle</name>
-      <description>
-        <![CDATA[
-<pre>
-FAI triangle (max allowable gap 800)
-
-Pos.      Time      Latitude         Longitude         Distance
- A    25  12:49:57  N 40  15  24.60  W 004  54  22.44
- B    26  12:50:03  N 40  15  23.76  W 004  54  19.44  1.72
- C   136  13:01:03  N 40  14  37.80  W 004  55  00.66  1.11
- D   166  13:04:03  N 40  15  13.74  W 004  55  04.62  1.11
- E   197  13:07:09  N 40  15  24.84  W 004  54  22.56  0.01
-                                                  Sum  3.94
-</pre>]]>
-      </description>
-      <MultiGeometry>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -4.905400,40.256600,1368
-            -4.916850,40.243833,1675
-            -4.917950,40.253817,1359
-            -4.905400,40.256600,1368
-          </coordinates>
-        </LineString>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -4.906233,40.256833,1361
-            -4.906267,40.256900,1504
-          </coordinates>
-        </LineString>
-      </MultiGeometry>
-      <Style>
-        <LineStyle>
-          <color>FFFF0000</color>
-        </LineStyle>
-      </Style>
-    </Placemark>
 
     <Placemark>
       <Metadata src="GpsDump" v="4.66" type="track">
@@ -394,7 +149,8 @@ Pos.      Time      Latitude         Longitude         Distance
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Tracklog</name>
+      <name>Julio Sancho</name>
+      <styleUrl>#track</styleUrl>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
