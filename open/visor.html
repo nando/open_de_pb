@@ -9,7 +9,7 @@
     <base href="http://clubdevuelopb.com/open/" /> 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
-    <title>El Open desde las cámaras de Ricardo Marques - I Open de Ala Delta de Pedro Bernardo</title>
+    <title>Visor de tracks - I Open de Ala Delta de Pedro Bernardo</title>
     <link rel="alternate" type="application/atom+xml" title="Feed del Open de Ala Delta de Pedro Bernardo" href="http://clubdevuelopb.com/open/index.xml" />
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" type="text/css" href="styles/inspired_by_bundler_inspired.css?version=4" />
@@ -17,18 +17,18 @@
       <link rel="stylesheet" type="text/css" href="styles/ie6.css" />
     <![endif]-->
 </head>
-<body class="noticias">
+<body class="clasificacion">
 <header>
     <h1>I Open de Ala Delta de Pedro Bernardo</h1>
     <h2>28 de Abril - 1 de Mayo de 2012</h2>
     <a href="http://clubdevuelopb.com/open/presentacion.html" title="Presentación del Open"><img class="logo" src="images/logo.png"/></a>
         <nav>
       <ul>
-        <li class="active"><a href="http://clubdevuelopb.com/open">Noticias</a></li>
+        <li><a href="http://clubdevuelopb.com/open">Noticias</a></li>
         <li><a href="presentacion.html">Presentación</a></li>
         <li><a href="reglamento.html">Reglamento</a></li>
         <li><a href="pilotos_2012.html">Pilotos</a></li>
-        <li><a href="clasificacion_2012.html">Clasificación</a></li>
+        <li class="active"><a href="clasificacion_2012.html">Clasificación</a></li>
         <li><a href="balizas.html">Balizas</a></li>
         <li><a href="mapa.html">Mapa</a></li>
         <li><a href="alojamientos.html">Alojamiento</a></li>
@@ -42,56 +42,45 @@
 <div class="article">
 <article role="main">
 <section>
-  <div id="post">
-  <h2>El Open desde las cámaras de Ricardo Marques
-  <span class="date">05/05/2012</span>
-  </h2>
-<div id="page-navigation">
-        <div class="clearer">&nbsp;</div>
-        <div class="left">
-        
-          <a href="http://clubdevuelopb.com/open/2012/05/04/Fotos_de_Pablo_Vicens_un_lujazo.html" title="Fotos de Pablo Vicens, un lujazo para este Open.">&laquo; anterior</a>
-        
-        </div>
+<h2>Visor de tracks</h2>
+  <p>
+    <label for="pilot">Selecciona un piloto:</label>
+    <select id="pilot">
+    <option value="4">Armando Cerrada Cordobés</option>
+    <option value="121">Julio Lopez Fernandez</option>
+    <option value="138">Antonio (Lechón) Saez Medina</option>
+    <option value="14">Juan Manuel Guillén Sánchez</option>
+    <option value="206">Paco Ortuño Candela</option>
+    <option value="151">Juan Lorenzo Rodríguez</option>
+    <option value="37">Carlos Crespo Menéndez</option>
+    <option value="3">Fernando García Samblas</option>
+    <option value="122">Julio Sancho Morcillo</option>
+    <option value="16">Francisco Javier Sánchez Ramos</option>
+    </select>
+  </p>
 
-        <div class="right">
-        
-          <a href="http://clubdevuelopb.com/open/2012/05/07/Fotos_de_Carlos_Parapen.html" title="Fotos del Open de Carlos "parapen"">siguiente &raquo; </a>
-        
-        </div>
-        <div class="clearer">&nbsp;</div>
-</div> 
-<p>Ricardo Marques da Costa ha preparado un vídeo recogiendo sus grabaciones a lo largo del Open incluyendo en el mismo un aterrizaje de Blay Jr. el domingo y <a href='http://www.xcportugal.org/modules.php?name=leonardo&amp;op=show_flight&amp;flightID=32924'>su vuelo del lunes</a>, en el que llegó con mucha altura a la primera baliza, Navamorcuende, lugar en el que decidió aterrizar tras saber que la manga había sido cancelada. Una gozada de vídeo&#8230; ¡gracias Ricardo!</p>
-<iframe frameborder='0' allowfullscreen='allowfullscreen' src='http://www.youtube.com/embed/W6KVs_tNCqc'>
-</iframe>
-</div>
-<div id="comments">
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'opendeltietar';
+  <div id="map">
+  </div>
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Por favor, habilita JavaScript para ver los <a href="http://disqus.com/?ref_noscript">comentarios vía Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comentarios vía <span class="logo-disqus">Disqus</span></a>
+  <script src="javascript/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript">
+    $(window).load(function(){
+      var myOptions = {
+        mapTypeId: google.maps.MapTypeId.TERRAIN
+      }
+      var map = new google.maps.Map(document.getElementById('map'), myOptions);
+      var ctaLayer1 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/121.kml?cache=sd454454fd');
+      ctaLayer1.setMap(map);
+      var ctaLayer2 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/121.kml?cache=sd454454fd');
 
-</div>
-
-<script src="javascript/jquery.min.js" type="text/javascript"></script>
-<script src="javascript/jquery.fitvids.js" type="text/javascript"></script>
-
-<script type="text/javascript" charset="utf-8">
-  $(function(){
-    
-    $("div.article").fitVids();
-    
-  })
-</script>
-
+      $('#pilot').change(function(){
+        ctaLayer2.setMap(null);
+        ctaLayer2 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/'+$(this).val()+'.kml');
+        ctaLayer2.setMap(map);
+      });
+    });
+  </script>
 
 </section>
 </article>
@@ -99,11 +88,11 @@
 <footer>
       <nav>
       <ul>
-        <li class="active"><a href="http://clubdevuelopb.com/open">Noticias</a></li>
+        <li><a href="http://clubdevuelopb.com/open">Noticias</a></li>
         <li><a href="presentacion.html">Presentación</a></li>
         <li><a href="reglamento.html">Reglamento</a></li>
         <li><a href="pilotos_2012.html">Pilotos</a></li>
-        <li><a href="clasificacion_2012.html">Clasificación</a></li>
+        <li class="active"><a href="clasificacion_2012.html">Clasificación</a></li>
         <li><a href="balizas.html">Balizas</a></li>
         <li><a href="mapa.html">Mapa</a></li>
         <li><a href="alojamientos.html">Alojamiento</a></li>
