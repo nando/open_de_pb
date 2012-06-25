@@ -421,13 +421,7 @@ Max. mean/top speed  93 km/h / 100 km/h
 Max/min climb rate   3.20 / -3.05 m/s over 60s
 Total distance       183.11 km
 </pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
+    </description>
 </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>bb565590</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>
