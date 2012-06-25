@@ -3,7 +3,7 @@
   <Style id="track">
     <LineStyle>
       <color>ff235523</color>
-      <gx:physicalWidth>2</gx:physicalWidth>
+      <gx:physicalWidth>1</gx:physicalWidth>
     </LineStyle>
   </Style>
 

@@ -4,8 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Antonio (Lechón) Saez Medina Track</name>
-    
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         12:40:39 - 16:21:12
+Duration             3 : 40 : 33
+Max./min. height     2275 / 581 m
+Max. mean/top speed  93 km/h / 100 km/h
+Max/min climb rate   3.20 / -3.05 m/s over 60s
+Total distance       183.11 km
+</pre>]]>
+    </description>
 
     
 
@@ -138,7 +149,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Antonio (Lechón) Saez Medina</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -410,24 +421,6 @@
 -4.750417,40.230100,581
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         12:40:39 - 16:21:12
-Duration             3 : 40 : 33
-Max./min. height     2275 / 581 m
-Max. mean/top speed  93 km/h / 100 km/h
-Max/min climb rate   3.20 / -3.05 m/s over 60s
-Total distance       183.11 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>7958a688</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>

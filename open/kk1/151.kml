@@ -4,8 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Juan Lorenzo Rodríguez Track</name>
-    
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         12:30:37 - 15:51:48
+Duration             3 : 21 : 11
+Max./min. height     2242 / 638 m
+Max. mean/top speed  79 km/h / 91 km/h
+Max/min climb rate   3.05 / -3.30 m/s over 60s
+Total distance       187.49 km
+</pre>]]>
+    </description>
 
     
 
@@ -510,7 +521,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Juan Lorenzo Rodríguez</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -1712,24 +1723,6 @@
 -4.599433,40.234067,638 -4.599433,40.234067,638 -4.599433,40.234067,638 -4.599433,40.234067,638 -4.599433,40.234067,638
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         12:30:37 - 15:51:48
-Duration             3 : 21 : 11
-Max./min. height     2242 / 638 m
-Max. mean/top speed  79 km/h / 91 km/h
-Max/min climb rate   3.05 / -3.30 m/s over 60s
-Total distance       187.49 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>7961006c</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>

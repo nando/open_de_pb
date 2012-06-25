@@ -4,8 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Juan Manuel Guillén Sánchez Track</name>
-    
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         12:45:56 - 15:31:59
+Duration             2 : 46 : 03
+Max./min. height     2263 / 529 m
+Max. mean/top speed  72 km/h / 86 km/h
+Max/min climb rate   2.88 / -2.48 m/s over 60s
+Total distance       117.13 km
+</pre>]]>
+    </description>
 
     
 
@@ -110,7 +121,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Juan Manuel Guillén Sánchez</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -315,24 +326,6 @@
 -4.750133,40.229350,544 -4.750217,40.229433,536 -4.750233,40.229467,531 -4.750267,40.229567,529
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         12:45:56 - 15:31:59
-Duration             2 : 46 : 03
-Max./min. height     2263 / 529 m
-Max. mean/top speed  72 km/h / 86 km/h
-Max/min climb rate   2.88 / -2.48 m/s over 60s
-Total distance       117.13 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>798fe58</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>

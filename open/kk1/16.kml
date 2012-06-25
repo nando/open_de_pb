@@ -4,8 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Francisco Javier Sánchez Ramos Track</name>
-    
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         13:01:39 - 14:37:29
+Duration             1 : 35 : 50
+Max./min. height     2159 / 619 m
+Max. mean/top speed  70 km/h / 76 km/h
+Max/min climb rate   2.89 / -2.67 m/s over 60s
+Total distance       79.84 km
+</pre>]]>
+    </description>
 
     
 
@@ -260,7 +271,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Francisco Javier Sánchez Ramos</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -837,24 +848,6 @@
 -4.645917,40.298150,619
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         13:01:39 - 14:37:29
-Duration             1 : 35 : 50
-Max./min. height     2159 / 619 m
-Max. mean/top speed  70 km/h / 76 km/h
-Max/min climb rate   2.89 / -2.67 m/s over 60s
-Total distance       79.84 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>79a4740</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>

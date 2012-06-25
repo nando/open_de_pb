@@ -4,8 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Carlos Crespo Menéndez Track</name>
-    
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         12:24:02 - 16:16:46
+Duration             3 : 52 : 44
+Max./min. height     2126 / 631 m
+Max. mean/top speed  90 km/h / 96 km/h
+Max/min climb rate   3.92 / -3.93 m/s over 60s
+Total distance       204.08 km
+</pre>]]>
+    </description>
 
     
 
@@ -254,7 +265,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Carlos Crespo Menéndez</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -817,24 +828,6 @@
 -4.599417,40.234133,636 -4.599417,40.234133,636 -4.599417,40.234133,636
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         12:24:02 - 16:16:46
-Duration             3 : 52 : 44
-Max./min. height     2126 / 631 m
-Max. mean/top speed  90 km/h / 96 km/h
-Max/min climb rate   3.92 / -3.93 m/s over 60s
-Total distance       204.08 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>7917c4c4</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>

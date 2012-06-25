@@ -4,8 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Armando Cerrada Cordobés Track</name>
-    
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         12:27:12 - 15:54:35
+Duration             3 : 27 : 23
+Max./min. height     2292 / 665 m
+Max. mean/top speed  85 km/h / 93 km/h
+Max/min climb rate   3.13 / -2.95 m/s over 60s
+Total distance       139.36 km
+</pre>]]>
+    </description>
 
     
 
@@ -130,7 +141,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Armando Cerrada Cordobés</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -385,24 +396,6 @@
 -4.598200,40.233933,665
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         12:27:12 - 15:54:35
-Duration             3 : 27 : 23
-Max./min. height     2292 / 665 m
-Max. mean/top speed  85 km/h / 93 km/h
-Max/min climb rate   3.13 / -2.95 m/s over 60s
-Total distance       139.36 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>79291d0</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>

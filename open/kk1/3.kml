@@ -4,8 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Fernando García Samblas Track</name>
-    
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         12:46:25 - 15:16:36
+Duration             2 : 30 : 11
+Max./min. height     2149 / 634 m
+Max. mean/top speed  80 km/h / 93 km/h
+Max/min climb rate   3.15 / -3.02 m/s over 60s
+Total distance       126.49 km
+</pre>]]>
+    </description>
 
     
 
@@ -388,7 +399,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Fernando García Samblas</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -1288,24 +1299,6 @@
 -4.599200,40.234300,638 -4.599200,40.234300,638 -4.599217,40.234300,638 -4.599217,40.234300,638 -4.599217,40.234300,638
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         12:46:25 - 15:16:36
-Duration             2 : 30 : 11
-Max./min. height     2149 / 634 m
-Max. mean/top speed  80 km/h / 93 km/h
-Max/min climb rate   3.15 / -3.02 m/s over 60s
-Total distance       126.49 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>791ed5c</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>

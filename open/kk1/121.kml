@@ -4,23 +4,19 @@
   <Folder>
     <Metadata src="GpsDump" v="4.66" type="trip"/>
     <open>1</open>
-    <name>Julio Lopez Fernandez Track</name>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <name>Trip</name>
+    <description><![CDATA[Tracklog from GpsDump competition mode
+<pre>
+Flight statistics
+Date                 2012-06-16
+Start/finish         12:28:42 - 16:46:35
+Duration             4 : 17 : 53
+Max./min. height     2281 / 513 m
+Max. mean/top speed  73 km/h / 84 km/h
+Max/min climb rate   3.45 / -2.76 m/s over 60s
+Total distance       183.67 km
+</pre>]]>
+    </description>
     <Placemark>
       <Metadata src="GpsDump" v="4.66" type="track">
         <FsInfo time_of_first_point="2012-06-16T12:28:42Z" civl_pilot_id="6803" comp_pilot_id="121" instrument="COMPEO+ SN02350 SW3.33" downloaded="2012-06-16T19:22:24Z" hash="20825E86089EC606F20C5CA95D8A24AAA5106654">
@@ -154,7 +150,7 @@
           </PressureAltitude>
         </FsInfo>
       </Metadata>
-      <name>Julio Lopez Fernandez</name>
+      <name>Tracklog</name>
       <LineString>
         <altitudeMode>absolute</altitudeMode>
         <coordinates>
@@ -468,24 +464,6 @@
 -4.750017,40.230500,517 -4.750100,40.230633,516 -4.750083,40.230700,516 -4.750033,40.230800,516
         </coordinates>
       </LineString>
-    <description><![CDATA[Tracklog from GpsDump competition mode
-<pre>
-Flight statistics
-Date                 2012-06-16
-Start/finish         12:28:42 - 16:46:35
-Duration             4 : 17 : 53
-Max./min. height     2281 / 513 m
-Max. mean/top speed  73 km/h / 84 km/h
-Max/min climb rate   3.45 / -2.76 m/s over 60s
-Total distance       183.67 km
-</pre>]]>
-    </description>      <styleUrl>#track</styleUrl>
-</Placemark>
+    </Placemark>
   </Folder>
-  <Style id="track">
-    <LineStyle>
-      <color>794dbad4</color>
-      <physicalWidth>1</physicalWidth>
-    </LineStyle>
-  </Style>
 </Document>
