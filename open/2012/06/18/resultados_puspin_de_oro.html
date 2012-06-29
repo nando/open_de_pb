@@ -56,6 +56,8 @@
 
         <div class="right">
         
+          <a href="http://clubdevuelopb.com/open/2012/06/29/fotos_del_open_de_javi_yunquera.html" title="Fotos del Open de Javi "Yunquera"">siguiente &raquo; </a>
+        
         </div>
         <div class="clearer">&nbsp;</div>
 </div> 
@@ -85,14 +87,15 @@
       var myOptions = {
         mapTypeId: google.maps.MapTypeId.TERRAIN
       }
+      var tracks_base = 'http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/resultados/';
       var map = new google.maps.Map(document.getElementById('map'), myOptions);
-      var ctaLayer = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/4.kml?cache=wer2222');
+      var ctaLayer = new google.maps.KmlLayer(tracks_base + '4.kml');
       ctaLayer.setMap(map);
-      var ctaLayer2 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/122.kml?cache=34d2123ggdkjfhdjh455faeq23');
+      var ctaLayer2 = new google.maps.KmlLayer(tracks_base + '122.kml');
       ctaLayer2.setMap(map);
-      var ctaLayer3 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/121.kml?cache=sd454454fd');
+      var ctaLayer3 = new google.maps.KmlLayer(tracks_base + '121.kml');
       ctaLayer3.setMap(map);
-      var ctaLayer4 = new google.maps.KmlLayer('http://clubdevuelopb.com/open/tracks/2012/torneo_puspin/138.kml?cache=sdfg45353fd');
+      var ctaLayer4 = new google.maps.KmlLayer(tracks_base + '138.kml');
       ctaLayer4.setMap(map);
     });
   </script>
