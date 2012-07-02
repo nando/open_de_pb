@@ -853,7 +853,7 @@ Total distance       79.84 km
   </Folder>
   <Style id="track">
     <LineStyle>
-      <color>bb0a0280</color>
+      <color>ee0a0280</color>
       <physicalWidth>1</physicalWidth>
     </LineStyle>
   </Style>
