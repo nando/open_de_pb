@@ -756,6 +756,42 @@
           <FsTaskDistToTp tp_no="5" distance="43.354" />
         </FsTaskScoreParams>
       </FsTask>
+      <FsTask id="2" name="Nicopress Express" tracklog_folder="C:\Users\nando\Desktop\tracks_torneo_puspin\torneo_puspin">
+        <FsScoreFormula id="GAP2011" use_distance_points="1" use_time_points="1" use_departure_points="0" use_leading_points="1" use_arrival_position_points="1" use_arrival_time_points="0" min_dist="5" nom_dist="40" nom_time="1.5" nom_goal="0.2" day_quality="0" time_points_if_not_in_goal="0.8" jump_the_gun_factor="0" use_1000_points_for_max_day_quality="0" normalize_1000_before_day_quality="0" time_validity_based_on_pilot_with_speed_rank="1" bonus_gr="0" no_pilots_in_goal_factor="1" task_stopped_factor="1" />
+        <FsTaskDefinition ss="2" es="5" goal="CIRCLE" groundstart="0">
+          <FsTurnpoint id="D01125" lat="40.25547" lon="-4.9062" radius="400" open="2012-06-30T12:00:00+02:00" close="2012-06-30T20:00:00+02:00" />
+          <FsTurnpoint id="B26076" lat="40.23745" lon="-4.92098" radius="1600" open="2012-06-30T12:00:00+02:00" close="2012-06-30T20:00:00+02:00" />
+          <FsTurnpoint id="B46196" lat="40.36472" lon="-4.62417" radius="1000" open="2012-06-30T12:00:00+02:00" close="2012-06-30T20:00:00+02:00" />
+          <FsTurnpoint id="B08080" lat="40.21064" lon="-4.96298" radius="400" open="2012-06-30T12:00:00+02:00" close="2012-06-30T20:00:00+02:00" />
+          <FsTurnpoint id="G02052" lat="40.22933" lon="-4.75153" radius="400" open="2012-06-30T12:00:00+02:00" close="2012-06-30T20:00:00+02:00" />
+          <FsStartGate open="2012-06-30T14:45:00+02:00" />
+          <FsStartGate open="2012-06-30T15:00:00+02:00" />
+          <FsStartGate open="2012-06-30T15:15:00+02:00" />
+          <FsStartGate open="2012-06-30T15:30:00+02:00" />
+          <FsStartGate open="2012-06-30T15:45:00+02:00" />
+        </FsTaskDefinition>
+        <FsTaskState task_state="REGULAR" goal_altitude="0" score_back_time="0" cancel_reason="" stop_time="2012-06-30T21:06:00+02:00" />
+        <FsParticipants>
+          <FsParticipant id="155">
+            <FsFlightData distance="10.052" started_ss="2012-06-30T15:41:18+02:00" finished_ss="" finished_task="2012-06-30T17:03:20+02:00" tracklog_filename="Antonio López Lobo.20120630-185640.5853.155.kml" lc="0" iv="0" ts="2012-07-03T23:03:11+02:00" alt="1462" baro_alt="1673" last_tracklog_point_distance="1.345" last_tracklog_point_time="2012-06-30T17:42:58+02:00" last_tracklog_point_alt="439" last_tracklog_point_baro_alt="410" landed_before_deadline="1" />
+          </FsParticipant>
+          <FsParticipant id="29">
+            <FsFlightData distance="25.421" started_ss="2012-06-30T15:06:05+02:00" finished_ss="" finished_task="2012-06-30T16:33:15+02:00" tracklog_filename="Carlos Gonzalez Agueros.20120630-184153.27163.29.kml" lc="0" iv="0" ts="2012-07-03T23:03:13+02:00" alt="1785" baro_alt="1637" last_tracklog_point_distance="18.598" last_tracklog_point_time="2012-06-30T17:03:38+02:00" last_tracklog_point_alt="585" last_tracklog_point_baro_alt="544" landed_before_deadline="1" />
+          </FsParticipant>
+          <FsParticipant id="37">
+            <FsFlightData distance="24.801" started_ss="2012-06-30T14:54:20+02:00" finished_ss="" finished_task="2012-06-30T16:09:47+02:00" tracklog_filename="Carlos Crespo Menéndez.20120630-183206.[CIVLID].37.kml" lc="0" iv="0" ts="2012-07-03T23:03:14+02:00" alt="1844" baro_alt="1783" last_tracklog_point_distance="9.429" last_tracklog_point_time="2012-06-30T19:40:23+02:00" last_tracklog_point_alt="517" last_tracklog_point_baro_alt="515" landed_before_deadline="1" />
+          </FsParticipant>
+          <FsParticipant id="3">
+            <FsFlightData distance="20.277" started_ss="2012-06-30T15:57:13+02:00" finished_ss="" finished_task="2012-06-30T17:14:28+02:00" tracklog_filename="Fernando García Samblas.20120630-184548.6293.3.kml" lc="0" iv="0" ts="2012-07-03T23:03:17+02:00" alt="675" baro_alt="660" last_tracklog_point_distance="19.997" last_tracklog_point_time="2012-06-30T17:16:07+02:00" last_tracklog_point_alt="605" last_tracklog_point_baro_alt="625" landed_before_deadline="1" />
+          </FsParticipant>
+          <FsParticipant id="121">
+            <FsFlightData distance="58.365" started_ss="2012-06-30T15:20:58+02:00" finished_ss="" finished_task="2012-06-30T17:30:00+02:00" tracklog_filename="Julio Lopez Fernandez.20120630-183702.6803.121.kml" lc="0" iv="0" ts="2012-07-03T23:03:24+02:00" alt="2801" baro_alt="2721" last_tracklog_point_distance="41.124" last_tracklog_point_time="2012-06-30T18:36:34+02:00" last_tracklog_point_alt="518" last_tracklog_point_baro_alt="495" landed_before_deadline="1" />
+          </FsParticipant>
+          <FsParticipant id="122">
+            <FsFlightData distance="24.139" started_ss="2012-06-30T15:59:35+02:00" finished_ss="" finished_task="2012-06-30T17:02:26+02:00" tracklog_filename="Julio Sancho Morcillo.20120630-190108.6804.122.kml" lc="0" iv="0" ts="2012-07-03T23:03:24+02:00" alt="1980" baro_alt="1911" last_tracklog_point_distance="18.593" last_tracklog_point_time="2012-06-30T17:22:32+02:00" last_tracklog_point_alt="563" last_tracklog_point_baro_alt="565" landed_before_deadline="1" />
+          </FsParticipant>
+        </FsParticipants>
+      </FsTask>
     </FsTasks>
   </FsCompetition>
 </Fs>
