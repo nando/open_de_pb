@@ -3,6 +3,9 @@ body{
   font:16px Helvetica,Arial,sans-serif;
   font-weight:bolder;
 }
+a img.logo {
+  border: 0;
+}
 div#pilot_selects, div.logo {
   position:fixed;
   top:3px;
