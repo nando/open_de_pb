@@ -64,15 +64,11 @@
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
   <script type="text/javascript">
     $(window).load(function(){
-      function kml_color(pilot_id) {
-        var color = sprintf("%06x", parseInt(pilot_id) * 41000);
-        return('#' + color.substr(4,2) + color.substr(2,2) + color.substr(0,2));
-      }
       function change_track_event(i) {
         $('#pilot_'+i).change(function(){
           $(this).parent().css('background', kml_color($(this).val()));
           eval('ctaLayer'+i+'.setMap(null)');
-          eval('ctaLayer'+i+' = new google.maps.KmlLayer(tracks_base+$(this).val()+".kml")');
+          eval('ctaLayer'+i+' = new google.maps.KmlLayer(tracks_base+$(this).val()+".kml?cache=21312313")');
           eval('ctaLayer'+i+'.setMap(map)');
         });
       }
@@ -96,7 +92,7 @@
       for (var i=3;i>0;i--)
       {
         var pilot_id = eval("pilot_"+i);
-        eval("ctaLayer"+i+" = new google.maps.KmlLayer(tracks_base + '"+pilot_id+".kml')");
+        eval("ctaLayer"+i+" = new google.maps.KmlLayer(tracks_base + '"+pilot_id+".kml?cache=3495874')");
         $('#pilot_'+i).parent().css('background', kml_color(pilot_id));
         eval("ctaLayer"+i+".setMap(map)");
         change_track_event(i);
