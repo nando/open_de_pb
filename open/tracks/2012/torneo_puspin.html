@@ -39,6 +39,10 @@
       pilot_1 = 4,
       pilot_2 = 122,
       pilot_3 = 121;
+      function kml_color(pilot_id) {
+        var color = sprintf("%06x", parseInt(pilot_id) * 81442);
+        return('#' + color.substr(4,2) + color.substr(2,2) + color.substr(0,2));
+      }
 </script>
 
 
