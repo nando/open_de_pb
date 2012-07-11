@@ -43,6 +43,115 @@
 <article role="main">
 <section>
 
+<div id="post-/2012/05/10/clasificacion_final_definitiva_del_i_open" class="post">
+  <h2>Clasificación definitiva del I Open de Pedro Bernardo
+  <span class="date">10/05/2012</span>
+  </h2>
+  <p>
+Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, con lo que <a href="clasificacion_2012.html">los resultados del I Open de Ala Delta de Pedro Bernardo son los siguientes</a>:
+</p>
+
+<img class="right" src="images/trofeos_general.jpg" alt="Trofeos para la categoría Open" />
+<div>
+  <br/>
+  <h3><a href="resultados/2012/general_final.html">Clasificación General</a></h3>
+  <table style="width: auto;">
+    <tr>
+      <td><span class="pilot_id">144</span>Primer puesto: <strong>Tximo (Jose Mari) Iriarte Ziritza</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pilot_id">151</span>Segundo puesto: <strong>Juan Lorenzo Rodríguez</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pilot_id">64</span>Tercer puesto: <strong>Benito Rodríguez González</strong></td>
+    </tr>
+  </table>
+</div>
+<div class="clearer"></div>
+<img class="right" src="images/trofeos_sport.jpg" alt="Trofeos para la categoría Open" />
+<div>
+<br/>
+  <h3><a href="resultados/2012/sport_final.html">Clasificación Sport</a></h3>
+  <table style="width: auto;">
+    <tr>
+      <td><span class="pilot_id">37</span>Primer puesto: <strong>Carlos Crespo Menéndez</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pilot_id">46</span>Segundo puesto: <strong>Nuno Santos</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pilot_id">35</span>Tercer puesto: <strong>Ivan Molina Cardenal</strong></td>
+    </tr>
+  </table>
+</div>
+<div class="clearer"></div>
+<div class="right"><em>Trofeos diseñados y tallados por <strong>Julio Sancho</strong></em></div>
+<div class="clearer"></div>
+  <script src="javascript/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(window).load(function(){
+    
+  $(function(){
+    var xOffset = -16,
+        yOffset = 16,
+        spinner = 'images/ajax-loader.gif';
+    $("body").append("<div id='preview' style='display: none'><img src='"+spinner+"' alt='foto...' /></div>"); 
+
+    function photo_sticker(td, image_url) {
+      var preview = $("#preview"),
+          preview_img = $("img", preview);
+      var show_photo = function(e) {
+        preview_img.attr('src', spinner);
+        preview
+          .css("top",(e.pageY - xOffset) + "px")
+          .css("left",(e.pageX + yOffset) + "px")
+          .show();            
+        preview_img.attr('src', image_url);
+      };
+      var photo_handler = function(e) {
+        $.ajax({
+          url:image_url,
+          type:'HEAD',
+          error: function(){
+            td.unbind('mouseenter',photo_handler);
+          },
+          success: function(){
+            show_photo(e);
+            td.unbind('mouseenter',photo_handler);
+            td.hover(show_photo,
+              function(){
+                preview.hide();            
+                preview_img.attr('src', spinner);
+              }
+            );
+            td.mousemove(function(e){
+              preview
+                .css("top",(e.pageY - xOffset) + "px")
+                .css("left",(e.pageX + yOffset) + "px");
+            });
+          }
+        });
+      };
+      $(td).bind('mouseenter', photo_handler);
+    };
+
+    $('div.article table tr td span.pilot_id').each(function(){
+      var span = $(this),
+          pilot_id = span.html(),
+          td = span.parent('td'),
+          td_glider = td.nextAll('td');
+      photo_sticker(td, 'images/pilots/' + pilot_id + '.jpg'); 
+      photo_sticker(td_glider, 'images/pilots/' + pilot_id + '_glider.jpg'); 
+    }); 
+  });
+
+  });
+  </script>
+
+  <a class="do_comment" href="http://clubdevuelopb.com/open/2012/05/10/clasificacion_final_definitiva_del_i_open.html#comments">Comentar noticia</a>
+</div>
+
+
 <div id="post-/2012/05/09/varios_despegues_y_un_aterrizaje" class="post">
   <h2>Varios despegues y un aterrizaje del domingo 29
   <span class="date">09/05/2012</span>
@@ -50,10 +159,10 @@
   <p>El domingo 29 de abril varios pilotos volaron por libre. Gallo Quirico grabó algunos de los despegues, con pasadita de Blay Jr. incluída, y Ricardo Marques da Costa grabó un aterrizaje espectacular del mismo <em>&#8220;pajarraco&#8221;</em>.</p>
 
 <p>Los despegues con la pasadita cuando Eneko se disponía a salir:</p>
-<iframe allowfullscreen='allowfullscreen' frameborder='0' src='http://www.youtube.com/embed/r3rWNT-2mqE'>
+<iframe src='http://www.youtube.com/embed/r3rWNT-2mqE' allowfullscreen='allowfullscreen' frameborder='0'>
 </iframe>
 <p>El aterrizaje despeinando a nuestros amigos portugueses:</p>
-<iframe allowfullscreen='allowfullscreen' frameborder='0' src='http://www.youtube.com/embed/KmGGBg5ylrk'>
+<iframe src='http://www.youtube.com/embed/KmGGBg5ylrk' allowfullscreen='allowfullscreen' frameborder='0'>
 </iframe>
   <a class="do_comment" href="http://clubdevuelopb.com/open/2012/05/09/varios_despegues_y_un_aterrizaje.html#comments">Comentar noticia</a>
 </div>
@@ -64,7 +173,7 @@
   <span class="date">08/05/2012</span>
   </h2>
   <p><strong>Silvia</strong> grabó todos los despegues que pudo el último día del Open, y con ellos <strong>Xicohumo</strong> montó este vídeo para compartirlo con todos&#8230; ¡gracias pareja!</p>
-<iframe allowfullscreen='allowfullscreen' frameborder='0' src='http://www.youtube.com/embed/ObLG9OjqzmY'>
+<iframe src='http://www.youtube.com/embed/ObLG9OjqzmY' allowfullscreen='allowfullscreen' frameborder='0'>
 </iframe>
   <a class="do_comment" href="http://clubdevuelopb.com/open/2012/05/08/los_despegues_del_martes.html#comments">Comentar noticia</a>
 </div>
@@ -81,17 +190,6 @@
 </div>
 
   <a class="do_comment" href="http://clubdevuelopb.com/open/2012/05/07/Fotos_de_Carlos_Parapen.html#comments">Comentar noticia</a>
-</div>
-
-
-<div id="post-/2012/05/05/el_open_desde_las_camaras_de_ricardo_marques" class="post">
-  <h2>El Open desde las cámaras de Ricardo Marques
-  <span class="date">05/05/2012</span>
-  </h2>
-  <p>Ricardo Marques da Costa ha preparado un vídeo recogiendo sus grabaciones a lo largo del Open incluyendo en el mismo un aterrizaje de Blay Jr. el domingo y <a href='http://www.xcportugal.org/modules.php?name=leonardo&amp;op=show_flight&amp;flightID=32924'>su vuelo del lunes</a>, en el que llegó con mucha altura a la primera baliza, Navamorcuende, lugar en el que decidió aterrizar tras saber que la manga había sido cancelada. Una gozada de vídeo&#8230; ¡gracias Ricardo!</p>
-<iframe allowfullscreen='allowfullscreen' frameborder='0' src='http://www.youtube.com/embed/W6KVs_tNCqc'>
-</iframe>
-  <a class="do_comment" href="http://clubdevuelopb.com/open/2012/05/05/el_open_desde_las_camaras_de_ricardo_marques.html#comments">Comentar noticia</a>
 </div>
 
 
