@@ -1,0 +1,150 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Página del Open de Ala Delta de Pedro Bernardo (Ávila)">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    
+    <base href="http://clubdevuelopb.com/open/" /> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <title>Cargando las balizas con GpsDump - I Open de Ala Delta de Pedro Bernardo</title>
+    <link rel="alternate" type="application/atom+xml" title="Feed del Open de Ala Delta de Pedro Bernardo" href="http://clubdevuelopb.com/open/index.xml" />
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="styles/inspired_by_bundler_inspired.css?version=4" />
+    <!--[if IE 6]>
+      <link rel="stylesheet" type="text/css" href="styles/ie6.css" />
+    <![endif]-->
+</head>
+<body class="noticias">
+<header>
+    <h1>I Open de Ala Delta de Pedro Bernardo</h1>
+    <h2>28 de Abril - 1 de Mayo de 2012</h2>
+    <a href="http://clubdevuelopb.com/open/presentacion.html" title="Presentación del Open"><img class="logo" src="images/logo.png"/></a>
+        <nav>
+      <ul>
+        <li class="active"><a href="http://clubdevuelopb.com/open">Noticias</a></li>
+        <li><a href="presentacion.html">Presentación</a></li>
+        <li><a href="reglamento.html">Reglamento</a></li>
+        <li><a href="pilotos_2012.html">Pilotos</a></li>
+        <li><a href="clasificacion_2012.html">Clasificación</a></li>
+        <li><a href="balizas.html">Balizas</a></li>
+        <li><a href="mapa.html">Mapa</a></li>
+        <li><a href="alojamientos.html">Alojamiento</a></li>
+        <li><a href="patrocinadores.html">Patrocinan</a></li>
+        <li><a href="archivo.html">Archivo</a></li>
+      </ul>
+    </nav>
+
+</header>
+
+<div class="article">
+<article role="main">
+<section>
+  <div id="post">
+  <h2>Cargando las balizas con GpsDump
+  <span class="date">27/03/2012</span>
+  </h2>
+<div id="page-navigation">
+        <div class="clearer">&nbsp;</div>
+        <div class="left">
+        
+          <a href="http://clubdevuelopb.com/open/2012/03/26/ya_tenemos_balizas.html" title="¡Ya tenemos las balizas!">&laquo; anterior</a>
+        
+        </div>
+
+        <div class="right">
+        
+          <a href="http://clubdevuelopb.com/open/2012/03/30/del_bosque_y_la_copa_del_mundo_en_pedro_bernardo.html" title="Del Bosque y La Copa del Mundo en Pedro Bernardo">siguiente &raquo; </a>
+        
+        </div>
+        <div class="clearer">&nbsp;</div>
+</div> 
+<p>Para los que no tengáis experiencia cargando las balizas en vuestro GPS aquí va una pequeña chuleta para hacerlo con el <a href='http://www.gethome.no/stein.sorensen/body_gpsdump.htm'>GpsDump</a>. Con otros programas el proceso suele ser similar:</p>
+
+<ol>
+<li>
+<p>Lo primero es bajarnos el GpsDump si todavía no lo tenemos en nuestro ordenador. Lo puedes hacer pinchando <a href='http://www.gethome.no/stein.sorensen/GpsDump467.exe'>aquí</a>.</p>
+</li>
+
+<li>
+<p>Lo siguiente es bajarnos el fichero de balizas. Lo puedes hacer pinchando con el botón derecho <a href='downloads/Balizas_Open_Pedro_Bernardo.WPT'>aquí</a> y seleccionando la opción &#8221;<em>Guardar enlace como&#8230;</em>&#8221;.</p>
+</li>
+
+<li>
+<p>Después ejecutamos GpsDump (con doble-click donde lo hayamos guardado en el paso 1) y leemos el fichero de balizas: menú <strong>File</strong>, opción <strong>Open wpts.</strong> (y seleccionamos el fichero de balizas buscándolo donde lo hayamos guardado en el paso 2).</p>
+</li>
+
+<li>
+<p>En este punto deberían aparecernos todas las balizas listadas en el panel principal del GpsDump. Tenemos que seleccionar las balizas que queremos cargar en nuestro GPS: para seleccionar todas pulsa <strong>Ctrl+A</strong> (es decir, pulsa la tecla <em>Control</em> y sin soltarla pulsa la tecla <em>A</em>).</p>
+</li>
+
+<li>
+<p>Para terminar enviamos las balizas seleccionadas a nuestro GPS por medio del menú <strong>Wpts</strong> y la opción <strong>Send to ???</strong>, siendo <em>???</em> el modelo de nuestro GPS. Si nuestro modelo tiene dos opciones, una terminada en <em>(Only name)</em> y otra en <em>(ID + Name)</em>, se recomienda usar esta última, que nos meterá además del ID de la baliza parte de su nombre (p.e. <em>G07117 GOL ARCONES</em>).</p>
+</li>
+
+<li>
+<p>En este punto las balizas ya deberían estar en nuestro GPS. Si se produjo un error en el paso anterior comprueba que el GPS esta bien conectado con el ordenador. Dependiendo del GPS es posible que tengamos que ponerlo en lo que se suele llamar <em>modo transferencia de datos</em> (en el Compeo consiste en tener en pantalla el menú de configuración, por ejemplo). Si todo lo anterior parece estar bien y seguimos teniendo problemas podemos probar a cambiar el puerto serie por medio del menú <strong>Misc</strong>, opción <strong>Set COM port</strong> e intentar de nuevo el paso 5.</p>
+</li>
+
+<li>
+<p>Si por lo que sea la cosa no funciona y todo esto te supera, no te preocupes, al formalizar la inscripción nosotros nos encargaremos de meter las balizas en tu GPS sea como sea. Eso sí, si el cable es especial no te olvides de llevarlo contigo. Si no puedes esperar a ese momento pregunta en el <a href='http://es.groups.yahoo.com/group/ala_delta/'>foro de ala delta</a> que no te faltarán buenos consejos.</p>
+</li>
+
+<li>
+<p>¡A volar de flor en flor!</p>
+</li>
+</ol>
+</div>
+<div id="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'opendeltietar';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Por favor, habilita JavaScript para ver los <a href="http://disqus.com/?ref_noscript">comentarios vía Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comentarios vía <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+<script src="javascript/jquery.min.js" type="text/javascript"></script>
+<script src="javascript/jquery.fitvids.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="utf-8">
+  $(function(){
+    
+    $("div.article").fitVids();
+    
+  })
+</script>
+
+
+</section>
+</article>
+</div>
+<footer>
+      <nav>
+      <ul>
+        <li class="active"><a href="http://clubdevuelopb.com/open">Noticias</a></li>
+        <li><a href="presentacion.html">Presentación</a></li>
+        <li><a href="reglamento.html">Reglamento</a></li>
+        <li><a href="pilotos_2012.html">Pilotos</a></li>
+        <li><a href="clasificacion_2012.html">Clasificación</a></li>
+        <li><a href="balizas.html">Balizas</a></li>
+        <li><a href="mapa.html">Mapa</a></li>
+        <li><a href="alojamientos.html">Alojamiento</a></li>
+        <li><a href="patrocinadores.html">Patrocinan</a></li>
+        <li><a href="archivo.html">Archivo</a></li>
+      </ul>
+    </nav>
+
+  <p>Sitio hecho con <a href="https://github.com/mojombo/jekyll" title="Para la gestión de sus contenidos">Jekyll</a>, <a href="http://rubyonrails.org/" title="Para guardar y servir las inscripciones">RubyOnRails</a>, <a href="http://jquery.com/" title="Para tratar con JavaScript">jQuery</a>, <a href="http://www.jstween.org" title="Para la animación sorpresa">Tween</a> y <a href="http://disqus.com/" title="Para los comentarios">Disqus</a></p>
+</footer>
+</body>
+</html>
