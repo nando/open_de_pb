@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /ok.html
-Disallow: /ko.html
-Disallow: /styles
-Disallow: /javascript

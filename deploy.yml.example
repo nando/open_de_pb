@@ -1,8 +1,0 @@
-'settings':
-  ignore_if_same_revision: true
-'ftp://www.clubdevuelopb.com:21/':
-  skip: false
-  passive: true
-  user: salud.com
-  password: $
-  chdir: / 
