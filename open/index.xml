@@ -14,7 +14,7 @@
 <link href="http://primer.opendepb.com/2012/12/27/prueba_del_cerito_rico.html"/>
 <updated>2012-12-27T00:00:00+01:00</updated>
 <id>http://primer.opendepb.com/2012/12/27/prueba_del_cerito_rico</id>
-<content type="html">&lt;img class='right' alt='Foto de Lobo, vencedor del Cerito Rico' src='images/lobo_cerito.jpg' title='Lobo y Julio &amp;apos;bomber&amp;apos;' /&gt;
+<content type="html">&lt;img src='images/lobo_cerito.jpg' class='right' alt='Foto de Lobo, vencedor del Cerito Rico' title='Lobo y Julio &amp;apos;bomber&amp;apos;' /&gt;
 &lt;p&gt;¿Qué mejor forma de despedir el año y sacudirnos el monazo que con un despegue y un aterrizaje? Y si durante es descenso se nos cruza alguna termiquilla despistada pues eso que nos llevamos.&lt;/p&gt;
 
 &lt;p&gt;El pasado domingo 23 hizo un día &amp;#8220;de manga corta&amp;#8221; en el despegue, tanto por la temperatura ambiente como por la distancia entre las balizas de la prueba. Solazo con estabilidad total y la capa de inversión por debajo del despegue subiendo desde los 1000 metros más o menos.&lt;/p&gt;
@@ -41,7 +41,7 @@
 
 &lt;p&gt;Pongo aquí también la comparativa de dichos tracks, que luce mucho (el botón de pantalla completa no funciona, para eso pinchar en el enlace anterior):&lt;/p&gt;
 &lt;div style='height: 700px;'&gt;
-&lt;iframe TITLE='Google Map' align='left' SRC='http://www.paraglidingforum.com/leonardo/EXT_google_maps_track_v3.php?id=705832,705709,705684' scrolling='no' frameborder='0' height='100%' id='gmaps_iframe' width='100%'&gt;
+&lt;iframe height='100%' SRC='http://www.paraglidingforum.com/leonardo/EXT_google_maps_track_v3.php?id=705832,705709,705684' TITLE='Google Map' width='100%' id='gmaps_iframe' scrolling='no' frameborder='0' align='left'&gt;
     Sorry. If you're seeing this, your browser doesn't support IFRAMEs. 
     You should upgrade to a more current browser.
 &lt;/iframe&gt;
@@ -60,7 +60,7 @@
 &lt;p&gt;Como por ejemplo &lt;strong&gt;el jueves 19 de julio&lt;/strong&gt;, que pudieron aprovechar Armando, Julio Sancho y Félix con vientos relativamente fuertes de suroeste y un techo en torno a los 4500 metros. Armando se fue hasta Santa María de Huerta en Zaragoza, completando un vuelo de más de 260km. &lt;a href='http://www.paraglidingforum.com/leonardo/flight/637825'&gt;Julio aterrizó pasado El Escorial&lt;/a&gt;, logrando alcanzar en el vértice geodésico de La Adrada los 5000m sobre el nivel del mar, alturón que no recuerdan ni los más ancianos de lugar. Y a Félix le pilló desprevenido tanta altura y sin abrigo suficiente le tocó pasar mucho frío. Tras pasar San Martín decidió volverse y aterrizar en La Adrada.&lt;/p&gt;
 
 &lt;p&gt;Después de ese día las condiciones se mantuvieron muy buenas y ese fin de semana disfrutamos un buen puñado de pilotos de unos de los mejores vuelos del año. Como muestra este botón, otro gran vídeo de Javi &amp;#8220;yunquera&amp;#8221;:&lt;/p&gt;
-&lt;iframe webkitAllowFullScreen='webkitAllowFullScreen' allowFullScreen='allowFullScreen' mozallowfullscreen='mozallowfullscreen' src='http://www.youtube.com/embed/_96HrFTNECg' frameborder='0'&gt;
+&lt;iframe allowFullScreen='allowFullScreen' src='http://www.youtube.com/embed/_96HrFTNECg' mozallowfullscreen='mozallowfullscreen' frameborder='0' webkitAllowFullScreen='webkitAllowFullScreen'&gt;
 &lt;/iframe&gt;
 &lt;p&gt;Memorable tanto por la distancia como por el número de pilotos que disfrutaron juntos de gran parte del vuelo fue el triángulo que se hicieron &lt;strong&gt;otro jueves, el 30 de agosto&lt;/strong&gt;, Günter, los Julios, Armando y el Pirata. Los cinco arrancaron juntos por la este dejándose derivar hacia La Abantera desde donde pusieron rumbo hacia Calera y Chozas. Julio Sancho se quedó sin radio y aterrizó en Talavera. El resto de Calera y Chozas tiraron hacia Oropesa y desde allí hacia Candeleda. Cuando llegaron a Candeleda el nortazo había comenzado a meterse y &lt;a href='http://www.paraglidingforum.com/leonardo/flight/669448'&gt;Armando&lt;/a&gt; y Pirata aterrizaron en Las Ventas de San Julián. Julio y Günter hicieron techo allí y decidieron intentar llegar a La Iglesuela. Por el camino el norte se metió ya muy seriamente y aterrizaron con bastantes apuros, &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=364448&amp;amp;lng=english'&gt;Günter en Buenaventura&lt;/a&gt; y &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=364472&amp;amp;lng=english'&gt;Julio un poco más allá&lt;/a&gt;, completando &lt;strong&gt;un triángulo FAI de 115km&lt;/strong&gt;.&lt;/p&gt;
 
@@ -146,12 +146,12 @@
 
 &lt;p&gt;Carlos Crespo que no tenía metidas las balizas y decidió no hacer la prueba se pegó un vuelazo de casi cinco horas, acercándose mucho a todas las balizas y aterrizando finalmente en el &amp;#8220;gol&amp;#8221;. Con un start de 1000 metros puntuaría distancia mínima, pero si lo subimos a 1600 metros quedaría en tercera posición, injustamente por detrás de Carlos &amp;#8220;parapen&amp;#8221;, que se acercó un poquito más que él al vértice geodésico.&lt;/p&gt;
 
-&lt;p&gt;Y para ver lo injusto de esa tercera posición, en auténtica primicia, tenemos &lt;a href='tracks/2012/nicopress_express.html' target='_blank'&gt;el comparador de tracks que estamos poniéndo en marcha para el próximo Open&lt;/a&gt;, en el que se pueden comparar sobre el mapa los vuelos de tres pilotos.&lt;/p&gt;
+&lt;p&gt;Y para ver lo injusto de esa tercera posición, en auténtica primicia, tenemos &lt;a target='_blank' href='tracks/2012/nicopress_express.html'&gt;el comparador de tracks que estamos poniéndo en marcha para el próximo Open&lt;/a&gt;, en el que se pueden comparar sobre el mapa los vuelos de tres pilotos.&lt;/p&gt;
 
-&lt;p&gt;Aquí tenéis &lt;a href='resultados/2012/nicopress_express.html' target='_blank' title='Pincha para ver la clasificación'&gt;la clasificación completa de la prueba&lt;/a&gt;, y aquí &lt;a href='tracks/2012/nicopress_express.zip' target='_blank' title='Pincha para bajarte todos los tracks'&gt;los tracks de todos los pilotos que volamos ese día&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aquí tenéis &lt;a target='_blank' href='resultados/2012/nicopress_express.html' title='Pincha para ver la clasificación'&gt;la clasificación completa de la prueba&lt;/a&gt;, y aquí &lt;a target='_blank' href='tracks/2012/nicopress_express.zip' title='Pincha para bajarte todos los tracks'&gt;los tracks de todos los pilotos que volamos ese día&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Y como no, el pedazo de vídeo que grabó ese día Carlos &amp;#8220;parapen&amp;#8221;. Le daremos por buena esa seguna posición por lo bien que le ha quedado:&lt;/p&gt;
-&lt;iframe allowfullscreen='allowfullscreen' src='http://www.youtube.com/embed/qKLz2PFyyVs' frameborder='0'&gt;
+&lt;iframe src='http://www.youtube.com/embed/qKLz2PFyyVs' allowfullscreen='allowfullscreen' frameborder='0'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -242,7 +242,7 @@
 <link href="http://primer.opendepb.com/2012/05/25/agradecimientos_juaki.html"/>
 <updated>2012-05-25T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/05/25/agradecimientos_juaki</id>
-<content type="html">&lt;img class='right' alt='Foto de Juaki explicando algo a Julio' src='images/juaki.jpg' title='Juaki explicando' /&gt;
+<content type="html">&lt;img src='images/juaki.jpg' class='right' alt='Foto de Juaki explicando algo a Julio' title='Juaki explicando' /&gt;
 &lt;p&gt;Y qué podemos decir de &lt;strong&gt;Juaki&lt;/strong&gt; sin quedarnos cortos. Es muy complicado.&lt;/p&gt;
 
 &lt;p&gt;Nos mostró su apoyo desde el principio, cuando el Open era sólo una idea que rondaba por nuestras cabezas, facilitándonos toda la información y documentos que él maneja desde hace años como organizador de este tipo de campeonatos.&lt;/p&gt;
@@ -264,7 +264,7 @@
 <link href="http://primer.opendepb.com/2012/05/17/agradecimientos_rosalina.html"/>
 <updated>2012-05-17T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/05/17/agradecimientos_rosalina</id>
-<content type="html">&lt;img class='left' alt='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' src='images/rosalina_y_berli.jpg' title='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' /&gt;
+<content type="html">&lt;img src='images/rosalina_y_berli.jpg' class='left' alt='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' title='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' /&gt;
 &lt;p&gt;Más allá de los que inicialmente nos implicamos como parte de la organización hay una serie de personas sin cuyo apoyo el Open no habría sido posible.&lt;/p&gt;
 
 &lt;p&gt;Una de ellas sin duda alguna es &lt;strong&gt;Rosalina&lt;/strong&gt;, que de forma totalmente desinteresada se volcó durante esos días haciendo todo tipo de labores fundamentales para la buena marcha del evento.&lt;/p&gt;
@@ -427,10 +427,10 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 <content type="html">&lt;p&gt;El domingo 29 de abril varios pilotos volaron por libre. Gallo Quirico grabó algunos de los despegues, con pasadita de Blay Jr. incluída, y Ricardo Marques da Costa grabó un aterrizaje espectacular del mismo &lt;em&gt;&amp;#8220;pajarraco&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Los despegues con la pasadita cuando Eneko se disponía a salir:&lt;/p&gt;
-&lt;iframe allowfullscreen='allowfullscreen' src='http://www.youtube.com/embed/r3rWNT-2mqE' frameborder='0'&gt;
+&lt;iframe src='http://www.youtube.com/embed/r3rWNT-2mqE' allowfullscreen='allowfullscreen' frameborder='0'&gt;
 &lt;/iframe&gt;
 &lt;p&gt;El aterrizaje despeinando a nuestros amigos portugueses:&lt;/p&gt;
-&lt;iframe allowfullscreen='allowfullscreen' src='http://www.youtube.com/embed/KmGGBg5ylrk' frameborder='0'&gt;
+&lt;iframe src='http://www.youtube.com/embed/KmGGBg5ylrk' allowfullscreen='allowfullscreen' frameborder='0'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -441,7 +441,7 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 <updated>2012-05-08T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/05/08/los_despegues_del_martes</id>
 <content type="html">&lt;p&gt;&lt;strong&gt;Silvia&lt;/strong&gt; grabó todos los despegues que pudo el último día del Open, y con ellos &lt;strong&gt;Xicohumo&lt;/strong&gt; montó este vídeo para compartirlo con todos&amp;#8230; ¡gracias pareja!&lt;/p&gt;
-&lt;iframe allowfullscreen='allowfullscreen' src='http://www.youtube.com/embed/ObLG9OjqzmY' frameborder='0'&gt;
+&lt;iframe src='http://www.youtube.com/embed/ObLG9OjqzmY' allowfullscreen='allowfullscreen' frameborder='0'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -466,7 +466,7 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 <updated>2012-05-05T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/05/05/el_open_desde_las_camaras_de_ricardo_marques</id>
 <content type="html">&lt;p&gt;Ricardo Marques da Costa ha preparado un vídeo recogiendo sus grabaciones a lo largo del Open incluyendo en el mismo un aterrizaje de Blay Jr. el domingo y &lt;a href='http://www.xcportugal.org/modules.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=32924'&gt;su vuelo del lunes&lt;/a&gt;, en el que llegó con mucha altura a la primera baliza, Navamorcuende, lugar en el que decidió aterrizar tras saber que la manga había sido cancelada. Una gozada de vídeo&amp;#8230; ¡gracias Ricardo!&lt;/p&gt;
-&lt;iframe allowfullscreen='allowfullscreen' src='http://www.youtube.com/embed/W6KVs_tNCqc' frameborder='0'&gt;
+&lt;iframe src='http://www.youtube.com/embed/W6KVs_tNCqc' allowfullscreen='allowfullscreen' frameborder='0'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -492,7 +492,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <updated>2012-05-03T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/05/03/Un_vuelo_el_lunes_30</id>
 <content type="html">&lt;p&gt;Pablo Vicens ha colgado este vídeo de su vuelo del lunes 30 por la tarde, con la manga ya cancelada:&lt;/p&gt;
-&lt;iframe allowfullscreen='allowfullscreen' src='http://www.youtube.com/embed/6IIY2IfV5Kc' frameborder='0'&gt;
+&lt;iframe src='http://www.youtube.com/embed/6IIY2IfV5Kc' allowfullscreen='allowfullscreen' frameborder='0'&gt;
 &lt;/iframe&gt;</content>
 </entry>
 
@@ -502,13 +502,13 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://primer.opendepb.com/2012/05/02/primera_y_ultima_manga_de_este_open.html"/>
 <updated>2012-05-02T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/05/02/primera_y_ultima_manga_de_este_open</id>
-<content type="html">&lt;img class='right' alt='El despegue oeste la tarde del martes' src='images/despegue_martes_1.jpg' /&gt;
+<content type="html">&lt;img src='images/despegue_martes_1.jpg' class='right' alt='El despegue oeste la tarde del martes' /&gt;
 &lt;p&gt;La previsión era mejor que la de los días anteriores y existían posibilidades de que no tuviésemos agua. Sin embargo ya en el despegue se pudo ver que el día sería similar a los anteriores. Pasó el, por desgracia, ya clásico chaparrón y se montó el breafing rápidamente.&lt;/p&gt;
 
 &lt;p&gt;Se puso una prueba de 43 kilómetros con 5 ventanas desde las 15:30 entrando en el Start del campo de fútbol, siguiendo después hacia el este hasta el castillo de La Adrada, después cruzar el valle hasta Almendral de la Cañada y terminando con gol en La Iglesuela. Cerca de 20 pilotos despegamos antes de que volviese a cubrirse amenazando con más lluvia.&lt;/p&gt;
 
 &lt;p&gt;Los que estábamos en vuelo, tras marcar el Start y poner rumbo hacia La Adrada nos encontramos con una muralla de agua que se extendía a lo largo de todo el valle. Algunos pilotos llegaron a la primera baliza, otros camino de la misma finalmente se desviaron para aterrizar en La Iglesuela, otros llegaron hasta la campa de Casavieja, y muchos aterrizamos en la campa oficial de Pedro Bernardo.&lt;/p&gt;
-&lt;img class='left' alt='El despegue oeste la tarde del martes' src='images/despegue_martes_2.jpg' /&gt;
+&lt;img src='images/despegue_martes_2.jpg' class='left' alt='El despegue oeste la tarde del martes' /&gt;
 &lt;p&gt;En condiciones normales la manga habría sido cancelada, pero en ese caso el Open habría terminado sin una clasificación y con &lt;strong&gt;los trofeos tallados por Julio Sancho&lt;/strong&gt; rifados o cogiendo polvo en alguna vitrina. Así es que decidimos recoger los tracks para poder hacer la entrega de premios.&lt;/p&gt;
 
 &lt;p&gt;Pero con unas condiciones como aquellas algunos pilotos dieron por echo que la manga sería cancelada y se marcharon sin pasarse por La Iglesuela para entregar sus tracks. Entre ellos estaban &lt;strong&gt;Blay Jr. y Ako&lt;/strong&gt;, que &lt;strong&gt;podrían haber quedado en primera y tercera posición&lt;/strong&gt; respectivamente. Estamos a la espera de recibir sus tracks para hacer definitiva la clasificación. En la misma &lt;strong&gt;Tximo&lt;/strong&gt;, que llegó hasta la baliza de La Adrada, ocuparía la &lt;strong&gt;segunda posición&lt;/strong&gt;.&lt;/p&gt;
@@ -516,7 +516,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 &lt;p&gt;En la &lt;strong&gt;categoría Sport&lt;/strong&gt; se produjo un quíntuple empate entre los cinco pilotos que volaron, ya que todos puntuaron la distancia mínima. Para desempatar se utilizó como criterio el vuelo del día anterior, otorgando el &lt;strong&gt;tercer puesto a Iván Molina Cardenal, el segundo a Nuno Santos, y el primero a Carlos Crespo&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Desde la organización &lt;strong&gt;queremos pedir disculpas&lt;/strong&gt; a aquellos pilotos y familiares que no pudieron llegar a tiempo al ágape y la entrega de premios. Cometimos el error de convocaros allí &amp;#8220;pronto&amp;#8221;, sin daros una hora concreta. La intención era hacerlo lo antes posible para facilitar la asistencia a aquellos que habían venido de más lejos. El año que viene intentaremos evitar que ocurra lo mismo.&lt;/p&gt;
-&lt;img class='right' alt='Ala y nube' src='images/berli.jpg' /&gt;
+&lt;img src='images/berli.jpg' class='right' alt='Ala y nube' /&gt;
 &lt;p&gt;En este sentido sabemos que &lt;strong&gt;tenemos muchas cosas que mejorar&lt;/strong&gt; y que ir puliendo de cara a la edición del año que viene. Aunque algunas son obvias y las tenemos claras, no dudéis en hacernos llegar todas las críticas y sugerencias que tengáis. Serán tenidas en cuenta.&lt;/p&gt;
 
 &lt;p&gt;Porque si nada lo impide habrá II Open. No podría ser de otra forma después del apoyo que nos habéis demostrado asistiendo a pesar de esta borrasca infinita que no nos ha dado tregua, y después de haber vivido la experiencia de compartir un ambiente de vuelo como el que habéis creado todos estos días.&lt;/p&gt;
@@ -530,7 +530,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://primer.opendepb.com/2012/05/01/resultados_provisionales_del_Open.html"/>
 <updated>2012-05-01T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/05/01/resultados_provisionales_del_Open</id>
-<content type="html">&lt;img class='left' alt='Breafing del Martes 1 de Mayo' src='images/breafing_martes.jpg' title='Breafing del Martes 1 de Mayo' /&gt;
+<content type="html">&lt;img src='images/breafing_martes.jpg' class='left' alt='Breafing del Martes 1 de Mayo' title='Breafing del Martes 1 de Mayo' /&gt;
 &lt;p&gt;Hemos publicado los &lt;a href='clasificacion_2012.html'&gt;resultados provisionales&lt;/a&gt; del Open a falta de recibir los tracks del primer y tercer clasificado.&lt;/p&gt;
 
 &lt;p&gt;En breve contaremos lo acontecido en último día del Open, que finalmente también fue pasado por agua en contra de las previsiones del día anterior.&lt;/p&gt;
@@ -544,7 +544,7 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 <link href="http://primer.opendepb.com/2012/04/30/manga_cancelada_en_vuelo.html"/>
 <updated>2012-04-30T00:00:00+02:00</updated>
 <id>http://primer.opendepb.com/2012/04/30/manga_cancelada_en_vuelo</id>
-<content type="html">&lt;img class='right' alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' src='images/navamorcuende_rmarques.jpg' title='Ricardo Marques sobre la primera baliza (Navamorcuende)' /&gt;
+<content type="html">&lt;img src='images/navamorcuende_rmarques.jpg' class='right' alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' title='Ricardo Marques sobre la primera baliza (Navamorcuende)' /&gt;
 &lt;p&gt;Tras una larga espera en el despegue por fin escampó y se pudo poner la primera prueba del primer Open: start de entrada en el campo de fútbol con 1000 metro de radio, Navamorcuende, vuelta a Pedro Bernardo, La Iglesuela y gol con viento de cara en Pedro Bernardo, completando un circuito de 48 kilómetros.&lt;/p&gt;
 
 &lt;p&gt;En &lt;strong&gt;25 minutos&lt;/strong&gt; lograron despegar &lt;strong&gt;23 pilotos&lt;/strong&gt; que comenzaron la prueba. En ese momento el agua volvió al despegue y se aplazaron las ventanas restantes hasta que escampase. Sin embargo poco después la manga sería cancelada por lluvia intensa en el curso de la misma.&lt;/p&gt;
