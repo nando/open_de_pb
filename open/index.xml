@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title type="text" xml:lang="es">Open de Ala Delta de Pedro Bernardo</title>
-<link type="application/atom+xml" href="http://opendepb.com/I/index.xml" rel="self"/>
-<link type="text" href="http://opendepb.com/I" rel="alternate"/>
-<id>http://opendepb.com/I</id>
+<link type="application/atom+xml" href="http://primer.opendepb.com//index.xml" rel="self"/>
+<link type="text" href="http://primer.opendepb.com/" rel="alternate"/>
+<id>http://primer.opendepb.com/</id>
 <author>
 <name>Open de Ala Delta de Pedro Bernardo</name>
 </author>
@@ -11,10 +11,10 @@
 
 <entry>
 <title>Prueba del Cerito Rico</title>
-<link href="http://opendepb.com/I/2012/12/27/prueba_del_cerito_rico.html"/>
+<link href="http://primer.opendepb.com//2012/12/27/prueba_del_cerito_rico.html"/>
 <updated>2012-12-27T00:00:00+01:00</updated>
-<id>http://opendepb.com/I/2012/12/27/prueba_del_cerito_rico</id>
-<content type="html">&lt;img src='images/lobo_cerito.jpg' alt='Foto de Lobo, vencedor del Cerito Rico' title='Lobo y Julio &amp;apos;bomber&amp;apos;' class='right' /&gt;
+<id>http://primer.opendepb.com//2012/12/27/prueba_del_cerito_rico</id>
+<content type="html">&lt;img title='Lobo y Julio &amp;apos;bomber&amp;apos;' src='images/lobo_cerito.jpg' alt='Foto de Lobo, vencedor del Cerito Rico' class='right' /&gt;
 &lt;p&gt;¿Qué mejor forma de despedir el año y sacudirnos el monazo que con un despegue y un aterrizaje? Y si durante es descenso se nos cruza alguna termiquilla despistada pues eso que nos llevamos.&lt;/p&gt;
 
 &lt;p&gt;El pasado domingo 23 hizo un día &amp;#8220;de manga corta&amp;#8221; en el despegue, tanto por la temperatura ambiente como por la distancia entre las balizas de la prueba. Solazo con estabilidad total y la capa de inversión por debajo del despegue subiendo desde los 1000 metros más o menos.&lt;/p&gt;
@@ -41,7 +41,7 @@
 
 &lt;p&gt;Pongo aquí también la comparativa de dichos tracks, que luce mucho (el botón de pantalla completa no funciona, para eso pinchar en el enlace anterior):&lt;/p&gt;
 &lt;div style='height: 700px;'&gt;
-&lt;iframe height='100%' scrolling='no' id='gmaps_iframe' SRC='http://www.paraglidingforum.com/leonardo/EXT_google_maps_track_v3.php?id=705832,705709,705684' width='100%' align='left' frameborder='0' TITLE='Google Map'&gt;
+&lt;iframe height='100%' TITLE='Google Map' scrolling='no' frameborder='0' id='gmaps_iframe' align='left' width='100%' SRC='http://www.paraglidingforum.com/leonardo/EXT_google_maps_track_v3.php?id=705832,705709,705684'&gt;
     Sorry. If you're seeing this, your browser doesn't support IFRAMEs. 
     You should upgrade to a more current browser.
 &lt;/iframe&gt;
@@ -52,15 +52,15 @@
 
 <entry>
 <title>Se acabó la temporada 2012</title>
-<link href="http://opendepb.com/I/2012/11/04/se_acabo_la_temporada.html"/>
+<link href="http://primer.opendepb.com//2012/11/04/se_acabo_la_temporada.html"/>
 <updated>2012-11-04T00:00:00+01:00</updated>
-<id>http://opendepb.com/I/2012/11/04/se_acabo_la_temporada</id>
+<id>http://primer.opendepb.com//2012/11/04/se_acabo_la_temporada</id>
 <content type="html">&lt;p&gt;A no ser que nos sorprenda a todos la temporada en la que se celebró el primer Open está terminada. Aunque en líneas generales no ha sido una temporada espectacular, sin duda nos ha dejado muchos grandes días de vuelo, algunos de ellos de auténtico récord.&lt;/p&gt;
 
 &lt;p&gt;Como por ejemplo &lt;strong&gt;el jueves 19 de julio&lt;/strong&gt;, que pudieron aprovechar Armando, Julio Sancho y Félix con vientos relativamente fuertes de suroeste y un techo en torno a los 4500 metros. Armando se fue hasta Santa María de Huerta en Zaragoza, completando un vuelo de más de 260km. &lt;a href='http://www.paraglidingforum.com/leonardo/flight/637825'&gt;Julio aterrizó pasado El Escorial&lt;/a&gt;, logrando alcanzar en el vértice geodésico de La Adrada los 5000m sobre el nivel del mar, alturón que no recuerdan ni los más ancianos de lugar. Y a Félix le pilló desprevenido tanta altura y sin abrigo suficiente le tocó pasar mucho frío. Tras pasar San Martín decidió volverse y aterrizar en La Adrada.&lt;/p&gt;
 
 &lt;p&gt;Después de ese día las condiciones se mantuvieron muy buenas y ese fin de semana disfrutamos un buen puñado de pilotos de unos de los mejores vuelos del año. Como muestra este botón, otro gran vídeo de Javi &amp;#8220;yunquera&amp;#8221;:&lt;/p&gt;
-&lt;iframe webkitAllowFullScreen='webkitAllowFullScreen' mozallowfullscreen='mozallowfullscreen' src='http://www.youtube.com/embed/_96HrFTNECg' frameborder='0' allowFullScreen='allowFullScreen'&gt;
+&lt;iframe src='http://www.youtube.com/embed/_96HrFTNECg' frameborder='0' webkitAllowFullScreen='webkitAllowFullScreen' allowFullScreen='allowFullScreen' mozallowfullscreen='mozallowfullscreen'&gt;
 &lt;/iframe&gt;
 &lt;p&gt;Memorable tanto por la distancia como por el número de pilotos que disfrutaron juntos de gran parte del vuelo fue el triángulo que se hicieron &lt;strong&gt;otro jueves, el 30 de agosto&lt;/strong&gt;, Günter, los Julios, Armando y el Pirata. Los cinco arrancaron juntos por la este dejándose derivar hacia La Abantera desde donde pusieron rumbo hacia Calera y Chozas. Julio Sancho se quedó sin radio y aterrizó en Talavera. El resto de Calera y Chozas tiraron hacia Oropesa y desde allí hacia Candeleda. Cuando llegaron a Candeleda el nortazo había comenzado a meterse y &lt;a href='http://www.paraglidingforum.com/leonardo/flight/669448'&gt;Armando&lt;/a&gt; y Pirata aterrizaron en Las Ventas de San Julián. Julio y Günter hicieron techo allí y decidieron intentar llegar a La Iglesuela. Por el camino el norte se metió ya muy seriamente y aterrizaron con bastantes apuros, &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=364448&amp;amp;lng=english'&gt;Günter en Buenaventura&lt;/a&gt; y &lt;a href='http://xc.dhv.de/xc/modules/leonardo/index.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=364472&amp;amp;lng=english'&gt;Julio un poco más allá&lt;/a&gt;, completando &lt;strong&gt;un triángulo FAI de 115km&lt;/strong&gt;.&lt;/p&gt;
 
@@ -116,9 +116,9 @@
 
 <entry>
 <title>Un vídeo cortito sobrevolando el pueblo</title>
-<link href="http://opendepb.com/I/2012/07/11/un_video_cortito.html"/>
+<link href="http://primer.opendepb.com//2012/07/11/un_video_cortito.html"/>
 <updated>2012-07-11T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/07/11/un_video_cortito</id>
+<id>http://primer.opendepb.com//2012/07/11/un_video_cortito</id>
 <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/45508503&quot; frameborder=&quot;0&quot; webkitAllowFullScreen=&quot;webkitAllowFullScreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; allowFullScreen=&quot;allowFullScreen&quot;&gt;
 &lt;/iframe&gt;
 </content>
@@ -127,9 +127,9 @@
 
 <entry>
 <title>Vídeo y tracks del Nicopress Xpress</title>
-<link href="http://opendepb.com/I/2012/06/30/video_y_tracks_del_nicopress_xpress.html"/>
+<link href="http://primer.opendepb.com//2012/06/30/video_y_tracks_del_nicopress_xpress.html"/>
 <updated>2012-06-30T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/06/30/video_y_tracks_del_nicopress_xpress</id>
+<id>http://primer.opendepb.com//2012/06/30/video_y_tracks_del_nicopress_xpress</id>
 <content type="html">&lt;p&gt;El pasado sábado éramos poquitos en el despegue y la mitad habíamos subido un poco tarde, pero aún así nos pusimos una prueba para celebrar el Nicopress Xpress, prestigiosa prueba del Tiétar en la que el ganador es obsequiado con una revisión rápida de sus nicopresses&amp;#8230; :-)&lt;/p&gt;
 
 &lt;ul&gt;
@@ -148,7 +148,7 @@
 
 &lt;p&gt;Y para ver lo injusto de esa tercera posición, en auténtica primicia, tenemos &lt;a href='tracks/2012/nicopress_express.html' target='_blank'&gt;el comparador de tracks que estamos poniéndo en marcha para el próximo Open&lt;/a&gt;, en el que se pueden comparar sobre el mapa los vuelos de tres pilotos.&lt;/p&gt;
 
-&lt;p&gt;Aquí tenéis &lt;a href='resultados/2012/nicopress_express.html' target='_blank' title='Pincha para ver la clasificación'&gt;la clasificación completa de la prueba&lt;/a&gt;, y aquí &lt;a href='tracks/2012/nicopress_express.zip' target='_blank' title='Pincha para bajarte todos los tracks'&gt;los tracks de todos los pilotos que volamos ese día&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aquí tenéis &lt;a title='Pincha para ver la clasificación' href='resultados/2012/nicopress_express.html' target='_blank'&gt;la clasificación completa de la prueba&lt;/a&gt;, y aquí &lt;a title='Pincha para bajarte todos los tracks' href='tracks/2012/nicopress_express.zip' target='_blank'&gt;los tracks de todos los pilotos que volamos ese día&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Y como no, el pedazo de vídeo que grabó ese día Carlos &amp;#8220;parapen&amp;#8221;. Le daremos por buena esa seguna posición por lo bien que le ha quedado:&lt;/p&gt;
 &lt;iframe src='http://www.youtube.com/embed/qKLz2PFyyVs' frameborder='0' allowfullscreen='allowfullscreen'&gt;
@@ -158,9 +158,9 @@
 
 <entry>
 <title>Fotos del Open de Javi 'Yunquera'</title>
-<link href="http://opendepb.com/I/2012/06/29/fotos_del_open_de_javi_yunquera.html"/>
+<link href="http://primer.opendepb.com//2012/06/29/fotos_del_open_de_javi_yunquera.html"/>
 <updated>2012-06-29T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/06/29/fotos_del_open_de_javi_yunquera</id>
+<id>http://primer.opendepb.com//2012/06/29/fotos_del_open_de_javi_yunquera</id>
 <content type="html">&lt;p&gt;
 &lt;strong&gt;Javi &quot;Yunquera&quot;&lt;/strong&gt; en el Open hizo fotos a gran parte del personal y de la cena, de la que no teníamos ninguna foto por ahora. No os perdáis &lt;a href=&quot;http://www.flickr.com/photos/javiersanchez72/7326740448/in/set-72157630024799870&quot; title=&quot;Una especie en peligro de extinción&quot;&gt;la foto de Armando y Juanito&lt;/a&gt;, no tiene desperdicio.  Pinchando en la foto de abajo llegaréis al &lt;a href=&quot;http://www.flickr.com/photos/javiersanchez72/sets/72157630024799870&quot; title=&quot;Fotos de Javi 'Yunquera' del I Open de Pedro Bernardo&quot;&gt;álbum donde están todas las demás&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
@@ -174,9 +174,9 @@
 
 <entry>
 <title>Resultados del Torneo "Puspín de Oro"</title>
-<link href="http://opendepb.com/I/2012/06/18/resultados_puspin_de_oro.html"/>
+<link href="http://primer.opendepb.com//2012/06/18/resultados_puspin_de_oro.html"/>
 <updated>2012-06-18T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/06/18/resultados_puspin_de_oro</id>
+<id>http://primer.opendepb.com//2012/06/18/resultados_puspin_de_oro</id>
 <content type="html">  &lt;a href=&quot;https://picasaweb.google.com/102973229036192373723/TrofeoPuspinPiter16062012#&quot; title=&quot;Fotos de Carlos en el Puspín de Oro&quot;&gt;&lt;img class=&quot;right&quot; src=&quot;images/breafing_puspin.jpg&quot; alt=&quot;Foto 'Breafing' del Puspín&quot;/&gt;&lt;/a&gt;
   &lt;p&gt;El pasado sábado nos juntamos un buen grupo de alas y decidimos poner la siguiente prueba:&lt;/p&gt;
   &lt;ul&gt;
@@ -222,9 +222,9 @@
 
 <entry>
 <title>Agradecimientos finales</title>
-<link href="http://opendepb.com/I/2012/06/17/agradecimientos_finales.html"/>
+<link href="http://primer.opendepb.com//2012/06/17/agradecimientos_finales.html"/>
 <updated>2012-06-17T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/06/17/agradecimientos_finales</id>
+<id>http://primer.opendepb.com//2012/06/17/agradecimientos_finales</id>
 <content type="html">&lt;p&gt;Y nos queda por dejar reflejado aquí nuestro agradecimiento al resto de personas y organizaciones que colaboraron con el I Open de Pedro Bernardo. A todos los patrocinadores, a los Ayuntamientos de Pedro Bernardo y La Iglesuela y al Club de Vuelo y Montaña de Pedro Bernardo (en particular a Luis &amp;#8220;Vinagre&amp;#8221;), a Protección Civil de Ávila y en especial a las personas que vinieron con la ambulancia. Y por su puesto a los conductores, que aunque no les dimos mucho trabajo estuvieron al pié del cañón.&lt;/p&gt;
 
 &lt;p&gt;José Sepúlveda realizó los diseños del cartel y el logo, colaborando en éste último Julio Sancho que también talló los trofeos y los carteles de acceso a los despegues.&lt;/p&gt;
@@ -239,10 +239,10 @@
 
 <entry>
 <title>Agradecimientos&#58; Juaki... ¡maestro!</title>
-<link href="http://opendepb.com/I/2012/05/25/agradecimientos_juaki.html"/>
+<link href="http://primer.opendepb.com//2012/05/25/agradecimientos_juaki.html"/>
 <updated>2012-05-25T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/25/agradecimientos_juaki</id>
-<content type="html">&lt;img src='images/juaki.jpg' alt='Foto de Juaki explicando algo a Julio' title='Juaki explicando' class='right' /&gt;
+<id>http://primer.opendepb.com//2012/05/25/agradecimientos_juaki</id>
+<content type="html">&lt;img title='Juaki explicando' src='images/juaki.jpg' alt='Foto de Juaki explicando algo a Julio' class='right' /&gt;
 &lt;p&gt;Y qué podemos decir de &lt;strong&gt;Juaki&lt;/strong&gt; sin quedarnos cortos. Es muy complicado.&lt;/p&gt;
 
 &lt;p&gt;Nos mostró su apoyo desde el principio, cuando el Open era sólo una idea que rondaba por nuestras cabezas, facilitándonos toda la información y documentos que él maneja desde hace años como organizador de este tipo de campeonatos.&lt;/p&gt;
@@ -261,10 +261,10 @@
 
 <entry>
 <title>Agradecimientos&#58; Rosalina... ¡grande!</title>
-<link href="http://opendepb.com/I/2012/05/17/agradecimientos_rosalina.html"/>
+<link href="http://primer.opendepb.com//2012/05/17/agradecimientos_rosalina.html"/>
 <updated>2012-05-17T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/17/agradecimientos_rosalina</id>
-<content type="html">&lt;img src='images/rosalina_y_berli.jpg' alt='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' title='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' class='left' /&gt;
+<id>http://primer.opendepb.com//2012/05/17/agradecimientos_rosalina</id>
+<content type="html">&lt;img title='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' src='images/rosalina_y_berli.jpg' alt='Rosalina protegiendo de la lluvia a un piloto desesperado por volar' class='left' /&gt;
 &lt;p&gt;Más allá de los que inicialmente nos implicamos como parte de la organización hay una serie de personas sin cuyo apoyo el Open no habría sido posible.&lt;/p&gt;
 
 &lt;p&gt;Una de ellas sin duda alguna es &lt;strong&gt;Rosalina&lt;/strong&gt;, que de forma totalmente desinteresada se volcó durante esos días haciendo todo tipo de labores fundamentales para la buena marcha del evento.&lt;/p&gt;
@@ -283,9 +283,9 @@
 
 <entry>
 <title>Los tracks ganadores sobre el mapa</title>
-<link href="http://opendepb.com/I/2012/05/14/los_tracks_ganadores_sobre_el_mapa.html"/>
+<link href="http://primer.opendepb.com//2012/05/14/los_tracks_ganadores_sobre_el_mapa.html"/>
 <updated>2012-05-14T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/14/los_tracks_ganadores_sobre_el_mapa</id>
+<id>http://primer.opendepb.com//2012/05/14/los_tracks_ganadores_sobre_el_mapa</id>
 <content type="html">  &lt;p&gt;Pinchando en ellos se pueden ver las estadísticas de cada vuelo junto con las fotos y un enlace al track para abrirlo en Google Earth:&lt;/p&gt;
   &lt;div id=&quot;map&quot;&gt;
   &lt;/div&gt;
@@ -312,9 +312,9 @@
 
 <entry>
 <title>Clasificación definitiva del I Open de Pedro Bernardo</title>
-<link href="http://opendepb.com/I/2012/05/10/clasificacion_final_definitiva_del_i_open.html"/>
+<link href="http://primer.opendepb.com//2012/05/10/clasificacion_final_definitiva_del_i_open.html"/>
 <updated>2012-05-10T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/10/clasificacion_final_definitiva_del_i_open</id>
+<id>http://primer.opendepb.com//2012/05/10/clasificacion_final_definitiva_del_i_open</id>
 <content type="html">&lt;p&gt;
 Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, con lo que &lt;a href=&quot;clasificacion_2012.html&quot;&gt;los resultados del I Open de Ala Delta de Pedro Bernardo son los siguientes&lt;/a&gt;:
 &lt;/p&gt;
@@ -421,9 +421,9 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 
 <entry>
 <title>Varios despegues y un aterrizaje del domingo 29</title>
-<link href="http://opendepb.com/I/2012/05/09/varios_despegues_y_un_aterrizaje.html"/>
+<link href="http://primer.opendepb.com//2012/05/09/varios_despegues_y_un_aterrizaje.html"/>
 <updated>2012-05-09T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/09/varios_despegues_y_un_aterrizaje</id>
+<id>http://primer.opendepb.com//2012/05/09/varios_despegues_y_un_aterrizaje</id>
 <content type="html">&lt;p&gt;El domingo 29 de abril varios pilotos volaron por libre. Gallo Quirico grabó algunos de los despegues, con pasadita de Blay Jr. incluída, y Ricardo Marques da Costa grabó un aterrizaje espectacular del mismo &lt;em&gt;&amp;#8220;pajarraco&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Los despegues con la pasadita cuando Eneko se disponía a salir:&lt;/p&gt;
@@ -437,9 +437,9 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 
 <entry>
 <title>Despegues del martes 1 de mayo</title>
-<link href="http://opendepb.com/I/2012/05/08/los_despegues_del_martes.html"/>
+<link href="http://primer.opendepb.com//2012/05/08/los_despegues_del_martes.html"/>
 <updated>2012-05-08T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/08/los_despegues_del_martes</id>
+<id>http://primer.opendepb.com//2012/05/08/los_despegues_del_martes</id>
 <content type="html">&lt;p&gt;&lt;strong&gt;Silvia&lt;/strong&gt; grabó todos los despegues que pudo el último día del Open, y con ellos &lt;strong&gt;Xicohumo&lt;/strong&gt; montó este vídeo para compartirlo con todos&amp;#8230; ¡gracias pareja!&lt;/p&gt;
 &lt;iframe src='http://www.youtube.com/embed/ObLG9OjqzmY' frameborder='0' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
@@ -448,9 +448,9 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 
 <entry>
 <title>Fotos del Open de Carlos "parapen"</title>
-<link href="http://opendepb.com/I/2012/05/07/Fotos_de_Carlos_Parapen.html"/>
+<link href="http://primer.opendepb.com//2012/05/07/Fotos_de_Carlos_Parapen.html"/>
 <updated>2012-05-07T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/07/Fotos_de_Carlos_Parapen</id>
+<id>http://primer.opendepb.com//2012/05/07/Fotos_de_Carlos_Parapen</id>
 <content type="html">&lt;p&gt;&lt;strong&gt;Carlos González &quot;parapen&quot;&lt;/strong&gt; también a colgado &lt;a href=&quot;https://picasaweb.google.com/102973229036192373723/OPENPEDROBERNARDO2012#&quot; title=&quot;Enlace a las fotos&quot;&gt;las fotos que hizo del Open&lt;/a&gt;. No tienen desperdicio. ¡Gracias Carlos!&lt;/p&gt;
 
 &lt;div class=&quot;center_wrapper&quot;&gt;
@@ -462,9 +462,9 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 
 <entry>
 <title>El Open desde las cámaras de Ricardo Marques</title>
-<link href="http://opendepb.com/I/2012/05/05/el_open_desde_las_camaras_de_ricardo_marques.html"/>
+<link href="http://primer.opendepb.com//2012/05/05/el_open_desde_las_camaras_de_ricardo_marques.html"/>
 <updated>2012-05-05T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/05/el_open_desde_las_camaras_de_ricardo_marques</id>
+<id>http://primer.opendepb.com//2012/05/05/el_open_desde_las_camaras_de_ricardo_marques</id>
 <content type="html">&lt;p&gt;Ricardo Marques da Costa ha preparado un vídeo recogiendo sus grabaciones a lo largo del Open incluyendo en el mismo un aterrizaje de Blay Jr. el domingo y &lt;a href='http://www.xcportugal.org/modules.php?name=leonardo&amp;amp;op=show_flight&amp;amp;flightID=32924'&gt;su vuelo del lunes&lt;/a&gt;, en el que llegó con mucha altura a la primera baliza, Navamorcuende, lugar en el que decidió aterrizar tras saber que la manga había sido cancelada. Una gozada de vídeo&amp;#8230; ¡gracias Ricardo!&lt;/p&gt;
 &lt;iframe src='http://www.youtube.com/embed/W6KVs_tNCqc' frameborder='0' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
@@ -473,9 +473,9 @@ Finalmente tanto Blay Jr. como Ako han preferido puntuar con distancia mínima, 
 
 <entry>
 <title>Fotos de Pablo Vicens, un lujazo para este Open.</title>
-<link href="http://opendepb.com/I/2012/05/04/Fotos_de_Pablo_Vicens_un_lujazo.html"/>
+<link href="http://primer.opendepb.com//2012/05/04/Fotos_de_Pablo_Vicens_un_lujazo.html"/>
 <updated>2012-05-04T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/04/Fotos_de_Pablo_Vicens_un_lujazo</id>
+<id>http://primer.opendepb.com//2012/05/04/Fotos_de_Pablo_Vicens_un_lujazo</id>
 <content type="html">&lt;p&gt;
 Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fotos que son un auténtico lujazo para este Open. Pinchando en la foto llegaréis al &lt;a href=&quot;https://skydrive.live.com/redir.aspx?cid=69482b70553c2aac&amp;resid=69482B70553C2AAC!121&amp;parid=69482B70553C2AAC!105&amp;authkey=!AIkFbfZrER1XPQ4&quot; title=&quot;Fotos de Pablo Vicens del I Open de Pedro Bernardo&quot;&gt;álbum donde están todas&lt;/a&gt;... &lt;strong&gt;¡gracias Gallo!&lt;/strong&gt;
 &lt;/p&gt;
@@ -488,9 +488,9 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 
 <entry>
 <title>Vuelo del Gallo Quirico el lunes 30 de abril</title>
-<link href="http://opendepb.com/I/2012/05/03/Un_vuelo_el_lunes_30.html"/>
+<link href="http://primer.opendepb.com//2012/05/03/Un_vuelo_el_lunes_30.html"/>
 <updated>2012-05-03T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/03/Un_vuelo_el_lunes_30</id>
+<id>http://primer.opendepb.com//2012/05/03/Un_vuelo_el_lunes_30</id>
 <content type="html">&lt;p&gt;Pablo Vicens ha colgado este vídeo de su vuelo del lunes 30 por la tarde, con la manga ya cancelada:&lt;/p&gt;
 &lt;iframe src='http://www.youtube.com/embed/6IIY2IfV5Kc' frameborder='0' allowfullscreen='allowfullscreen'&gt;
 &lt;/iframe&gt;</content>
@@ -499,9 +499,9 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 
 <entry>
 <title>Primera y última manga de este Open</title>
-<link href="http://opendepb.com/I/2012/05/02/primera_y_ultima_manga_de_este_open.html"/>
+<link href="http://primer.opendepb.com//2012/05/02/primera_y_ultima_manga_de_este_open.html"/>
 <updated>2012-05-02T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/02/primera_y_ultima_manga_de_este_open</id>
+<id>http://primer.opendepb.com//2012/05/02/primera_y_ultima_manga_de_este_open</id>
 <content type="html">&lt;img src='images/despegue_martes_1.jpg' alt='El despegue oeste la tarde del martes' class='right' /&gt;
 &lt;p&gt;La previsión era mejor que la de los días anteriores y existían posibilidades de que no tuviésemos agua. Sin embargo ya en el despegue se pudo ver que el día sería similar a los anteriores. Pasó el, por desgracia, ya clásico chaparrón y se montó el breafing rápidamente.&lt;/p&gt;
 
@@ -527,10 +527,10 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 
 <entry>
 <title>Resultados provisionales del Open</title>
-<link href="http://opendepb.com/I/2012/05/01/resultados_provisionales_del_Open.html"/>
+<link href="http://primer.opendepb.com//2012/05/01/resultados_provisionales_del_Open.html"/>
 <updated>2012-05-01T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/05/01/resultados_provisionales_del_Open</id>
-<content type="html">&lt;img src='images/breafing_martes.jpg' alt='Breafing del Martes 1 de Mayo' title='Breafing del Martes 1 de Mayo' class='left' /&gt;
+<id>http://primer.opendepb.com//2012/05/01/resultados_provisionales_del_Open</id>
+<content type="html">&lt;img title='Breafing del Martes 1 de Mayo' src='images/breafing_martes.jpg' alt='Breafing del Martes 1 de Mayo' class='left' /&gt;
 &lt;p&gt;Hemos publicado los &lt;a href='clasificacion_2012.html'&gt;resultados provisionales&lt;/a&gt; del Open a falta de recibir los tracks del primer y tercer clasificado.&lt;/p&gt;
 
 &lt;p&gt;En breve contaremos lo acontecido en último día del Open, que finalmente también fue pasado por agua en contra de las previsiones del día anterior.&lt;/p&gt;
@@ -541,10 +541,10 @@ Pablo en los despegues montó, además de su ala, su cámara, con la que hizo fo
 
 <entry>
 <title>Manga cancelada en vuelo</title>
-<link href="http://opendepb.com/I/2012/04/30/manga_cancelada_en_vuelo.html"/>
+<link href="http://primer.opendepb.com//2012/04/30/manga_cancelada_en_vuelo.html"/>
 <updated>2012-04-30T00:00:00+02:00</updated>
-<id>http://opendepb.com/I/2012/04/30/manga_cancelada_en_vuelo</id>
-<content type="html">&lt;img src='images/navamorcuende_rmarques.jpg' alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' title='Ricardo Marques sobre la primera baliza (Navamorcuende)' class='right' /&gt;
+<id>http://primer.opendepb.com//2012/04/30/manga_cancelada_en_vuelo</id>
+<content type="html">&lt;img title='Ricardo Marques sobre la primera baliza (Navamorcuende)' src='images/navamorcuende_rmarques.jpg' alt='Ricardo Marques sobre la primera baliza (Navamorcuende)' class='right' /&gt;
 &lt;p&gt;Tras una larga espera en el despegue por fin escampó y se pudo poner la primera prueba del primer Open: start de entrada en el campo de fútbol con 1000 metro de radio, Navamorcuende, vuelta a Pedro Bernardo, La Iglesuela y gol con viento de cara en Pedro Bernardo, completando un circuito de 48 kilómetros.&lt;/p&gt;
 
 &lt;p&gt;En &lt;strong&gt;25 minutos&lt;/strong&gt; lograron despegar &lt;strong&gt;23 pilotos&lt;/strong&gt; que comenzaron la prueba. En ese momento el agua volvió al despegue y se aplazaron las ventanas restantes hasta que escampase. Sin embargo poco después la manga sería cancelada por lluvia intensa en el curso de la misma.&lt;/p&gt;
